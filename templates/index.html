@@ -37,8 +37,70 @@
             z-index: -1;
             transition: left 2s ease, top 2s ease, opacity 1s ease;
         }
+        .sol.natt { opacity: 0; pointer-events: none; }
 
-        .sol.natt { opacity: 0.15; filter: blur(4px); }
+        /* === MAANE === */
+        .maane {
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: radial-gradient(circle at 45% 40%, #f5f5f0, #e8e4d4 50%, #d4cfc0 100%);
+            box-shadow:
+                0 0 30px 10px rgba(240,237,220,0.3),
+                0 0 60px 20px rgba(220,215,195,0.12);
+            z-index: -1;
+            transition: left 2s ease, top 2s ease, opacity 1s ease;
+            opacity: 0;
+            pointer-events: none;
+        }
+        .maane.synlig { opacity: 1; }
+        /* Kratere */
+        .maane::before {
+            content: '';
+            position: absolute;
+            width: 10px; height: 10px;
+            background: rgba(180,175,160,0.35);
+            border-radius: 50%;
+            top: 12px; left: 8px;
+            box-shadow:
+                18px -4px 0 -2px rgba(180,175,160,0.25),
+                8px 16px 0 -3px rgba(180,175,160,0.3),
+                22px 12px 0 -1px rgba(180,175,160,0.2);
+        }
+
+        /* === ANSIKTER (sol og maane) === */
+        .himmel-ansikt {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+        }
+        .himmel-oye {
+            position: absolute;
+            width: 6px; height: 7px;
+            background: #1a1a2e;
+            border-radius: 50%;
+            top: 38%;
+        }
+        .sol .himmel-oye { background: #7a4400; }
+        .maane .himmel-oye { background: #3a3a4a; }
+        .himmel-oye.venstre { left: 28%; }
+        .himmel-oye.hoyre { right: 28%; }
+        .himmel-munn {
+            position: absolute;
+            width: 16px; height: 8px;
+            border: none;
+            border-bottom: 2.5px solid #7a4400;
+            border-radius: 0 0 50% 50%;
+            bottom: 26%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .maane .himmel-munn {
+            border-bottom-color: #3a3a4a;
+            width: 13px; height: 6px;
+            border-bottom-width: 2px;
+        }
 
         /* === SKYER === */
         .sky {
@@ -460,6 +522,10 @@
             .tilbud-pris { font-size: 1.2rem; }
             .tilbud-bilde { width: 60px; height: 60px; }
             .sol { width: 45px; height: 45px; }
+            .maane { width: 38px; height: 38px; }
+            .himmel-oye { width: 5px; height: 6px; }
+            .himmel-munn { width: 13px; height: 6px; }
+            .maane .himmel-munn { width: 10px; height: 5px; }
         }
     </style>
 </head>
@@ -468,7 +534,22 @@
     <div class="sky-bg" id="sky-bg"></div>
 
     <!-- Sol -->
-    <div class="sol" id="sol"></div>
+    <div class="sol" id="sol">
+        <div class="himmel-ansikt">
+            <div class="himmel-oye venstre"></div>
+            <div class="himmel-oye hoyre"></div>
+            <div class="himmel-munn"></div>
+        </div>
+    </div>
+
+    <!-- Maane -->
+    <div class="maane" id="maane">
+        <div class="himmel-ansikt">
+            <div class="himmel-oye venstre"></div>
+            <div class="himmel-oye hoyre"></div>
+            <div class="himmel-munn"></div>
+        </div>
+    </div>
 
     <!-- Skyer -->
     <div class="sky sky1">
@@ -529,25 +610,64 @@
 
     <script>
         // === SOL OG HIMMEL ===
+        // Beregn soloppgang/solnedgang for Oslo (59.9N, 10.75E)
+        function beregnSoltider(dato) {
+            const breddegrad = 59.9 * Math.PI / 180;
+            const aar = dato.getFullYear();
+            const start = new Date(aar, 0, 1);
+            const dagNr = Math.floor((dato - start) / 86400000) + 1;
+
+            // Solens deklinasjon (forenklet)
+            const dekl = -23.45 * Math.cos(2 * Math.PI * (dagNr + 10) / 365) * Math.PI / 180;
+
+            // Timevinkel ved soloppgang/-nedgang
+            const cosH = -Math.tan(breddegrad) * Math.tan(dekl);
+
+            // Haandter midnattssol og mørketid
+            if (cosH < -1) return { oppgang: 0, nedgang: 24 };   // midnattssol
+            if (cosH > 1) return { oppgang: 12, nedgang: 12 };   // mørketid
+
+            const H = Math.acos(cosH) * 180 / Math.PI;
+            const solmiddag = 12 - (10.75 / 15) + 1; // UTC-korreksjon for Oslo (CET=UTC+1)
+
+            // Enkel tidsligning-korreksjon
+            const B = 2 * Math.PI * (dagNr - 81) / 365;
+            const tidsligning = (9.87 * Math.sin(2*B) - 7.53 * Math.cos(B) - 1.5 * Math.sin(B)) / 60;
+            const solnoon = solmiddag - tidsligning;
+
+            // Sjekk sommertid (siste soendag i mars til siste soendag i oktober)
+            const marstSiste = new Date(aar, 2, 31);
+            const sommertidStart = new Date(aar, 2, 31 - marstSiste.getDay(), 2, 0);
+            const oktSiste = new Date(aar, 9, 31);
+            const sommertidSlutt = new Date(aar, 9, 31 - oktSiste.getDay(), 3, 0);
+            const sommertid = dato >= sommertidStart && dato < sommertidSlutt ? 1 : 0;
+
+            return {
+                oppgang: solnoon - H / 15 + sommertid,
+                nedgang: solnoon + H / 15 + sommertid
+            };
+        }
+
         function oppdaterHimmel() {
             const now = new Date();
             const timer = now.getHours() + now.getMinutes() / 60;
             const sol = document.getElementById('sol');
+            const maane = document.getElementById('maane');
             const bg = document.getElementById('sky-bg');
 
-            // Sol-posisjon: bue fra venstre til hoeyre, 06-21
-            const solOppgang = 6;
-            const solNedgang = 21;
+            const soltider = beregnSoltider(now);
+            const solOppgang = soltider.oppgang;
+            const solNedgang = soltider.nedgang;
             const dagLengde = solNedgang - solOppgang;
+            const erDag = timer >= solOppgang && timer <= solNedgang;
 
+            // Sol-posisjon
             let solProsent, hoeyde;
-            if (timer >= solOppgang && timer <= solNedgang) {
+            if (erDag) {
                 solProsent = (timer - solOppgang) / dagLengde;
-                // Parabel for hoeyde: maks i midten
                 hoeyde = 1 - 4 * Math.pow(solProsent - 0.5, 2);
                 sol.classList.remove('natt');
             } else {
-                // Natt: sol under horisonten
                 solProsent = timer < solOppgang ? 0 : 1;
                 hoeyde = -0.2;
                 sol.classList.add('natt');
@@ -558,34 +678,62 @@
             sol.style.left = leftPx + 'px';
             sol.style.top = Math.max(15, topPx) + 'px';
 
-            // Himmelfarger basert paa tid
+            // Maane-posisjon (bue over himmelen om natten)
+            const nattLengde = 24 - dagLengde;
+            let nattTimer;
+            if (timer > solNedgang) {
+                nattTimer = timer - solNedgang;
+            } else if (timer < solOppgang) {
+                nattTimer = (24 - solNedgang) + timer;
+            } else {
+                nattTimer = -1;
+            }
+
+            if (!erDag && nattTimer >= 0) {
+                const maaneProsent = nattTimer / nattLengde;
+                const maaneHoeyde = 1 - 4 * Math.pow(maaneProsent - 0.5, 2);
+                const maaneLeft = maaneProsent * (window.innerWidth - 70) + 10;
+                const maaneTop = (1 - maaneHoeyde) * 220 + 30;
+                maane.style.left = maaneLeft + 'px';
+                maane.style.top = Math.max(15, maaneTop) + 'px';
+                maane.classList.add('synlig');
+            } else {
+                maane.classList.remove('synlig');
+            }
+
+            // Himmelfarger basert paa soltider
+            const demring = solOppgang - 1;      // sivil demring ~1t foer
+            const skumring = solNedgang + 1;      // sivil skumring ~1t etter
+            const morgenSlutt = solOppgang + 1.5;
+            const ettermiddagStart = solNedgang - 2;
+
             let gradient;
-            if (timer < 5 || timer > 22) {
+            if (timer < demring || timer > skumring) {
                 // Natt
                 gradient = 'linear-gradient(180deg, #0c1445 0%, #1a237e 40%, #283593 100%)';
-            } else if (timer < 7) {
-                // Soloppgang
-                const t = (timer - 5) / 2;
+            } else if (timer < solOppgang) {
+                // Demring
+                const t = (timer - demring) / (solOppgang - demring);
                 gradient = `linear-gradient(180deg,
                     hsl(${220 - t*30}, ${60 + t*20}%, ${10 + t*30}%) 0%,
                     hsl(${30 + t*10}, ${70 + t*20}%, ${40 + t*25}%) 50%,
-                    hsl(${20}, ${80}%, ${60 + t*15}%) 100%)`;
-            } else if (timer < 10) {
+                    hsl(20, 80%, ${60 + t*15}%) 100%)`;
+            } else if (timer < morgenSlutt) {
                 // Morgen
                 gradient = 'linear-gradient(180deg, #4fc3f7 0%, #81d4fa 40%, #b3e5fc 100%)';
-            } else if (timer < 16) {
+            } else if (timer < ettermiddagStart) {
                 // Midt paa dagen
                 gradient = 'linear-gradient(180deg, #42a5f5 0%, #64b5f6 30%, #90caf9 70%, #bbdefb 100%)';
-            } else if (timer < 19) {
+            } else if (timer < solNedgang) {
                 // Ettermiddag
                 gradient = 'linear-gradient(180deg, #5c9ce6 0%, #7eb8e0 40%, #f0c27f 100%)';
-            } else if (timer < 22) {
-                // Solnedgang / kveld
-                const t = (timer - 19) / 3;
+            } else {
+                // Skumring
+                const t = (timer - solNedgang) / (skumring - solNedgang);
                 gradient = `linear-gradient(180deg,
                     hsl(${240 + t*20}, ${40 + t*30}%, ${30 - t*15}%) 0%,
                     hsl(${30 - t*20}, ${60 + t*20}%, ${50 - t*20}%) 40%,
-                    hsl(${15 - t*10}, ${70}%, ${40 - t*20}%) 100%)`;
+                    hsl(${15 - t*10}, 70%, ${40 - t*20}%) 100%)`;
             }
 
             bg.style.background = gradient;

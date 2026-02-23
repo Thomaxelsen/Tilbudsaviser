@@ -74,6 +74,7 @@ def hent_tilbud(sokeord: str) -> list[dict]:
                 "gyldig_fra": offer.get("validFrom", ""),
                 "gyldig_til": offer.get("validThrough", ""),
                 "bilde": offer.get("image", ""),
+                "url": offer.get("url", ""),
             })
 
     # Metode 2: Søk etter JSON-data i vanlige script-tagger (fallback)
@@ -97,6 +98,7 @@ def hent_tilbud(sokeord: str) -> list[dict]:
                             "gyldig_fra": offer.get("validFrom", ""),
                             "gyldig_til": offer.get("validThrough", ""),
                             "bilde": offer.get("image", ""),
+                            "url": offer.get("url", ""),
                         })
                 except json.JSONDecodeError:
                     continue
@@ -158,12 +160,18 @@ def hent_alle_tilbud() -> dict:
     for produkt in produkter:
         navn = produkt["navn"]
         sokeord_liste = produkt["sokeord"]
+        filter_ord = [f.lower() for f in produkt.get("filter", [])]
 
         unike_tilbud = {}
         for sokeord in sokeord_liste:
             tilbud = hent_tilbud(sokeord)
             filtrert = filtrer_butikker(tilbud, butikker)
             for t in filtrert:
+                # Hvis filter er satt, sjekk at minst ett filterord finnes i produktnavnet
+                if filter_ord:
+                    t_navn = t["navn"].lower()
+                    if not any(f in t_navn for f in filter_ord):
+                        continue
                 nøkkel = f"{t['butikk']}_{t['navn']}_{t['pris']}"
                 if nøkkel not in unike_tilbud:
                     unike_tilbud[nøkkel] = t

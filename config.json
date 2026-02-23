@@ -15,6 +15,19 @@
     {
       "navn": "Freia Sjokonøtt",
       "sokeord": ["sjokonøtt", "freia sjokonøtt"]
+    },
+    {
+      "navn": "Peppes Pepperoni",
+      "sokeord": ["peppes pepperoni", "peppes pizza"],
+      "filter": ["peppes"]
+    },
+    {
+      "navn": "Cheerios Multigrain",
+      "sokeord": ["cheerios multigrain", "cheerios"]
+    },
+    {
+      "navn": "Husman Knekkebrød",
+      "sokeord": ["husman knekkebrød", "husman knekke"]
     }
   ],
   "butikker": [

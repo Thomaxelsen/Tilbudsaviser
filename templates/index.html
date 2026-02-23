@@ -4,156 +4,293 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tilbudssjekk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background: #f0f2f5;
-            color: #1a1a2e;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: #f5f5f0;
+            color: #2d3436;
             min-height: 100vh;
         }
 
+        /* === HEADER === */
         .header {
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 50%, #388e3c 100%);
             color: white;
-            padding: 2rem 1rem;
+            padding: 2rem 1.5rem 1.8rem;
             text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 30% 50%, rgba(255,255,255,0.08) 0%, transparent 60%);
+            pointer-events: none;
         }
 
         .header h1 {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             font-weight: 700;
-            margin-bottom: 0.3rem;
+            letter-spacing: -0.02em;
+            position: relative;
         }
 
-        .header .uke {
-            font-size: 1rem;
-            opacity: 0.7;
+        .header .undertittel {
+            font-size: 0.9rem;
+            opacity: 0.75;
+            margin-top: 0.3rem;
+            font-weight: 400;
+            position: relative;
         }
 
+        .header .sist-oppdatert {
+            font-size: 0.75rem;
+            opacity: 0.55;
+            margin-top: 0.6rem;
+            position: relative;
+        }
+
+        /* === CONTAINER === */
         .container {
-            max-width: 700px;
+            max-width: 640px;
             margin: 0 auto;
-            padding: 1.5rem 1rem;
+            padding: 1.2rem 1rem 3rem;
         }
 
-        .btn-sjekk {
+        /* === OPPSUMMERING === */
+        .oppsummering-boks {
+            background: white;
+            border-radius: 16px;
+            padding: 1.2rem 1.4rem;
+            margin-bottom: 1.2rem;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+            display: none;
+            animation: fadeSlideIn 0.4s ease;
+        }
+
+        .oppsummering-boks.active { display: block; }
+
+        .oppsummering-tall {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #2e7d32;
+            line-height: 1;
+        }
+
+        .oppsummering-tall.ingen { color: #999; }
+
+        .oppsummering-tekst {
+            font-size: 0.85rem;
+            color: #777;
+            margin-top: 0.3rem;
+        }
+
+        /* === HANDLELISTE === */
+        .handleliste {
+            margin-bottom: 1.2rem;
+        }
+
+        .seksjon-tittel {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: #999;
+            margin-bottom: 0.6rem;
+            padding-left: 0.2rem;
+        }
+
+        .vare-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .vare-chip {
+            background: white;
+            border: 1.5px solid #e0e0e0;
+            border-radius: 100px;
+            padding: 0.4rem 0.9rem;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: #666;
+            transition: all 0.3s ease;
+        }
+
+        .vare-chip.har-tilbud {
+            background: #e8f5e9;
+            border-color: #66bb6a;
+            color: #2e7d32;
+        }
+
+        /* === KNAPP === */
+        .btn-oppdater {
             display: block;
             width: 100%;
-            padding: 1rem;
-            font-size: 1.1rem;
+            padding: 0.9rem;
+            font-family: inherit;
+            font-size: 0.95rem;
             font-weight: 600;
             color: white;
-            background: linear-gradient(135deg, #0f3460 0%, #533483 100%);
+            background: #2e7d32;
             border: none;
             border-radius: 12px;
             cursor: pointer;
-            transition: transform 0.15s, box-shadow 0.15s;
+            transition: all 0.2s ease;
+            margin-bottom: 1.4rem;
         }
 
-        .btn-sjekk:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(83, 52, 131, 0.35);
+        .btn-oppdater:hover {
+            background: #1b5e20;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(46,125,50,0.3);
         }
 
-        .btn-sjekk:active { transform: translateY(0); }
+        .btn-oppdater:active { transform: translateY(0); }
 
-        .btn-sjekk:disabled {
-            opacity: 0.6;
-            cursor: wait;
+        .btn-oppdater:disabled {
+            background: #a5d6a7;
+            cursor: default;
             transform: none;
             box-shadow: none;
         }
 
-        .spinner {
+        /* === LASTER === */
+        .laster {
             display: none;
             text-align: center;
-            padding: 3rem 0;
+            padding: 2.5rem 0;
         }
 
-        .spinner.active { display: block; }
+        .laster.active { display: block; }
 
-        .spinner .dot {
-            display: inline-block;
-            width: 12px;
-            height: 12px;
-            margin: 0 4px;
-            background: #533483;
-            border-radius: 50%;
-            animation: bounce 1.4s ease-in-out infinite;
+        .laster-bar {
+            width: 200px;
+            height: 4px;
+            background: #e8e8e8;
+            border-radius: 4px;
+            margin: 0 auto;
+            overflow: hidden;
         }
 
-        .spinner .dot:nth-child(2) { animation-delay: 0.16s; }
-        .spinner .dot:nth-child(3) { animation-delay: 0.32s; }
-
-        @keyframes bounce {
-            0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
-            40% { transform: scale(1); opacity: 1; }
+        .laster-bar-indre {
+            width: 40%;
+            height: 100%;
+            background: linear-gradient(90deg, #66bb6a, #2e7d32);
+            border-radius: 4px;
+            animation: lasterAnim 1.2s ease-in-out infinite;
         }
 
-        .spinner p {
+        @keyframes lasterAnim {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(350%); }
+        }
+
+        .laster p {
             margin-top: 1rem;
-            color: #666;
-            font-size: 0.95rem;
+            color: #999;
+            font-size: 0.85rem;
         }
 
-        .resultater { margin-top: 1.5rem; }
+        /* === RESULTATER === */
+        .resultater { }
+
+        .resultat-seksjon {
+            margin-bottom: 0.8rem;
+        }
 
         .produkt-kort {
             background: white;
-            border-radius: 12px;
-            margin-bottom: 1rem;
+            border-radius: 14px;
+            margin-bottom: 0.8rem;
             overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-            transition: box-shadow 0.2s;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+            border-left: 4px solid transparent;
+            animation: fadeSlideIn 0.4s ease backwards;
         }
 
-        .produkt-kort:hover {
-            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        .produkt-kort.har-tilbud {
+            border-left-color: #43a047;
+        }
+
+        .produkt-kort.ingen-tilbud {
+            border-left-color: #e0e0e0;
+            opacity: 0.7;
         }
 
         .produkt-header {
-            padding: 1rem 1.2rem;
-            font-weight: 600;
-            font-size: 1.05rem;
+            padding: 0.9rem 1.1rem;
             display: flex;
             align-items: center;
             gap: 0.6rem;
         }
 
         .produkt-kort.har-tilbud .produkt-header {
-            background: #e8f5e9;
-            color: #2e7d32;
+            background: linear-gradient(135deg, #f1f8e9 0%, #e8f5e9 100%);
         }
 
         .produkt-kort.ingen-tilbud .produkt-header {
-            background: #f5f5f5;
-            color: #888;
+            background: #fafafa;
         }
 
-        .status-ikon {
-            font-size: 1.2rem;
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
             flex-shrink: 0;
         }
 
-        .tilbud-liste {
-            padding: 0;
+        .har-tilbud .status-dot { background: #43a047; }
+        .ingen-tilbud .status-dot { background: #ddd; }
+
+        .produkt-navn {
+            font-weight: 600;
+            font-size: 0.95rem;
+            flex: 1;
         }
 
-        .tilbud-item {
+        .har-tilbud .produkt-navn { color: #2d3436; }
+        .ingen-tilbud .produkt-navn { color: #aaa; }
+
+        .antall-badge {
+            background: #43a047;
+            color: white;
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 0.15rem 0.5rem;
+            border-radius: 100px;
+        }
+
+        /* === TILBUD-ITEMS === */
+        a.tilbud-item {
             display: flex;
-            gap: 1rem;
-            padding: 1rem 1.2rem;
+            gap: 0.9rem;
+            padding: 0.9rem 1.1rem;
             border-top: 1px solid #f0f0f0;
             align-items: center;
+            text-decoration: none;
+            color: inherit;
+            transition: background 0.15s;
+        }
+
+        a.tilbud-item:hover {
+            background: #f8fdf8;
         }
 
         .tilbud-bilde {
-            width: 70px;
-            height: 70px;
+            width: 72px;
+            height: 72px;
             object-fit: contain;
-            border-radius: 8px;
+            border-radius: 10px;
             background: #fafafa;
             flex-shrink: 0;
         }
@@ -164,80 +301,120 @@
         }
 
         .tilbud-butikk {
+            display: inline-block;
             font-weight: 600;
-            color: #1a1a2e;
-            font-size: 0.95rem;
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            color: #555;
+            background: #f0f0f0;
+            padding: 0.15rem 0.5rem;
+            border-radius: 4px;
         }
 
         .tilbud-navn {
-            color: #555;
+            color: #666;
             font-size: 0.85rem;
-            margin-top: 2px;
+            margin-top: 0.35rem;
+            line-height: 1.3;
         }
 
         .tilbud-gyldighet {
-            color: #888;
-            font-size: 0.8rem;
-            margin-top: 4px;
+            color: #aaa;
+            font-size: 0.75rem;
+            margin-top: 0.3rem;
         }
 
-        .tilbud-pris {
-            font-size: 1.3rem;
-            font-weight: 700;
-            color: #c62828;
-            white-space: nowrap;
+        .tilbud-pris-wrap {
+            text-align: right;
             flex-shrink: 0;
         }
 
+        .tilbud-pris {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #c62828;
+            line-height: 1;
+        }
+
+        .tilbud-pris-enhet {
+            font-size: 0.7rem;
+            color: #bbb;
+            margin-top: 0.2rem;
+        }
+
         .ingen-tekst {
-            padding: 0.8rem 1.2rem;
-            color: #999;
-            font-size: 0.9rem;
-            font-style: italic;
+            padding: 0.6rem 1.1rem 0.9rem;
+            color: #bbb;
+            font-size: 0.85rem;
         }
 
-        .oppsummering {
+        /* === FOOTER === */
+        .footer {
             text-align: center;
-            margin-top: 1.5rem;
             padding: 1rem;
-            color: #666;
-            font-size: 0.95rem;
+            color: #ccc;
+            font-size: 0.7rem;
         }
 
+        /* === ANIMASJONER === */
+        @keyframes fadeSlideIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* === RESPONSIVE === */
         @media (max-width: 500px) {
+            .header { padding: 1.5rem 1rem 1.4rem; }
             .header h1 { font-size: 1.4rem; }
-            .tilbud-pris { font-size: 1.1rem; }
+            .container { padding: 1rem 0.8rem 2rem; }
+            .tilbud-pris { font-size: 1.2rem; }
+            .tilbud-bilde { width: 60px; height: 60px; }
         }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>Tilbudssjekk</h1>
-        <div class="uke" id="uke-info"></div>
+        <div class="undertittel" id="uke-info"></div>
+        <div class="sist-oppdatert" id="sist-oppdatert"></div>
     </div>
 
     <div class="container">
-        <button class="btn-sjekk" id="btn-sjekk" onclick="sjekkTilbud()">
-            Sjekk tilbud naa
+        <div class="oppsummering-boks" id="oppsummering-boks">
+            <div class="oppsummering-tall" id="oppsummering-tall"></div>
+            <div class="oppsummering-tekst" id="oppsummering-tekst"></div>
+        </div>
+
+        <div class="handleliste" id="handleliste">
+            <div class="seksjon-tittel">Varer du foelger med paa</div>
+            <div class="vare-chips" id="vare-chips"></div>
+        </div>
+
+        <button class="btn-oppdater" id="btn-oppdater" onclick="sjekkTilbud()">
+            Sjekk tilbud
         </button>
 
-        <div class="spinner" id="spinner">
-            <div>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </div>
+        <div class="laster" id="laster">
+            <div class="laster-bar"><div class="laster-bar-indre"></div></div>
             <p>Sjekker tilbudsaviser...</p>
         </div>
 
         <div class="resultater" id="resultater"></div>
-        <div class="oppsummering" id="oppsummering"></div>
+
+        <div class="footer">Data fra eTilbudsavis.no</div>
     </div>
 
     <script>
+        // Ukenummer
         function getUkeInfo() {
             const now = new Date();
-            // ISO week number
             const d = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()));
             d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
             const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
@@ -246,17 +423,42 @@
         }
         getUkeInfo();
 
+        // Last handleliste fra config
+        async function lastHandleliste() {
+            try {
+                const resp = await fetch('/config');
+                const data = await resp.json();
+                const chips = document.getElementById('vare-chips');
+                chips.innerHTML = data.produkter
+                    .map(p => `<span class="vare-chip" data-navn="${esc(p.navn)}">${esc(p.navn)}</span>`)
+                    .join('');
+            } catch (e) {}
+        }
+
+        function oppdaterChips(resultater) {
+            const chips = document.querySelectorAll('.vare-chip');
+            chips.forEach(chip => {
+                const navn = chip.dataset.navn;
+                const r = resultater.find(r => r.produkt === navn);
+                if (r && r.har_tilbud) {
+                    chip.classList.add('har-tilbud');
+                } else {
+                    chip.classList.remove('har-tilbud');
+                }
+            });
+        }
+
         async function sjekkTilbud() {
-            const btn = document.getElementById('btn-sjekk');
-            const spinner = document.getElementById('spinner');
+            const btn = document.getElementById('btn-oppdater');
+            const laster = document.getElementById('laster');
             const resultater = document.getElementById('resultater');
-            const oppsummering = document.getElementById('oppsummering');
+            const oppBoks = document.getElementById('oppsummering-boks');
 
             btn.disabled = true;
             btn.textContent = 'Soeker...';
-            spinner.classList.add('active');
+            laster.classList.add('active');
             resultater.innerHTML = '';
-            oppsummering.textContent = '';
+            oppBoks.classList.remove('active');
 
             try {
                 const resp = await fetch('/sjekk', { method: 'POST' });
@@ -264,53 +466,95 @@
 
                 document.getElementById('uke-info').textContent = `Uke ${data.uke}, ${data.aar}`;
 
+                // Sist oppdatert
+                const now = new Date();
+                const mnd = ['jan','feb','mar','apr','mai','jun','jul','aug','sep','okt','nov','des'];
+                const kl = `${now.getHours().toString().padStart(2,'0')}:${now.getMinutes().toString().padStart(2,'0')}`;
+                document.getElementById('sist-oppdatert').textContent =
+                    `Sist sjekket: ${now.getDate()}. ${mnd[now.getMonth()]} kl. ${kl}`;
+
+                // Oppsummering
+                const medTilbud = data.resultater.filter(r => r.har_tilbud).length;
+                const totalt = data.resultater.length;
+                const oppTall = document.getElementById('oppsummering-tall');
+                const oppTekst = document.getElementById('oppsummering-tekst');
+
+                if (medTilbud > 0) {
+                    oppTall.textContent = `${medTilbud} av ${totalt}`;
+                    oppTall.classList.remove('ingen');
+                    oppTekst.textContent = `varer er paa tilbud denne uken`;
+                } else {
+                    oppTall.textContent = `0 av ${totalt}`;
+                    oppTall.classList.add('ingen');
+                    oppTekst.textContent = `Ingen av varene dine er paa tilbud denne uken`;
+                }
+                oppBoks.classList.add('active');
+
+                // Oppdater handleliste-chips
+                oppdaterChips(data.resultater);
+
+                // Bygge resultater-HTML
                 let html = '';
-                for (const r of data.resultater) {
+                // Vis de med tilbud foerst
+                const sortert = [...data.resultater].sort((a, b) => {
+                    if (a.har_tilbud && !b.har_tilbud) return -1;
+                    if (!a.har_tilbud && b.har_tilbud) return 1;
+                    return 0;
+                });
+
+                sortert.forEach((r, i) => {
+                    const delay = i * 0.08;
                     if (r.har_tilbud) {
-                        html += `<div class="produkt-kort har-tilbud">`;
+                        html += `<div class="produkt-kort har-tilbud" style="animation-delay:${delay}s">`;
                         html += `<div class="produkt-header">`;
-                        html += `<span class="status-ikon">&#10003;</span> ${esc(r.produkt)}`;
-                        html += `</div><div class="tilbud-liste">`;
+                        html += `<span class="status-dot"></span>`;
+                        html += `<span class="produkt-navn">${esc(r.produkt)}</span>`;
+                        if (r.tilbud.length > 1) {
+                            html += `<span class="antall-badge">${r.tilbud.length} tilbud</span>`;
+                        }
+                        html += `</div>`;
                         for (const t of r.tilbud) {
-                            html += `<div class="tilbud-item">`;
+                            const href = t.url ? ` href="${esc(t.url)}" target="_blank" rel="noopener"` : '';
+                            html += `<a class="tilbud-item"${href}>`;
                             if (t.bilde) {
-                                html += `<img class="tilbud-bilde" src="${esc(t.bilde)}" alt="">`;
+                                html += `<img class="tilbud-bilde" src="${esc(t.bilde)}" alt="" loading="lazy">`;
                             }
                             html += `<div class="tilbud-info">`;
-                            html += `<div class="tilbud-butikk">${esc(t.butikk)}</div>`;
+                            html += `<span class="tilbud-butikk">${esc(t.butikk)}</span>`;
                             html += `<div class="tilbud-navn">${esc(t.navn)}</div>`;
-                            html += `<div class="tilbud-gyldighet">Gyldig: ${esc(t.fra_formatert)} &ndash; ${esc(t.til_formatert)}</div>`;
+                            html += `<div class="tilbud-gyldighet">${esc(t.fra_formatert)} &ndash; ${esc(t.til_formatert)}</div>`;
                             html += `</div>`;
+                            html += `<div class="tilbud-pris-wrap">`;
                             html += `<div class="tilbud-pris">${esc(t.pris_formatert)}</div>`;
                             html += `</div>`;
+                            html += `</a>`;
                         }
-                        html += `</div></div>`;
-                    } else {
-                        html += `<div class="produkt-kort ingen-tilbud">`;
-                        html += `<div class="produkt-header">`;
-                        html += `<span class="status-ikon">&mdash;</span> ${esc(r.produkt)}`;
                         html += `</div>`;
-                        html += `<div class="ingen-tekst">Ingen tilbud denne uken.</div>`;
+                    } else {
+                        html += `<div class="produkt-kort ingen-tilbud" style="animation-delay:${delay}s">`;
+                        html += `<div class="produkt-header">`;
+                        html += `<span class="status-dot"></span>`;
+                        html += `<span class="produkt-navn">${esc(r.produkt)}</span>`;
+                        html += `</div>`;
+                        html += `<div class="ingen-tekst">Ingen tilbud denne uken</div>`;
                         html += `</div>`;
                     }
-                }
+                });
                 resultater.innerHTML = html;
 
-                if (data.totalt_treff > 0) {
-                    oppsummering.textContent = `${data.totalt_treff} tilbud funnet!`;
-                } else {
-                    oppsummering.textContent = 'Ingen av varene dine er paa tilbud denne uken.';
-                }
             } catch (err) {
                 resultater.innerHTML = `<div class="produkt-kort ingen-tilbud">
-                    <div class="produkt-header"><span class="status-ikon">!</span> Feil</div>
+                    <div class="produkt-header">
+                        <span class="status-dot"></span>
+                        <span class="produkt-navn">Noe gikk galt</span>
+                    </div>
                     <div class="ingen-tekst">Kunne ikke hente tilbud. Proev igjen.</div>
                 </div>`;
             }
 
-            spinner.classList.remove('active');
+            laster.classList.remove('active');
             btn.disabled = false;
-            btn.textContent = 'Sjekk tilbud naa';
+            btn.textContent = 'Oppdater';
         }
 
         function esc(str) {
@@ -318,6 +562,10 @@
             el.textContent = str || '';
             return el.innerHTML;
         }
+
+        // Start automatisk
+        lastHandleliste();
+        sjekkTilbud();
     </script>
 </body>
 </html>

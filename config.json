@@ -31,7 +31,8 @@
     },
     {
       "navn": "Espressobønner",
-      "sokeord": ["espressobønner", "espresso bønner", "espresso kaffe"]
+      "sokeord": ["espressobønner", "espresso hele bønner"],
+      "filter": ["espresso", "hele bønner"]
     }
   ],
   "butikker": [

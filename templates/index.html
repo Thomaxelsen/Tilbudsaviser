@@ -509,7 +509,7 @@
         </div>
 
         <div class="handleliste" id="handleliste">
-            <div class="seksjon-tittel">Varer du foelger med paa</div>
+            <div class="seksjon-tittel">Varer du f\u00f8lger med p\u00e5</div>
             <div class="vare-chips" id="vare-chips"></div>
         </div>
 
@@ -639,7 +639,7 @@
             const oppBoks = document.getElementById('oppsummering-boks');
 
             btn.disabled = true;
-            btn.textContent = 'Soeker...';
+            btn.textContent = 'S\u00f8ker...';
             laster.classList.add('active');
             resultater.innerHTML = '';
             oppBoks.classList.remove('active');
@@ -666,11 +666,11 @@
                 if (medTilbud > 0) {
                     oppTall.textContent = `${medTilbud} av ${totalt}`;
                     oppTall.classList.remove('ingen');
-                    oppTekst.textContent = `varer er paa tilbud denne uken`;
+                    oppTekst.textContent = `varer er p\u00e5 tilbud denne uken`;
                 } else {
                     oppTall.textContent = `0 av ${totalt}`;
                     oppTall.classList.add('ingen');
-                    oppTekst.textContent = `Ingen av varene dine er paa tilbud denne uken`;
+                    oppTekst.textContent = `Ingen av varene dine er p\u00e5 tilbud denne uken`;
                 }
                 oppBoks.classList.add('active');
 
@@ -730,7 +730,7 @@
                         <span class="status-dot"></span>
                         <span class="produkt-navn">Noe gikk galt</span>
                     </div>
-                    <div class="ingen-tekst">Kunne ikke hente tilbud. Proev igjen.</div>
+                    <div class="ingen-tekst">Kunne ikke hente tilbud. Pr\u00f8v igjen.</div>
                 </div>`;
             }
 

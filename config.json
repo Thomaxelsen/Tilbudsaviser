@@ -28,6 +28,10 @@
     {
       "navn": "Husman Knekkebrød",
       "sokeord": ["husman knekkebrød", "husman knekke"]
+    },
+    {
+      "navn": "Espressobønner",
+      "sokeord": ["espressobønner", "espresso bønner", "espresso kaffe"]
     }
   ],
   "butikker": [

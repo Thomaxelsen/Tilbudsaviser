@@ -1,0 +1,33 @@
+{
+  "produkter": [
+    {
+      "navn": "Rustica Dobbel Pepperoni Pizza",
+      "sokeord": ["rustica pepperoni", "rustica dobbel"]
+    },
+    {
+      "navn": "Levain Polarbrød",
+      "sokeord": ["levain polarbrød", "polarbrød levain"]
+    },
+    {
+      "navn": "Salami Siciliana",
+      "sokeord": ["salami siciliana"]
+    },
+    {
+      "navn": "Freia Sjokonøtt",
+      "sokeord": ["sjokonøtt", "freia sjokonøtt"]
+    }
+  ],
+  "butikker": [
+    "REMA 1000",
+    "KIWI",
+    "Coop Prix",
+    "Extra",
+    "Coop Mega",
+    "Coop Marked",
+    "MENY",
+    "SPAR",
+    "Joker",
+    "Bunnpris",
+    "Oda"
+  ]
+}

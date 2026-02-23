@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilbudssjekk</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #f0f2f5;
+            color: #1a1a2e;
+            min-height: 100vh;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 0.3rem;
+        }
+
+        .header .uke {
+            font-size: 1rem;
+            opacity: 0.7;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem;
+        }
+
+        .btn-sjekk {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(135deg, #0f3460 0%, #533483 100%);
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: transform 0.15s, box-shadow 0.15s;
+        }
+
+        .btn-sjekk:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(83, 52, 131, 0.35);
+        }
+
+        .btn-sjekk:active { transform: translateY(0); }
+
+        .btn-sjekk:disabled {
+            opacity: 0.6;
+            cursor: wait;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .spinner {
+            display: none;
+            text-align: center;
+            padding: 3rem 0;
+        }
+
+        .spinner.active { display: block; }
+
+        .spinner .dot {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin: 0 4px;
+            background: #533483;
+            border-radius: 50%;
+            animation: bounce 1.4s ease-in-out infinite;
+        }
+
+        .spinner .dot:nth-child(2) { animation-delay: 0.16s; }
+        .spinner .dot:nth-child(3) { animation-delay: 0.32s; }
+
+        @keyframes bounce {
+            0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
+            40% { transform: scale(1); opacity: 1; }
+        }
+
+        .spinner p {
+            margin-top: 1rem;
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        .resultater { margin-top: 1.5rem; }
+
+        .produkt-kort {
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: box-shadow 0.2s;
+        }
+
+        .produkt-kort:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+        }
+
+        .produkt-header {
+            padding: 1rem 1.2rem;
+            font-weight: 600;
+            font-size: 1.05rem;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+        .produkt-kort.har-tilbud .produkt-header {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .produkt-kort.ingen-tilbud .produkt-header {
+            background: #f5f5f5;
+            color: #888;
+        }
+
+        .status-ikon {
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+
+        .tilbud-liste {
+            padding: 0;
+        }
+
+        .tilbud-item {
+            display: flex;
+            gap: 1rem;
+            padding: 1rem 1.2rem;
+            border-top: 1px solid #f0f0f0;
+            align-items: center;
+        }
+
+        .tilbud-bilde {
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+            border-radius: 8px;
+            background: #fafafa;
+            flex-shrink: 0;
+        }
+
+        .tilbud-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .tilbud-butikk {
+            font-weight: 600;
+            color: #1a1a2e;
+            font-size: 0.95rem;
+        }
+
+        .tilbud-navn {
+            color: #555;
+            font-size: 0.85rem;
+            margin-top: 2px;
+        }
+
+        .tilbud-gyldighet {
+            color: #888;
+            font-size: 0.8rem;
+            margin-top: 4px;
+        }
+
+        .tilbud-pris {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #c62828;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+
+        .ingen-tekst {
+            padding: 0.8rem 1.2rem;
+            color: #999;
+            font-size: 0.9rem;
+            font-style: italic;
+        }
+
+        .oppsummering {
+            text-align: center;
+            margin-top: 1.5rem;
+            padding: 1rem;
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 500px) {
+            .header h1 { font-size: 1.4rem; }
+            .tilbud-pris { font-size: 1.1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Tilbudssjekk</h1>
+        <div class="uke" id="uke-info"></div>
+    </div>
+
+    <div class="container">
+        <button class="btn-sjekk" id="btn-sjekk" onclick="sjekkTilbud()">
+            Sjekk tilbud naa
+        </button>
+
+        <div class="spinner" id="spinner">
+            <div>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <p>Sjekker tilbudsaviser...</p>
+        </div>
+
+        <div class="resultater" id="resultater"></div>
+        <div class="oppsummering" id="oppsummering"></div>
+    </div>
+
+    <script>
+        function getUkeInfo() {
+            const now = new Date();
+            // ISO week number
+            const d = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()));
+            d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7));
+            const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+            const weekNo = Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
+            document.getElementById('uke-info').textContent = `Uke ${weekNo}, ${now.getFullYear()}`;
+        }
+        getUkeInfo();
+
+        async function sjekkTilbud() {
+            const btn = document.getElementById('btn-sjekk');
+            const spinner = document.getElementById('spinner');
+            const resultater = document.getElementById('resultater');
+            const oppsummering = document.getElementById('oppsummering');
+
+            btn.disabled = true;
+            btn.textContent = 'Soeker...';
+            spinner.classList.add('active');
+            resultater.innerHTML = '';
+            oppsummering.textContent = '';
+
+            try {
+                const resp = await fetch('/sjekk', { method: 'POST' });
+                const data = await resp.json();
+
+                document.getElementById('uke-info').textContent = `Uke ${data.uke}, ${data.aar}`;
+
+                let html = '';
+                for (const r of data.resultater) {
+                    if (r.har_tilbud) {
+                        html += `<div class="produkt-kort har-tilbud">`;
+                        html += `<div class="produkt-header">`;
+                        html += `<span class="status-ikon">&#10003;</span> ${esc(r.produkt)}`;
+                        html += `</div><div class="tilbud-liste">`;
+                        for (const t of r.tilbud) {
+                            html += `<div class="tilbud-item">`;
+                            if (t.bilde) {
+                                html += `<img class="tilbud-bilde" src="${esc(t.bilde)}" alt="">`;
+                            }
+                            html += `<div class="tilbud-info">`;
+                            html += `<div class="tilbud-butikk">${esc(t.butikk)}</div>`;
+                            html += `<div class="tilbud-navn">${esc(t.navn)}</div>`;
+                            html += `<div class="tilbud-gyldighet">Gyldig: ${esc(t.fra_formatert)} &ndash; ${esc(t.til_formatert)}</div>`;
+                            html += `</div>`;
+                            html += `<div class="tilbud-pris">${esc(t.pris_formatert)}</div>`;
+                            html += `</div>`;
+                        }
+                        html += `</div></div>`;
+                    } else {
+                        html += `<div class="produkt-kort ingen-tilbud">`;
+                        html += `<div class="produkt-header">`;
+                        html += `<span class="status-ikon">&mdash;</span> ${esc(r.produkt)}`;
+                        html += `</div>`;
+                        html += `<div class="ingen-tekst">Ingen tilbud denne uken.</div>`;
+                        html += `</div>`;
+                    }
+                }
+                resultater.innerHTML = html;
+
+                if (data.totalt_treff > 0) {
+                    oppsummering.textContent = `${data.totalt_treff} tilbud funnet!`;
+                } else {
+                    oppsummering.textContent = 'Ingen av varene dine er paa tilbud denne uken.';
+                }
+            } catch (err) {
+                resultater.innerHTML = `<div class="produkt-kort ingen-tilbud">
+                    <div class="produkt-header"><span class="status-ikon">!</span> Feil</div>
+                    <div class="ingen-tekst">Kunne ikke hente tilbud. Proev igjen.</div>
+                </div>`;
+            }
+
+            spinner.classList.remove('active');
+            btn.disabled = false;
+            btn.textContent = 'Sjekk tilbud naa';
+        }
+
+        function esc(str) {
+            const el = document.createElement('span');
+            el.textContent = str || '';
+            return el.innerHTML;
+        }
+    </script>
+</body>
+</html>

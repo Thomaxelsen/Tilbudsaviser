@@ -33,6 +33,14 @@
       "navn": "Espressobønner",
       "sokeord": ["espressobønner", "espresso hele bønner"],
       "filter": ["espresso", "hele bønner"]
+    },
+    {
+      "navn": "Eplejuice",
+      "sokeord": ["eplejuice", "eple juice"]
+    },
+    {
+      "navn": "Smør",
+      "sokeord": ["smør", "meierismør"]
     }
   ],
   "butikker": [

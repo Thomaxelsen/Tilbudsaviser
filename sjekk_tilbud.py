@@ -14,8 +14,12 @@ import urllib.parse
 from datetime import datetime, timezone
 from pathlib import Path
 
-# Sikre UTF-8 output på Windows
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+# Sikre UTF-8 output på Windows (kun når stdout har buffer, ikke under gunicorn)
+if hasattr(sys.stdout, "buffer"):
+    try:
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+    except Exception:
+        pass
 
 import requests
 from bs4 import BeautifulSoup

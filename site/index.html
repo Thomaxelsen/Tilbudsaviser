@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel og Adam sin tilbudssjekk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --papir: #fffdf7;
+            --blekk: #1c2530;
+            --dempet: #5b6672;
+            --strek: #e9e3d5;
+            --pris: #cf1f2e;
+            --naa: #17703c;
+            --naa-flate: #e2f3e7;
+            --snart: #2b479c;
+            --snart-flate: #e8edfb;
+            --sol: #ffd23f;
+            --overskrift: 'Fredoka', 'Figtree', system-ui, sans-serif;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Figtree', system-ui, -apple-system, "Segoe UI", sans-serif;
+            color: var(--blekk);
+            line-height: 1.4;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        :focus-visible { outline: 3px solid var(--snart); outline-offset: 2px; border-radius: 4px; }
+
+        /* === HIMMEL === */
+        .himmelbg {
+            position: fixed;
+            inset: 0;
+            z-index: -2;
+            background: #42a5f5;
+        }
+
+        .topp {
+            position: relative;
+            min-height: 210px;
+            padding: 96px 1rem 1.4rem;
+            text-align: center;
+            color: #fff;
+        }
+        /* Mørkner toppen av himmelen litt, så hvit tekst er lesbar også på lys morgenhimmel */
+        .topp::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(rgba(8,32,74,0.34), rgba(8,32,74,0.12) 70%, transparent);
+            z-index: -1;
+        }
+
+        .himmel { position: absolute; inset: 0; z-index: -1; pointer-events: none; }
+
+        .topp h1 {
+            font-family: var(--overskrift);
+            font-size: 1.7rem;
+            font-weight: 600;
+            line-height: 1.15;
+            text-wrap: balance;
+            text-shadow: 0 1px 3px rgba(8,32,74,0.55);
+        }
+        .topp p {
+            margin-top: 0.3rem;
+            font-size: 0.95rem;
+            font-weight: 500;
+            text-shadow: 0 1px 2px rgba(8,32,74,0.6);
+        }
+
+        .sol, .maane {
+            position: absolute;
+            left: 50%;
+            top: 100%;
+            border-radius: 50%;
+            transition: top 1.8s cubic-bezier(0.22,1,0.36,1), left 1.8s cubic-bezier(0.22,1,0.36,1), opacity 1s ease;
+        }
+        .sol {
+            width: 58px; height: 58px;
+            background: radial-gradient(circle at 40% 40%, #fff7a1, #ffd54f 40%, #ffb300 100%);
+            box-shadow: 0 0 40px 15px rgba(255,213,79,0.4), 0 0 80px 30px rgba(255,179,0,0.15);
+        }
+        .maane {
+            width: 48px; height: 48px;
+            background: radial-gradient(circle at 45% 40%, #f5f5f0, #e8e4d4 50%, #d4cfc0 100%);
+            box-shadow: 0 0 30px 10px rgba(240,237,220,0.3), 0 0 60px 20px rgba(220,215,195,0.12);
+        }
+        .skjult { opacity: 0; }
+        /* Kratere */
+        .maane::before {
+            content: '';
+            position: absolute;
+            width: 10px; height: 10px;
+            background: rgba(180,175,160,0.35);
+            border-radius: 50%;
+            top: 10px; left: 7px;
+            box-shadow:
+                18px -3px 0 -2px rgba(180,175,160,0.25),
+                7px 26px 0 -3px rgba(180,175,160,0.3),
+                26px 14px 0 -1px rgba(180,175,160,0.2);
+        }
+
+        .oye {
+            position: absolute;
+            top: 38%;
+            width: 6px; height: 7px;
+            border-radius: 50%;
+            background: #7a4400;
+        }
+        .oye.venstre { left: 28%; }
+        .oye.hoyre { right: 28%; }
+        .munn {
+            position: absolute;
+            bottom: 26%; left: 50%;
+            width: 16px; height: 8px;
+            border-bottom: 2.5px solid #7a4400;
+            border-radius: 0 0 50% 50%;
+            transform: translateX(-50%);
+        }
+        .maane .oye { background: #3a3a4a; }
+        .maane .munn { border-bottom-color: #3a3a4a; width: 13px; height: 6px; border-bottom-width: 2px; }
+
+        .sky { position: absolute; left: 0; opacity: 0.85; transition: opacity 2s ease; }
+        .natt .sky { opacity: 0.12; }
+        .sky i { position: absolute; background: #fff; border-radius: 50%; }
+        .sky1 { top: 14%; animation: drivHoyre 70s linear infinite; animation-delay: -25s; }
+        .sky2 { top: 44%; animation: drivVenstre 95s linear infinite; animation-delay: -60s; }
+        .sky3 { top: 70%; animation: drivHoyre 120s linear infinite; animation-delay: -15s; }
+        @keyframes drivHoyre { from { transform: translateX(-200px); } to { transform: translateX(calc(100vw + 40px)); } }
+        @keyframes drivVenstre { from { transform: translateX(calc(100vw + 40px)); } to { transform: translateX(-200px); } }
+
+        /* === ARKET === */
+        .ark {
+            position: relative;
+            max-width: 1080px;
+            min-height: calc(100vh - 210px);
+            margin: 0 auto;
+            padding: 1.3rem 1.1rem 2rem;
+            background: var(--papir);
+            border-radius: 22px 22px 0 0;
+            box-shadow: 0 -6px 30px rgba(8,32,74,0.18);
+        }
+
+        .oversikt-tall {
+            font-family: var(--overskrift);
+            font-size: 1.4rem;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+        .oversikt-rad { margin-top: 0.75rem; font-size: 0.92rem; color: var(--dempet); }
+        .oversikt-rad strong { color: var(--blekk); font-weight: 600; }
+        .brikker { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.4rem; list-style: none; }
+        .brikke {
+            display: block;
+            padding: 0.42rem 0.8rem;
+            border-radius: 100px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-decoration: none;
+            background: var(--naa-flate);
+            color: var(--naa);
+        }
+        .brikke.snart { background: var(--snart-flate); color: var(--snart); }
+        .brikke:hover { text-decoration: underline; }
+
+        .varsel {
+            margin-top: 1rem;
+            padding: 0.75rem 0.9rem;
+            border-left: 4px solid var(--sol);
+            background: #fff6d6;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.92rem;
+        }
+
+        .seksjon { margin-top: 2rem; }
+        .seksjon h2 {
+            font-family: var(--overskrift);
+            font-size: 1.55rem;
+            font-weight: 600;
+            color: var(--naa);
+        }
+        .seksjon.snart h2 { color: var(--snart); }
+        .seksjon-ingress { color: var(--dempet); font-size: 0.92rem; }
+
+        .vare { padding-top: 1.1rem; break-inside: avoid; scroll-margin-top: 0.5rem; }
+        .vare h3 {
+            font-family: var(--overskrift);
+            font-size: 1.15rem;
+            font-weight: 600;
+            padding-bottom: 0.35rem;
+            border-bottom: 2px solid var(--blekk);
+        }
+        .vare ul { list-style: none; }
+
+        .tilbud {
+            display: flex;
+            gap: 0.8rem;
+            padding: 0.8rem 0;
+            border-bottom: 1px solid var(--strek);
+        }
+        .tilbud-bilde {
+            flex-shrink: 0;
+            align-self: flex-start;
+            width: 64px; height: 64px;
+            padding: 0;
+            border: 1px solid var(--strek);
+            border-radius: 10px;
+            background: #fff;
+            overflow: hidden;
+            cursor: zoom-in;
+        }
+        .tilbud-bilde img { width: 100%; height: 100%; object-fit: contain; display: block; }
+
+        .tilbud-tekst { flex: 1; min-width: 0; }
+        .butikk {
+            display: inline-block;
+            padding: 0.08rem 0.45rem;
+            border-radius: 4px;
+            border: 1px solid rgba(0,0,0,0.14);
+            font-size: 0.78rem;
+            font-weight: 700;
+            background: #444;
+            color: #fff;
+        }
+        .tilbud-navn {
+            display: block;
+            margin-top: 0.25rem;
+            font-weight: 600;
+            color: inherit;
+            text-decoration-color: rgba(28,37,48,0.3);
+            text-underline-offset: 2px;
+            overflow-wrap: anywhere;
+        }
+        .tilbud-navn:hover { text-decoration-color: currentColor; }
+        .tilbud-beskrivelse {
+            margin-top: 0.15rem;
+            font-size: 0.85rem;
+            color: var(--dempet);
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .tilbud-gyldig { margin-top: 0.25rem; font-size: 0.82rem; color: var(--dempet); }
+        .snart .tilbud-gyldig { color: var(--snart); font-weight: 600; }
+
+        .tilbud-pris {
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 0.1rem;
+            max-width: 42%;
+            text-align: right;
+            font-size: 0.82rem;
+            color: var(--dempet);
+        }
+        .pris {
+            font-family: var(--overskrift);
+            font-size: 1.45rem;
+            font-weight: 700;
+            line-height: 1.1;
+            color: var(--pris);
+            white-space: nowrap;
+        }
+        .rabatt { color: var(--pris); font-weight: 700; }
+        .lapp {
+            margin-bottom: 0.2rem;
+            padding: 0.1rem 0.45rem;
+            background: var(--sol);
+            color: var(--blekk);
+            font-family: var(--overskrift);
+            font-size: 0.78rem;
+            font-weight: 600;
+            border-radius: 3px;
+            transform: rotate(-2deg);
+        }
+
+        .bunn { margin-top: 2.2rem; font-size: 0.85rem; color: var(--dempet); }
+        .bunn a { color: inherit; }
+
+        /* === STORT BILDE === */
+        .bildevisning {
+            margin: auto;
+            width: min(92vw, 560px);
+            max-height: 92vh;
+            padding: 1rem;
+            border: none;
+            border-radius: 16px;
+            background: var(--papir);
+            color: var(--blekk);
+        }
+        .bildevisning::backdrop { background: rgba(8,20,40,0.7); }
+        .bildevisning img { display: block; width: 100%; max-height: 62vh; object-fit: contain; background: #fff; border-radius: 8px; }
+        .bildevisning p { margin-top: 0.7rem; font-weight: 600; }
+        .bildevisning-valg { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 0.8rem; }
+        .bildevisning a { color: var(--snart); font-weight: 600; }
+        .bildevisning button {
+            padding: 0.5rem 1.1rem;
+            border: 2px solid var(--blekk);
+            border-radius: 100px;
+            background: none;
+            font: inherit;
+            font-weight: 600;
+            color: inherit;
+            cursor: pointer;
+        }
+
+        @media (min-width: 860px) {
+            .topp { min-height: 230px; padding-top: 104px; }
+            .topp h1 { font-size: 2.2rem; }
+            .ark { padding: 2rem 2.4rem 2.5rem; min-height: calc(100vh - 230px); }
+            .oversikt-tall { font-size: 1.7rem; }
+            .varer { columns: 2; column-gap: 3rem; }
+            .tilbud-bilde { width: 76px; height: 76px; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .sky { animation-play-state: paused; }
+            .sol, .maane, .sky { transition: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="himmelbg" id="himmelbg"></div>
+
+    <header class="topp" id="topp">
+        <div class="himmel" aria-hidden="true">
+            <div class="sky sky1"><i style="width:110px;height:44px;top:0;left:0"></i><i style="width:72px;height:42px;top:-15px;left:26px"></i><i style="width:80px;height:36px;top:-5px;left:62px"></i></div>
+            <div class="sky sky2"><i style="width:90px;height:36px;top:0;left:0"></i><i style="width:60px;height:34px;top:-12px;left:22px"></i><i style="width:54px;height:27px;top:-2px;left:54px"></i></div>
+            <div class="sky sky3"><i style="width:70px;height:28px;top:0;left:0"></i><i style="width:46px;height:26px;top:-9px;left:18px"></i></div>
+            <div class="sol skjult" id="sol"><span class="oye venstre"></span><span class="oye hoyre"></span><span class="munn"></span></div>
+            <div class="maane skjult" id="maane"><span class="oye venstre"></span><span class="oye hoyre"></span><span class="munn"></span></div>
+        </div>
+        <h1>Samuel og Adam sin tilbudssjekk</h1>
+        <p id="status">Henter tilbud …</p>
+    </header>
+
+    <main class="ark">
+        <section id="oversikt" aria-live="polite"></section>
+        <div id="innhold"></div>
+        <p class="bunn" id="bunn"></p>
+        <noscript><p class="varsel">Siden trenger JavaScript for å vise tilbudene.</p></noscript>
+    </main>
+
+    <dialog class="bildevisning" id="bildevisning">
+        <img id="bv-bilde" alt="">
+        <p id="bv-tekst"></p>
+        <div class="bildevisning-valg">
+            <a id="bv-lenke" target="_blank" rel="noopener">Åpne i tilbudsavisen</a>
+            <form method="dialog"><button>Lukk</button></form>
+        </div>
+    </dialog>
+
+    <script>
+        const OSLO = 'Europe/Oslo';
+
+        // === TID ===
+        // Klokka og datoen i Oslo, uansett hvor nettleseren befinner seg
+        function osloTid(dato) {
+            const d = Object.fromEntries(new Intl.DateTimeFormat('en-GB', {
+                timeZone: OSLO, hourCycle: 'h23',
+                year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric'
+            }).formatToParts(dato).map(p => [p.type, Number(p.value)]));
+            const timer = d.hour + d.minute / 60;
+            const utcTimer = dato.getUTCHours() + dato.getUTCMinutes() / 60;
+            return {
+                aar: d.year, maaned: d.month, dag: d.day, timer,
+                utcForskyvning: ((timer - utcTimer + 36) % 24) - 12
+            };
+        }
+
+        function ukenummer(dato) {
+            const o = osloTid(dato);
+            const d = new Date(Date.UTC(o.aar, o.maaned - 1, o.dag));
+            d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay() || 7)); // torsdagen avgjør uke og år
+            const aarStart = Date.UTC(d.getUTCFullYear(), 0, 1);
+            return Math.ceil(((d - aarStart) / 86400000 + 1) / 7);
+        }
+
+        const dagFormat = new Intl.DateTimeFormat('nb-NO', { timeZone: OSLO, weekday: 'short', day: 'numeric', month: 'short' });
+        function visDag(dato) {
+            const d = Object.fromEntries(dagFormat.formatToParts(dato).map(p => [p.type, p.value.replace('.', '')]));
+            return `${d.weekday} ${d.day}. ${d.month}`;
+        }
+
+        function visOppdatert(generert, naa) {
+            const dagnokkel = d => { const o = osloTid(d); return Date.UTC(o.aar, o.maaned - 1, o.dag); };
+            const dagerSiden = Math.round((dagnokkel(naa) - dagnokkel(generert)) / 86400000);
+            const kl = new Intl.DateTimeFormat('nb-NO', { timeZone: OSLO, hour: '2-digit', minute: '2-digit' }).format(generert);
+            const dag = dagerSiden === 0 ? 'i dag' : dagerSiden === 1 ? 'i går' : visDag(generert);
+            return `oppdatert ${dag} kl. ${kl}`;
+        }
+
+        // === SOL OG HIMMEL ===
+        // Soloppgang og solnedgang i Oslo (59.9N, 10.75E), i lokal klokketid
+        function beregnSoltider(oslo) {
+            const breddegrad = 59.9 * Math.PI / 180;
+            const dagNr = Math.round((Date.UTC(oslo.aar, oslo.maaned - 1, oslo.dag) - Date.UTC(oslo.aar, 0, 1)) / 86400000) + 1;
+            const dekl = -23.45 * Math.cos(2 * Math.PI * (dagNr + 10) / 365) * Math.PI / 180;
+            const cosH = -Math.tan(breddegrad) * Math.tan(dekl);
+            if (cosH < -1) return { oppgang: 0, nedgang: 24 };
+            if (cosH > 1) return { oppgang: 12, nedgang: 12 };
+
+            const H = Math.acos(cosH) * 180 / Math.PI;
+            const B = 2 * Math.PI * (dagNr - 81) / 365;
+            const tidsligning = (9.87 * Math.sin(2 * B) - 7.53 * Math.cos(B) - 1.5 * Math.sin(B)) / 60;
+            const solmiddag = 12 - 10.75 / 15 + oslo.utcForskyvning - tidsligning;
+            return { oppgang: solmiddag - H / 15, nedgang: solmiddag + H / 15 };
+        }
+
+        function himmelfarge(timer, opp, ned) {
+            const demring = opp - 1, skumring = ned + 1;
+            if (timer < demring || timer > skumring) {
+                return 'linear-gradient(180deg, #0c1445 0%, #1a237e 40%, #283593 100%)';
+            }
+            if (timer < opp) {
+                const t = (timer - demring) / (opp - demring);
+                return `linear-gradient(180deg,
+                    hsl(${220 - t*30}, ${60 + t*20}%, ${10 + t*30}%) 0%,
+                    hsl(${30 + t*10}, ${70 + t*20}%, ${40 + t*25}%) 50%,
+                    hsl(20, 80%, ${60 + t*15}%) 100%)`;
+            }
+            if (timer < opp + 1.5) return 'linear-gradient(180deg, #4fc3f7 0%, #81d4fa 40%, #b3e5fc 100%)';
+            if (timer < ned - 2) return 'linear-gradient(180deg, #42a5f5 0%, #64b5f6 30%, #90caf9 70%, #bbdefb 100%)';
+            if (timer < ned) return 'linear-gradient(180deg, #5c9ce6 0%, #7eb8e0 40%, #f0c27f 100%)';
+            const t = (timer - ned) / (skumring - ned);
+            return `linear-gradient(180deg,
+                hsl(${240 + t*20}, ${40 + t*30}%, ${30 - t*15}%) 0%,
+                hsl(${30 - t*20}, ${60 + t*20}%, ${50 - t*20}%) 40%,
+                hsl(${15 - t*10}, 70%, ${40 - t*20}%) 100%)`;
+        }
+
+        // Plasserer sola eller månen på en bue over toppfeltet. Arket under er horisonten.
+        function plasser(legeme, andel) {
+            const topp = document.getElementById('topp');
+            const str = legeme.offsetWidth;
+            const horisont = topp.offsetHeight - str * 0.45;
+            const hoyde = 1 - Math.pow(Math.abs(2 * andel - 1), 3); // flat bue, så sola går klar av tittelen
+            legeme.style.left = `${10 + andel * (topp.offsetWidth - str - 20)}px`;
+            legeme.style.top = `${horisont - hoyde * (horisont - 10)}px`;
+            legeme.classList.remove('skjult');
+        }
+
+        function oppdaterHimmel() {
+            const oslo = osloTid(new Date());
+            const { oppgang, nedgang } = beregnSoltider(oslo);
+            const timer = oslo.timer;
+            const erDag = timer >= oppgang && timer <= nedgang;
+            const sol = document.getElementById('sol');
+            const maane = document.getElementById('maane');
+
+            if (erDag) {
+                plasser(sol, (timer - oppgang) / (nedgang - oppgang));
+                maane.classList.add('skjult');
+            } else {
+                const siden = timer > nedgang ? timer - nedgang : 24 - nedgang + timer;
+                plasser(maane, siden / (24 - (nedgang - oppgang)));
+                sol.classList.add('skjult');
+            }
+            document.body.classList.toggle('natt', timer < oppgang - 0.5 || timer > nedgang + 0.5);
+            document.getElementById('himmelbg').style.background = himmelfarge(timer, oppgang, nedgang);
+        }
+
+        oppdaterHimmel();
+        setInterval(oppdaterHimmel, 60000);
+        window.addEventListener('resize', oppdaterHimmel);
+        document.fonts.ready.then(oppdaterHimmel); // toppfeltet kan endre høyde når skriften er lastet
+
+        // === VISNING AV TILBUD ===
+        function lag(tag, klasse, tekst) {
+            const e = document.createElement(tag);
+            if (klasse) e.className = klasse;
+            if (tekst != null) e.textContent = tekst;
+            return e;
+        }
+
+        const trygg = url => typeof url === 'string' && url.startsWith('https://') ? url : null;
+        const kr = n => Number.isInteger(n) ? String(n) : n.toLocaleString('nb-NO', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        const hovedpris = t => t.pris ?? t.medlemspris ?? null;
+
+        function lesbarTekstfarge(hex) {
+            const [r, g, b] = [1, 3, 5].map(i => parseInt(hex.slice(i, i + 2), 16));
+            return (0.299 * r + 0.587 * g + 0.114 * b) > 150 ? '#1c2530' : '#fff';
+        }
+
+        // Sorterer på kilo-/literpris når alle kan sammenlignes, ellers på pris. Tilbud uten kronepris havner sist.
+        function sorter(tilbud) {
+            const medPris = tilbud.filter(t => hovedpris(t) != null);
+            const sammenlignbare = medPris.length > 1 && medPris.every(t => t.enhetspris && t.enhet === medPris[0].enhet);
+            const verdi = t => (sammenlignbare ? t.enhetspris : hovedpris(t)) ?? Infinity;
+            const sortert = [...tilbud].sort((a, b) => verdi(a) - verdi(b));
+            const lavest = sammenlignbare && verdi(sortert[0]) < verdi(sortert[1]) ? sortert[0] : null;
+            return { sortert, lavest };
+        }
+
+        function lagPris(t, erLavest) {
+            const boks = lag('div', 'tilbud-pris');
+            if (erLavest) boks.append(lag('span', 'lapp', t.enhet === 'l' ? 'Lavest literpris' : 'Lavest kilopris'));
+
+            if (t.pris != null) {
+                boks.append(lag('strong', 'pris', `${kr(t.pris)} kr`));
+                if (t.antall) boks.append(lag('span', null, `for ${t.antall} stk`));
+                if (t.medlemspris != null) boks.append(lag('span', null, `medlem ${kr(t.medlemspris)} kr`));
+            } else if (t.medlemspris != null) {
+                boks.append(lag('strong', 'pris', `${kr(t.medlemspris)} kr`), lag('span', null, 'medlemspris'));
+            } else if (t.ta && t.betal) {
+                boks.append(lag('strong', 'pris', `${t.ta} for ${t.betal}`));
+            } else if (t.rabatt_prosent) {
+                boks.append(lag('strong', 'pris', `−${t.rabatt_prosent} %`));
+            } else if (t.medlemsrabatt_prosent) {
+                boks.append(lag('strong', 'pris', `−${t.medlemsrabatt_prosent} %`), lag('span', null, 'for medlemmer'));
+            } else {
+                boks.append(lag('span', null, 'Se pris i avisen'));
+            }
+
+            if (t.forpris != null) {
+                const for_ = lag('span', null, 'før ');
+                for_.append(lag('s', null, kr(t.forpris)), ' ', lag('span', 'rabatt', `−${t.rabatt_prosent} %`));
+                boks.append(for_);
+            }
+            if (t.enhetspris != null) boks.append(lag('span', null, `${kr(t.enhetspris)} kr/${t.enhet}`));
+            return boks;
+        }
+
+        function lagTilbud(t, erLavest, kommer) {
+            const rad = lag('li', 'tilbud');
+
+            const bilde = trygg(t.bilde);
+            if (bilde) {
+                const knapp = lag('button', 'tilbud-bilde');
+                knapp.type = 'button';
+                knapp.setAttribute('aria-label', `Vis større bilde av ${t.navn}`);
+                const img = lag('img');
+                img.src = bilde;
+                img.alt = '';
+                img.loading = 'lazy';
+                knapp.append(img);
+                knapp.addEventListener('click', () => visBilde(t));
+                rad.append(knapp);
+            }
+
+            const tekst = lag('div', 'tilbud-tekst');
+            const butikk = lag('span', 'butikk', t.butikk);
+            if (/^#[0-9a-f]{6}$/i.test(t.farge || '')) {
+                butikk.style.backgroundColor = t.farge;
+                butikk.style.color = lesbarTekstfarge(t.farge);
+            }
+            const lenke = trygg(t.url);
+            const navn = lag(lenke ? 'a' : 'span', 'tilbud-navn', t.navn);
+            if (lenke) { navn.href = lenke; navn.target = '_blank'; navn.rel = 'noopener'; }
+            tekst.append(butikk, navn);
+            if (t.beskrivelse) tekst.append(lag('p', 'tilbud-beskrivelse', t.beskrivelse.replace(/\s*\n\s*/g, ', ')));
+
+            const til = t.til ? `til ${visDag(new Date(t.til))}` : '';
+            const gyldig = kommer && t.fra ? `Fra ${visDag(new Date(t.fra))} ${til}` : til.replace('til', 'Til');
+            if (gyldig) tekst.append(lag('p', 'tilbud-gyldig', gyldig.trim()));
+
+            rad.append(tekst, lagPris(t, erLavest));
+            return rad;
+        }
+
+        function lagSeksjon(klasse, tittel, ingress, varer, kommer) {
+            const seksjon = lag('section', `seksjon ${klasse}`);
+            seksjon.append(lag('h2', null, tittel));
+            if (ingress) seksjon.append(lag('p', 'seksjon-ingress', ingress));
+            const liste = lag('div', 'varer');
+            for (const v of varer) {
+                const vare = lag('article', 'vare');
+                vare.id = `${klasse}-${v.nr}`;
+                vare.append(lag('h3', null, v.navn));
+                const ul = lag('ul');
+                const { sortert, lavest } = sorter(v.tilbud);
+                ul.append(...sortert.map(t => lagTilbud(t, t === lavest, kommer)));
+                vare.append(ul);
+                liste.append(vare);
+            }
+            seksjon.append(liste);
+            return seksjon;
+        }
+
+        function lagBrikker(etikett, klasse, varer) {
+            const rad = lag('div', 'oversikt-rad');
+            if (etikett) rad.append(lag('strong', null, etikett));
+            const ul = lag('ul', 'brikker');
+            for (const v of varer) {
+                const a = lag('a', `brikke ${klasse}`, v.navn);
+                a.href = `#${klasse}-${v.nr}`;
+                const li = lag('li');
+                li.append(a);
+                ul.append(li);
+            }
+            rad.append(ul);
+            return rad;
+        }
+
+        function lagTekstrad(etikett, navn) {
+            const rad = lag('p', 'oversikt-rad');
+            rad.append(lag('strong', null, etikett), ` ${navn.join(', ')}`);
+            return rad;
+        }
+
+        function visBilde(t) {
+            const stort = trygg(t.bilde_stor) || trygg(t.bilde);
+            document.getElementById('bv-bilde').src = stort;
+            document.getElementById('bv-tekst').textContent = `${t.navn} hos ${t.butikk}`;
+            const lenke = document.getElementById('bv-lenke');
+            lenke.hidden = !trygg(t.url);
+            if (trygg(t.url)) lenke.href = t.url;
+            document.getElementById('bildevisning').showModal();
+        }
+        document.getElementById('bildevisning').addEventListener('click', e => {
+            if (e.target === e.currentTarget) e.currentTarget.close();
+        });
+
+        function vis(data) {
+            const naa = new Date();
+            const generert = new Date(data.generert);
+            document.getElementById('status').textContent = `Uke ${ukenummer(naa)}, ${visOppdatert(generert, naa)}`;
+
+            const naaVarer = [], snartVarer = [], uten = [], usjekket = [];
+            data.produkter.forEach((p, nr) => {
+                const gyldige = p.tilbud.filter(t => !t.til || new Date(t.til) > naa);
+                const gjelder = gyldige.filter(t => !t.fra || new Date(t.fra) <= naa);
+                const kommer = gyldige.filter(t => !gjelder.includes(t));
+                if (gjelder.length) naaVarer.push({ nr, navn: p.navn, tilbud: gjelder });
+                if (kommer.length) snartVarer.push({ nr, navn: p.navn, tilbud: kommer });
+                if (!gyldige.length) (p.feil ? usjekket : uten).push(p.navn);
+            });
+
+            const oversikt = document.getElementById('oversikt');
+            const totalt = data.produkter.length;
+            oversikt.replaceChildren(lag('p', 'oversikt-tall', naaVarer.length
+                ? `${naaVarer.length} av ${totalt} varer er på tilbud nå`
+                : `Ingen av de ${totalt} varene er på tilbud akkurat nå`));
+            if (naaVarer.length) oversikt.append(lagBrikker(null, 'naa', naaVarer));
+            if (snartVarer.length) oversikt.append(lagBrikker('Starter snart', 'snart', snartVarer));
+            if (uten.length) oversikt.append(lagTekstrad('Ikke på tilbud:', uten));
+            if (usjekket.length) oversikt.append(lagTekstrad('Kunne ikke sjekkes sist:', usjekket));
+            if (naa - generert > 36 * 3600000) {
+                oversikt.append(lag('p', 'varsel', `Tilbudene ble sist hentet ${visDag(generert)}. Den automatiske oppdateringen ser ut til å ha stoppet.`));
+            }
+
+            const innhold = document.getElementById('innhold');
+            innhold.replaceChildren();
+            if (naaVarer.length) innhold.append(lagSeksjon('naa', 'Gjelder nå', null, naaVarer, false));
+            if (snartVarer.length) innhold.append(lagSeksjon('snart', 'Starter snart', 'Disse tilbudene har ikke begynt å gjelde ennå.', snartVarer, true));
+
+            const sted = data.sted ? ` for ${data.sted}-området` : '';
+            const bunn = document.getElementById('bunn');
+            bunn.replaceChildren(`Tilbud${sted}, hentet fra `);
+            const kilde = lag('a', null, 'eTilbudsavis.no');
+            kilde.href = 'https://etilbudsavis.no/';
+            bunn.append(kilde, '. Oppdateres automatisk to ganger om dagen.');
+        }
+
+        async function start() {
+            try {
+                const svar = await fetch('tilbud.json', { cache: 'no-cache' });
+                if (!svar.ok) throw new Error(`HTTP ${svar.status}`);
+                vis(await svar.json());
+            } catch (feil) {
+                console.error(feil);
+                document.getElementById('status').textContent = `Uke ${ukenummer(new Date())}`;
+                document.getElementById('oversikt').replaceChildren(
+                    lag('p', 'oversikt-tall', 'Fant ikke tilbudene'),
+                    lag('p', 'oversikt-rad', 'Last siden på nytt om litt. Hvis det ikke hjelper, har den automatiske oppdateringen stoppet.')
+                );
+            }
+        }
+        start();
+    </script>
+</body>
+</html>

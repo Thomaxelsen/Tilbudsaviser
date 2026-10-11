@@ -2,45 +2,54 @@
   "produkter": [
     {
       "navn": "Rustica Dobbel Pepperoni Pizza",
-      "sokeord": ["rustica pepperoni", "rustica dobbel"]
+      "sokeord": ["rustica pepperoni", "rustica dobbel"],
+      "krev": ["rustica"]
     },
     {
       "navn": "Levain Polarbrød",
-      "sokeord": ["levain polarbrød", "polarbrød levain"]
+      "sokeord": ["levain polarbrød", "polarbrød levain"],
+      "krev": ["levain"]
     },
     {
       "navn": "Salami Siliana",
-      "sokeord": ["salami siliana"]
+      "sokeord": ["salami siliana"],
+      "krev": ["siliana"]
     },
     {
       "navn": "Freia Sjokonøtt",
-      "sokeord": ["sjokonøtt", "freia sjokonøtt"]
+      "sokeord": ["sjokonøtt", "freia sjokonøtt"],
+      "krev": ["sjokonøtt"]
     },
     {
       "navn": "Peppes Pepperoni",
       "sokeord": ["peppes pepperoni", "peppes pizza"],
-      "filter": ["peppes"]
+      "krev": ["peppes"]
     },
     {
       "navn": "Cheerios Multigrain",
-      "sokeord": ["cheerios multigrain", "cheerios"]
+      "sokeord": ["cheerios multigrain", "cheerios"],
+      "krev": ["cheerios", "multi"]
     },
     {
       "navn": "Husman Knekkebrød",
-      "sokeord": ["husman knekkebrød", "husman knekke"]
+      "sokeord": ["husman knekkebrød", "husman knekke"],
+      "krev": ["husman"]
     },
     {
       "navn": "Espressobønner",
       "sokeord": ["espressobønner", "espresso hele bønner"],
-      "filter": ["espresso", "hele bønner"]
+      "krev": ["espresso", "bønner"]
     },
     {
       "navn": "Eplejuice",
-      "sokeord": ["eplejuice", "eple juice"]
+      "sokeord": ["eplejuice", "eple juice"],
+      "krev": ["eple", ["juice", "most"]]
     },
     {
       "navn": "Smør",
-      "sokeord": ["smør", "meierismør"]
+      "sokeord": ["smør", "meierismør"],
+      "krev": ["smør"],
+      "ikke": ["margarin", "croissant", "smøre", "smørbukk", "smørbrød", "peanøtt"]
     }
   ],
   "butikker": [

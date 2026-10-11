@@ -1,0 +1,67 @@
+name: Oppdater tilbud
+
+on:
+  schedule:
+    # Ca. kl. 06 og 15 norsk tid (GitHub bruker UTC)
+    - cron: "17 4,13 * * *"
+  push:
+    branches: [master]
+    paths-ignore: ["STATUS.md", "tests/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  oppdater:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.publiser.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.14"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # Feiler hentingen, publiseres forrige tilbud.json på nytt, og jobben merkes som feilet til slutt
+      - name: Hent tilbud
+        id: hent
+        continue-on-error: true
+        run: python sjekk_tilbud.py
+
+      - name: Lagre tilbudene i repoet
+        run: |
+          git add site/tilbud.json
+          # Tidsstempelet endrer seg hver gang; commit bare når selve tilbudene er endret
+          if git diff --cached --quiet -I'"generert"' -- site/tilbud.json; then
+            echo "Ingen endring i tilbudene."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Oppdater tilbud"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+      - id: publiser
+        uses: actions/deploy-pages@v5
+
+      - name: Meld fra hvis hentingen feilet
+        if: steps.hent.outcome == 'failure'
+        run: exit 1

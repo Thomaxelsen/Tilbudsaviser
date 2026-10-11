@@ -27,14 +27,16 @@ Rediger `config.json`. Hver vare har:
 - `krev`: ord som må finnes i tilbudets navn eller beskrivelse. En liste inni lista betyr «ett av disse», f.eks. `["eple", ["juice", "most"]]`.
 - `ikke`: ord som utelukker et tilbud, f.eks. `"margarin"` for smør.
 
-## Gjenstår før den nye siden er på nett
+## Publisering
 
-Endringene ligger på grenen `statisk-side` og er ikke pushet.
+Siden ligger på https://thomaxelsen.github.io/Tilbudsaviser/ (GitHub Pages, kilde «GitHub Actions»).
 
-1. Slå sammen til `master` og push.
-2. Slå på GitHub Pages med kilde «GitHub Actions» (Settings → Pages).
-3. Sjekk at første kjøring av «Oppdater tilbud» går gjennom. Det er ikke testet om eTilbudsavis svarer GitHubs servere på samme måte som en vanlig PC.
-4. Slett tjenesten hos Render. `Procfile` og `app.py` er fjernet, så Render vil uansett slutte å fungere etter push.
+- 11. oktober 2026: første kjøring av «Oppdater tilbud» gikk gjennom. Alle 19 søk svarte fra GitHubs servere, med samme 13 tilbud som lokalt og sted Oslo.
+- Den planlagte kjøringen (kl. 06 og 15) er ikke observert ennå; første er 12. oktober om morgenen.
+
+## Gjenstår
+
+- Slett tjenesten hos Render. `Procfile` og `app.py` er fjernet, så den gamle siden der virker ikke lenger.
 
 ## Viktige valg
 

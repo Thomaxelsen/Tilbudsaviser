@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-11T19:25:13.869618+00:00",
+ "generert": "2026-10-12T11:58:23.874265+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -47,34 +47,34 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "OaUzKGpZ8BgkYYQwLvLvS",
-     "navn": "Fersk peppes pizza",
-     "beskrivelse": "70-550 g Utvalget kan variere fra butikk til butikk",
-     "butikk": "Extra",
-     "farge": "#d23732",
-     "rabatt_prosent": 25,
-     "fra": "2026-10-04T22:00:00+00:00",
-     "til": "2026-10-11T21:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdaREurn0%2Fp-2.webp&w=300&x1r=0.03&x2r=0.57&y1r=0.46&y2r=0.96&s=e208a344d7f04ca8b217b3b19861c395",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdaREurn0%2Fp-2.webp&w=1000&x1r=0.03&x2r=0.57&y1r=0.46&y2r=0.96&s=94106f9d66f8c102cbd78a96fc27d298",
-     "url": "https://etilbudsavis.no/Extra?publication=daREurn0&offer=OaUzKGpZ8BgkYYQwLvLvS"
+     "id": "xXhFpcM8dbF5szWx4Wbcv",
+     "navn": "Peppes/Eldorado/Ask/Knorr/Arla, 70–350 g",
+     "beskrivelse": "Enh.pris 57,14–285,71 pr. kg Førpris 23,90–35,90",
+     "butikk": "Joker",
+     "farge": "#008c58",
+     "pris": 20,
+     "enhetspris": 285.71,
+     "enhet": "kg",
+     "fra": "2026-10-11T22:00:00+00:00",
+     "til": "2026-10-17T21:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FF1hwUVvA%2Fp-6.webp&w=300&x1r=0.05&x2r=0.48&y1r=0.14&y2r=0.46&s=56a094a424e1166728491362d01e698f",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FF1hwUVvA%2Fp-6.webp&w=1000&x1r=0.05&x2r=0.48&y1r=0.14&y2r=0.46&s=4c1ac45bfad1a79fb5a40587e082136a",
+     "url": "https://etilbudsavis.no/Joker?publication=F1hwUVvA&offer=xXhFpcM8dbF5szWx4Wbcv"
     },
     {
-     "id": "jypB56mlRabOyjxnCN873",
-     "navn": "Pepperoni",
-     "beskrivelse": "70 g, Peppes, pr. kg 337,14",
-     "butikk": "KIWI",
-     "farge": "#50b848",
-     "pris": 23.6,
-     "forpris": 32.9,
-     "rabatt_prosent": 28,
-     "enhetspris": 337.14,
+     "id": "vpS4lOb77-qQOEwW5n5Jn",
+     "navn": "Kjapp mat på farta",
+     "beskrivelse": "Peppes/Dr. Oetker/Buldak/Maggi/Knorr/Rein, 25–140 g Enh.pris 142,86–800,00 pr. kg Førpris 21,90–36,90 Utvalget kan variere",
+     "butikk": "Joker",
+     "farge": "#008c58",
+     "pris": 20,
+     "enhetspris": 800,
      "enhet": "kg",
-     "fra": "2026-10-04T22:00:00+00:00",
-     "til": "2026-10-11T21:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fg1057wBC%2Fp-replacement-p5AWKYL4-30.webp&w=300&x1r=0.014&x2r=0.358&y1r=0.55&y2r=0.93&s=80517ab269274a085d144376cdcafad3",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fg1057wBC%2Fp-replacement-p5AWKYL4-30.webp&w=1000&x1r=0.014&x2r=0.358&y1r=0.55&y2r=0.93&s=55e4e21f616c7ab470c23e3e391f61fb",
-     "url": "https://etilbudsavis.no/KIWI?publication=g1057wBC&offer=jypB56mlRabOyjxnCN873"
+     "fra": "2026-10-11T22:00:00+00:00",
+     "til": "2026-10-17T21:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FF1hwUVvA%2Fp-2.webp&w=300&x1r=0.05&x2r=0.95&y1r=0.11&y2r=0.53&s=ee60b409a7b19ede5b2a40628ad20783",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FF1hwUVvA%2Fp-2.webp&w=1000&x1r=0.05&x2r=0.95&y1r=0.11&y2r=0.53&s=ddb47f0746e2b35a6a47e1a085c1701a",
+     "url": "https://etilbudsavis.no/Joker?publication=F1hwUVvA&offer=vpS4lOb77-qQOEwW5n5Jn"
     },
     {
      "id": "uHzT6hVZYkrqhiywv9SJz",
@@ -92,17 +92,19 @@
      "url": "https://etilbudsavis.no/MENY?publication=E39UwO-u&offer=uHzT6hVZYkrqhiywv9SJz"
     },
     {
-     "id": "qaNQNp_Cs_kr6Uk7195m_",
-     "navn": "Et stort utvalg peppes-produkter",
-     "beskrivelse": "Fra 50 g pr. stk",
-     "butikk": "Bunnpris",
-     "farge": "#fff200",
-     "rabatt_prosent": 30,
-     "fra": "2026-10-04T22:00:00+00:00",
-     "til": "2026-10-11T21:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F0Ibb-GbK%2Fp-2.webp&w=300&x1r=0.012&x2r=0.365&y1r=0.207&y2r=0.505&s=3b163d2125e99f4876996d5f3aa3f4ac",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F0Ibb-GbK%2Fp-2.webp&w=1000&x1r=0.012&x2r=0.365&y1r=0.207&y2r=0.505&s=8e9856b309673bcec38f70d5fa52e690",
-     "url": "https://etilbudsavis.no/Bunnpris?publication=0Ibb-GbK&offer=qaNQNp_Cs_kr6Uk7195m_"
+     "id": "On45gVxcWuqqQnu5s0fBM",
+     "navn": "Middag",
+     "beskrivelse": "Gilde/Leiv Vidar/Prior/Folkets/Peppes, 200–550 g\nEnh.pris 54,55–150,00 pr. kg\nFørpris 46,90–69,90\nUtvalget kan variere",
+     "butikk": "Joker",
+     "farge": "#008c58",
+     "pris": 30,
+     "enhetspris": 150,
+     "enhet": "kg",
+     "fra": "2026-10-11T22:00:00+00:00",
+     "til": "2026-10-17T21:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FF1hwUVvA%2Fp-1.webp&w=300&x1r=0.35&x2r=0.66&y1r=0.76&y2r=0.94&s=90da0592e3c0d9c36fa5240a7e94ed21",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FF1hwUVvA%2Fp-1.webp&w=1000&x1r=0.35&x2r=0.66&y1r=0.76&y2r=0.94&s=5024f73fed09d0a2bfa5f58499e236b2",
+     "url": "https://etilbudsavis.no/Joker?publication=F1hwUVvA&offer=On45gVxcWuqqQnu5s0fBM"
     }
    ]
   },
@@ -160,36 +162,6 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "KUtce6NaSinHMz4w8hDBa",
-     "navn": "Sunniva juice",
-     "beskrivelse": "Eple/Frokostjuice. 1,5 l. Pr kartong Pr l 23,27",
-     "butikk": "Extra",
-     "farge": "#d23732",
-     "pris": 34.9,
-     "enhetspris": 23.27,
-     "enhet": "l",
-     "fra": "2026-10-04T22:00:00+00:00",
-     "til": "2026-10-11T21:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdaREurn0%2Fp-10.webp&w=300&x1r=0.065&x2r=0.496&y1r=0.294&y2r=0.95&s=1e51624a7bba59a7abeb69eaf58f2a70",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FdaREurn0%2Fp-10.webp&w=1000&x1r=0.065&x2r=0.496&y1r=0.294&y2r=0.95&s=867ee68687fdbbdbf6b8a83a27400143",
-     "url": "https://etilbudsavis.no/Extra?publication=daREurn0&offer=KUtce6NaSinHMz4w8hDBa"
-    },
-    {
-     "id": "3X7l2Dx2hy6id9l8gtPNC",
-     "navn": "Eplejuice",
-     "beskrivelse": "2 liter, First Price, pr. l 12,95",
-     "butikk": "KIWI",
-     "farge": "#50b848",
-     "pris": 25.9,
-     "enhetspris": 12.95,
-     "enhet": "l",
-     "fra": "2026-10-04T22:00:00+00:00",
-     "til": "2026-10-11T21:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fg1057wBC%2Fp-replacement-p5AWKYL4-23.webp&w=300&x1r=0.32&x2r=0.63&y1r=0.56&y2r=0.935&s=14bb166cec55d95b81de832da19bb8a9",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fg1057wBC%2Fp-replacement-p5AWKYL4-23.webp&w=1000&x1r=0.32&x2r=0.63&y1r=0.56&y2r=0.935&s=c01a320631f77e595df43e362c0c75fd",
-     "url": "https://etilbudsavis.no/KIWI?publication=g1057wBC&offer=3X7l2Dx2hy6id9l8gtPNC"
-    },
-    {
      "id": "I3fyB6OVbsSwzvvJsHAwt",
      "navn": "Eplemost",
      "beskrivelse": "UKENS TILBUD\n3l, Epleblomsten (43,00/l)\nFØRPRIS 185,00",
@@ -205,19 +177,6 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE39UwO-u%2Fp-4.webp&w=300&x1r=0.024&x2r=0.345&y1r=0.245&y2r=0.455&s=91fdb514e53b6d0dd6c8aea7db850e66",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE39UwO-u%2Fp-4.webp&w=1000&x1r=0.024&x2r=0.345&y1r=0.245&y2r=0.455&s=c5cfbf3df9887eb6dde9c022dcd5df8b",
      "url": "https://etilbudsavis.no/MENY?publication=E39UwO-u&offer=I3fyB6OVbsSwzvvJsHAwt"
-    },
-    {
-     "id": "bNow5bGEGoiHqFpwiTdtX",
-     "navn": "Eple-, appelsin- og tropisk juice",
-     "beskrivelse": "1 l Sunniva pr. stk",
-     "butikk": "Bunnpris",
-     "farge": "#fff200",
-     "rabatt_prosent": 30,
-     "fra": "2026-10-04T22:00:00+00:00",
-     "til": "2026-10-11T21:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F0Ibb-GbK%2Fp-11.webp&w=300&x1r=0.7&x2r=0.95&y1r=0.75&y2r=0.95&s=6c131ce0421a19f9ec0435e5013bac79",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F0Ibb-GbK%2Fp-11.webp&w=1000&x1r=0.7&x2r=0.95&y1r=0.75&y2r=0.95&s=48030de31df087d07f49d16ae9723b04",
-     "url": "https://etilbudsavis.no/Bunnpris?publication=0Ibb-GbK&offer=bNow5bGEGoiHqFpwiTdtX"
     }
    ]
   },
@@ -241,21 +200,6 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE39UwO-u%2Fp-1.webp&w=300&x1r=0.347&x2r=0.655&y1r=0.722&y2r=0.95&s=a75433a6ca50b675a2f5b26a68c28636",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE39UwO-u%2Fp-1.webp&w=1000&x1r=0.347&x2r=0.655&y1r=0.722&y2r=0.95&s=1382f919f48bb94c17bb7e60c5855689",
      "url": "https://etilbudsavis.no/MENY?publication=E39UwO-u&offer=M5bjhPocMrcK2rI8FVLzI"
-    },
-    {
-     "id": "LzG3TGLCDxphn4cqQ81NM",
-     "navn": "Olivero smør & olivenolje",
-     "beskrivelse": "Partivare\n500 g pr. stk\n78/KG",
-     "butikk": "Bunnpris",
-     "farge": "#fff200",
-     "pris": 39,
-     "enhetspris": 78,
-     "enhet": "kg",
-     "fra": "2026-10-04T22:00:00+00:00",
-     "til": "2026-10-11T21:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F0Ibb-GbK%2Fp-11.webp&w=300&x1r=0.68&x2r=0.93&y1r=0.602&y2r=0.75&s=2af64ea12c9067ad447101388793ee48",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F0Ibb-GbK%2Fp-11.webp&w=1000&x1r=0.68&x2r=0.93&y1r=0.602&y2r=0.75&s=d9da4ddd1d92cdbc81350f071001298a",
-     "url": "https://etilbudsavis.no/Bunnpris?publication=0Ibb-GbK&offer=LzG3TGLCDxphn4cqQ81NM"
     }
    ]
   }

@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-13T11:47:45.995027+00:00",
+ "generert": "2026-10-15T09:09:10.524692+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -62,21 +62,6 @@
      "url": "https://etilbudsavis.no/Joker?publication=F1hwUVvA&offer=xXhFpcM8dbF5szWx4Wbcv"
     },
     {
-     "id": "uHzT6hVZYkrqhiywv9SJz",
-     "navn": "Peppes pizza",
-     "beskrivelse": "500-570g, farmers meat/ triple meat/philly cheese/nduja (87,54-99,80/kg)",
-     "butikk": "MENY",
-     "farge": "#dd233d",
-     "pris": 49.9,
-     "enhetspris": 99.8,
-     "enhet": "kg",
-     "fra": "2026-10-11T22:00:00+00:00",
-     "til": "2026-10-14T21:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE39UwO-u%2Fp-2.webp&w=300&x1r=0.73&x2r=0.97&y1r=0.13&y2r=0.36&s=a8226b6307fa36bba9a347871499705e",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE39UwO-u%2Fp-2.webp&w=1000&x1r=0.73&x2r=0.97&y1r=0.13&y2r=0.36&s=f8d7273f229cde2ef1a1638591f0cf08",
-     "url": "https://etilbudsavis.no/MENY?publication=E39UwO-u&offer=uHzT6hVZYkrqhiywv9SJz"
-    },
-    {
      "id": "vpS4lOb77-qQOEwW5n5Jn",
      "navn": "Kjapp mat på farta",
      "beskrivelse": "Peppes/Dr. Oetker/Buldak/Maggi/Knorr/Rein, 25–140 g Enh.pris 142,86–800,00 pr. kg Førpris 21,90–36,90 Utvalget kan variere",
@@ -90,6 +75,21 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FF1hwUVvA%2Fp-2.webp&w=300&x1r=0.05&x2r=0.95&y1r=0.11&y2r=0.53&s=ee60b409a7b19ede5b2a40628ad20783",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FF1hwUVvA%2Fp-2.webp&w=1000&x1r=0.05&x2r=0.95&y1r=0.11&y2r=0.53&s=ddb47f0746e2b35a6a47e1a085c1701a",
      "url": "https://etilbudsavis.no/Joker?publication=F1hwUVvA&offer=vpS4lOb77-qQOEwW5n5Jn"
+    },
+    {
+     "id": "wiXbODWxwxV1mSW0IeXDd",
+     "navn": "Peppes pizza",
+     "beskrivelse": "500-570g, farmers meat/ triple meat/philly cheese/nduja (87,54-99,80/kg)",
+     "butikk": "MENY",
+     "farge": "#dd233d",
+     "pris": 49.9,
+     "enhetspris": 99.8,
+     "enhet": "kg",
+     "fra": "2026-10-14T22:00:00+00:00",
+     "til": "2026-10-17T21:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-6.webp&w=300&x1r=0.732&x2r=0.973&y1r=0.135&y2r=0.36&s=970fe69be830e451394633a0a66d5a47",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-6.webp&w=1000&x1r=0.732&x2r=0.973&y1r=0.135&y2r=0.36&s=73b54318319ebe93ae1d69ba2a35bf33",
+     "url": "https://etilbudsavis.no/MENY?publication=E5pMYKQn&offer=wiXbODWxwxV1mSW0IeXDd"
     },
     {
      "id": "On45gVxcWuqqQnu5s0fBM",
@@ -139,7 +139,7 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "1jx0B8lp-3PXVPm_yufMd",
+     "id": "NnYC8hrAMZqQ2JLoVEP2g",
      "navn": "L'or espresso",
      "beskrivelse": "Hele bønner. 2 varianter. 500 g. Pr pk. Pr kg 200,00. Førpris 177,90. Spar 44%",
      "butikk": "Coop Mega",
@@ -149,11 +149,11 @@
      "rabatt_prosent": 44,
      "enhetspris": 200,
      "enhet": "kg",
-     "fra": "2026-10-11T22:00:00+00:00",
+     "fra": "2026-10-14T22:00:00+00:00",
      "til": "2026-10-17T21:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F9iE8LBPt%2Fp-4.webp&w=300&x1r=0.725&x2r=0.95&y1r=0.767&y2r=0.94&s=244d1531d00c33226cfc350e2008a106",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F9iE8LBPt%2Fp-4.webp&w=1000&x1r=0.725&x2r=0.95&y1r=0.767&y2r=0.94&s=143d226bd3ff683ec14aded94e8f4f7d",
-     "url": "https://etilbudsavis.no/Coop-Mega?publication=9iE8LBPt&offer=1jx0B8lp-3PXVPm_yufMd"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvjCvpVuy%2Fp-4.webp&w=300&x1r=0.727&x2r=0.947&y1r=0.773&y2r=0.943&s=f629f9099e100f73795a21b8998b10c8",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvjCvpVuy%2Fp-4.webp&w=1000&x1r=0.727&x2r=0.947&y1r=0.773&y2r=0.943&s=0ac12215bc807af1b1c7bb77a2b731ef",
+     "url": "https://etilbudsavis.no/Coop-Mega?publication=vjCvpVuy&offer=NnYC8hrAMZqQ2JLoVEP2g"
     }
    ]
   },
@@ -162,9 +162,24 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "I3fyB6OVbsSwzvvJsHAwt",
+     "id": "zSEOdFiTgopJY4XhdPEa0",
+     "navn": "Helgens drikke",
+     "beskrivelse": "Prøv ren musserende eplemost fra Åkre Gard i Hordaland. Den er svært forfriskende og kan drikkes som aperitif eller til maten. 0,75L (113,33/L)",
+     "butikk": "MENY",
+     "farge": "#dd233d",
+     "pris": 85,
+     "enhetspris": 113.33,
+     "enhet": "l",
+     "fra": "2026-10-14T22:00:00+00:00",
+     "til": "2026-10-17T21:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-2.webp&w=300&x1r=0.292&x2r=0.67&y1r=0.792&y2r=0.988&s=dd29ef0ae9a54701b4dab3354702fd3e",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-2.webp&w=1000&x1r=0.292&x2r=0.67&y1r=0.792&y2r=0.988&s=3d1a620808271c26f72bb48170b78bc6",
+     "url": "https://etilbudsavis.no/MENY?publication=E5pMYKQn&offer=zSEOdFiTgopJY4XhdPEa0"
+    },
+    {
+     "id": "MXceqHjmCXbc36RmJwC48",
      "navn": "Eplemost",
-     "beskrivelse": "UKENS TILBUD\n3l, Epleblomsten (43,00/l)\nFØRPRIS 185,00",
+     "beskrivelse": "3l, Epleblomsten (43,00/l)",
      "butikk": "MENY",
      "farge": "#dd233d",
      "pris": 129,
@@ -172,11 +187,11 @@
      "rabatt_prosent": 30,
      "enhetspris": 43,
      "enhet": "l",
-     "fra": "2026-10-11T22:00:00+00:00",
-     "til": "2026-10-14T21:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE39UwO-u%2Fp-4.webp&w=300&x1r=0.024&x2r=0.345&y1r=0.245&y2r=0.455&s=91fdb514e53b6d0dd6c8aea7db850e66",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE39UwO-u%2Fp-4.webp&w=1000&x1r=0.024&x2r=0.345&y1r=0.245&y2r=0.455&s=c5cfbf3df9887eb6dde9c022dcd5df8b",
-     "url": "https://etilbudsavis.no/MENY?publication=E39UwO-u&offer=I3fyB6OVbsSwzvvJsHAwt"
+     "fra": "2026-10-14T22:00:00+00:00",
+     "til": "2026-10-17T21:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-8.webp&w=300&x1r=0.03&x2r=0.34&y1r=0.245&y2r=0.45&s=f1ac00cb5b2c064350598b649962670c",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-8.webp&w=1000&x1r=0.03&x2r=0.34&y1r=0.245&y2r=0.45&s=253d61d5545d917af76c0d0990435448",
+     "url": "https://etilbudsavis.no/MENY?publication=E5pMYKQn&offer=MXceqHjmCXbc36RmJwC48"
     }
    ]
   },
@@ -185,9 +200,9 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "M5bjhPocMrcK2rI8FVLzI",
+     "id": "QIEz_ODvrsGCqgq875gtK",
      "navn": "Meierismør",
-     "beskrivelse": "500G, TINE (99,80/KG)\nFØRPRIS 68,90\n/ STK",
+     "beskrivelse": "UKENS TILBUD\n500G, TINE (99,80/KG)\nFØRPRIS 68,90",
      "butikk": "MENY",
      "farge": "#dd233d",
      "pris": 49.9,
@@ -195,11 +210,11 @@
      "rabatt_prosent": 28,
      "enhetspris": 99.8,
      "enhet": "kg",
-     "fra": "2026-10-11T22:00:00+00:00",
-     "til": "2026-10-14T21:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE39UwO-u%2Fp-1.webp&w=300&x1r=0.347&x2r=0.655&y1r=0.722&y2r=0.95&s=a75433a6ca50b675a2f5b26a68c28636",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE39UwO-u%2Fp-1.webp&w=1000&x1r=0.347&x2r=0.655&y1r=0.722&y2r=0.95&s=1382f919f48bb94c17bb7e60c5855689",
-     "url": "https://etilbudsavis.no/MENY?publication=E39UwO-u&offer=M5bjhPocMrcK2rI8FVLzI"
+     "fra": "2026-10-14T22:00:00+00:00",
+     "til": "2026-10-17T21:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-1.webp&w=300&x1r=0.502&x2r=0.74&y1r=0.72&y2r=0.958&s=ce50b9907d4056e68756210a9acac39e",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-1.webp&w=1000&x1r=0.502&x2r=0.74&y1r=0.72&y2r=0.958&s=b8c25b362569b3f7ee43a9a7732e4b3d",
+     "url": "https://etilbudsavis.no/MENY?publication=E5pMYKQn&offer=QIEz_ODvrsGCqgq875gtK"
     }
    ]
   }

@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-15T09:09:10.524692+00:00",
+ "generert": "2026-10-15T17:46:30.361503+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -62,21 +62,6 @@
      "url": "https://etilbudsavis.no/Joker?publication=F1hwUVvA&offer=xXhFpcM8dbF5szWx4Wbcv"
     },
     {
-     "id": "vpS4lOb77-qQOEwW5n5Jn",
-     "navn": "Kjapp mat på farta",
-     "beskrivelse": "Peppes/Dr. Oetker/Buldak/Maggi/Knorr/Rein, 25–140 g Enh.pris 142,86–800,00 pr. kg Førpris 21,90–36,90 Utvalget kan variere",
-     "butikk": "Joker",
-     "farge": "#008c58",
-     "pris": 20,
-     "enhetspris": 800,
-     "enhet": "kg",
-     "fra": "2026-10-11T22:00:00+00:00",
-     "til": "2026-10-17T21:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FF1hwUVvA%2Fp-2.webp&w=300&x1r=0.05&x2r=0.95&y1r=0.11&y2r=0.53&s=ee60b409a7b19ede5b2a40628ad20783",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FF1hwUVvA%2Fp-2.webp&w=1000&x1r=0.05&x2r=0.95&y1r=0.11&y2r=0.53&s=ddb47f0746e2b35a6a47e1a085c1701a",
-     "url": "https://etilbudsavis.no/Joker?publication=F1hwUVvA&offer=vpS4lOb77-qQOEwW5n5Jn"
-    },
-    {
      "id": "wiXbODWxwxV1mSW0IeXDd",
      "navn": "Peppes pizza",
      "beskrivelse": "500-570g, farmers meat/ triple meat/philly cheese/nduja (87,54-99,80/kg)",
@@ -90,6 +75,21 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-6.webp&w=300&x1r=0.732&x2r=0.973&y1r=0.135&y2r=0.36&s=970fe69be830e451394633a0a66d5a47",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-6.webp&w=1000&x1r=0.732&x2r=0.973&y1r=0.135&y2r=0.36&s=73b54318319ebe93ae1d69ba2a35bf33",
      "url": "https://etilbudsavis.no/MENY?publication=E5pMYKQn&offer=wiXbODWxwxV1mSW0IeXDd"
+    },
+    {
+     "id": "vpS4lOb77-qQOEwW5n5Jn",
+     "navn": "Kjapp mat på farta",
+     "beskrivelse": "Peppes/Dr. Oetker/Buldak/Maggi/Knorr/Rein, 25–140 g Enh.pris 142,86–800,00 pr. kg Førpris 21,90–36,90 Utvalget kan variere",
+     "butikk": "Joker",
+     "farge": "#008c58",
+     "pris": 20,
+     "enhetspris": 800,
+     "enhet": "kg",
+     "fra": "2026-10-11T22:00:00+00:00",
+     "til": "2026-10-17T21:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FF1hwUVvA%2Fp-2.webp&w=300&x1r=0.05&x2r=0.95&y1r=0.11&y2r=0.53&s=ee60b409a7b19ede5b2a40628ad20783",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FF1hwUVvA%2Fp-2.webp&w=1000&x1r=0.05&x2r=0.95&y1r=0.11&y2r=0.53&s=ddb47f0746e2b35a6a47e1a085c1701a",
+     "url": "https://etilbudsavis.no/Joker?publication=F1hwUVvA&offer=vpS4lOb77-qQOEwW5n5Jn"
     },
     {
      "id": "On45gVxcWuqqQnu5s0fBM",
@@ -162,21 +162,6 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "zSEOdFiTgopJY4XhdPEa0",
-     "navn": "Helgens drikke",
-     "beskrivelse": "Prøv ren musserende eplemost fra Åkre Gard i Hordaland. Den er svært forfriskende og kan drikkes som aperitif eller til maten. 0,75L (113,33/L)",
-     "butikk": "MENY",
-     "farge": "#dd233d",
-     "pris": 85,
-     "enhetspris": 113.33,
-     "enhet": "l",
-     "fra": "2026-10-14T22:00:00+00:00",
-     "til": "2026-10-17T21:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-2.webp&w=300&x1r=0.292&x2r=0.67&y1r=0.792&y2r=0.988&s=dd29ef0ae9a54701b4dab3354702fd3e",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-2.webp&w=1000&x1r=0.292&x2r=0.67&y1r=0.792&y2r=0.988&s=3d1a620808271c26f72bb48170b78bc6",
-     "url": "https://etilbudsavis.no/MENY?publication=E5pMYKQn&offer=zSEOdFiTgopJY4XhdPEa0"
-    },
-    {
      "id": "MXceqHjmCXbc36RmJwC48",
      "navn": "Eplemost",
      "beskrivelse": "3l, Epleblomsten (43,00/l)",
@@ -192,6 +177,21 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-8.webp&w=300&x1r=0.03&x2r=0.34&y1r=0.245&y2r=0.45&s=f1ac00cb5b2c064350598b649962670c",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-8.webp&w=1000&x1r=0.03&x2r=0.34&y1r=0.245&y2r=0.45&s=253d61d5545d917af76c0d0990435448",
      "url": "https://etilbudsavis.no/MENY?publication=E5pMYKQn&offer=MXceqHjmCXbc36RmJwC48"
+    },
+    {
+     "id": "zSEOdFiTgopJY4XhdPEa0",
+     "navn": "Helgens drikke",
+     "beskrivelse": "Prøv ren musserende eplemost fra Åkre Gard i Hordaland. Den er svært forfriskende og kan drikkes som aperitif eller til maten. 0,75L (113,33/L)",
+     "butikk": "MENY",
+     "farge": "#dd233d",
+     "pris": 85,
+     "enhetspris": 113.33,
+     "enhet": "l",
+     "fra": "2026-10-14T22:00:00+00:00",
+     "til": "2026-10-17T21:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-2.webp&w=300&x1r=0.292&x2r=0.67&y1r=0.792&y2r=0.988&s=dd29ef0ae9a54701b4dab3354702fd3e",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-2.webp&w=1000&x1r=0.292&x2r=0.67&y1r=0.792&y2r=0.988&s=3d1a620808271c26f72bb48170b78bc6",
+     "url": "https://etilbudsavis.no/MENY?publication=E5pMYKQn&offer=zSEOdFiTgopJY4XhdPEa0"
     }
    ]
   },

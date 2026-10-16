@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-15T17:46:30.361503+00:00",
+ "generert": "2026-10-16T09:01:53.794024+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -162,6 +162,21 @@
    "feil": false,
    "tilbud": [
     {
+     "id": "zSEOdFiTgopJY4XhdPEa0",
+     "navn": "Helgens drikke",
+     "beskrivelse": "Prøv ren musserende eplemost fra Åkre Gard i Hordaland. Den er svært forfriskende og kan drikkes som aperitif eller til maten. 0,75L (113,33/L)",
+     "butikk": "MENY",
+     "farge": "#dd233d",
+     "pris": 85,
+     "enhetspris": 113.33,
+     "enhet": "l",
+     "fra": "2026-10-14T22:00:00+00:00",
+     "til": "2026-10-17T21:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-2.webp&w=300&x1r=0.292&x2r=0.67&y1r=0.792&y2r=0.988&s=dd29ef0ae9a54701b4dab3354702fd3e",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-2.webp&w=1000&x1r=0.292&x2r=0.67&y1r=0.792&y2r=0.988&s=3d1a620808271c26f72bb48170b78bc6",
+     "url": "https://etilbudsavis.no/MENY?publication=E5pMYKQn&offer=zSEOdFiTgopJY4XhdPEa0"
+    },
+    {
      "id": "MXceqHjmCXbc36RmJwC48",
      "navn": "Eplemost",
      "beskrivelse": "3l, Epleblomsten (43,00/l)",
@@ -177,21 +192,6 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-8.webp&w=300&x1r=0.03&x2r=0.34&y1r=0.245&y2r=0.45&s=f1ac00cb5b2c064350598b649962670c",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-8.webp&w=1000&x1r=0.03&x2r=0.34&y1r=0.245&y2r=0.45&s=253d61d5545d917af76c0d0990435448",
      "url": "https://etilbudsavis.no/MENY?publication=E5pMYKQn&offer=MXceqHjmCXbc36RmJwC48"
-    },
-    {
-     "id": "zSEOdFiTgopJY4XhdPEa0",
-     "navn": "Helgens drikke",
-     "beskrivelse": "Prøv ren musserende eplemost fra Åkre Gard i Hordaland. Den er svært forfriskende og kan drikkes som aperitif eller til maten. 0,75L (113,33/L)",
-     "butikk": "MENY",
-     "farge": "#dd233d",
-     "pris": 85,
-     "enhetspris": 113.33,
-     "enhet": "l",
-     "fra": "2026-10-14T22:00:00+00:00",
-     "til": "2026-10-17T21:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-2.webp&w=300&x1r=0.292&x2r=0.67&y1r=0.792&y2r=0.988&s=dd29ef0ae9a54701b4dab3354702fd3e",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FE5pMYKQn%2Fp-2.webp&w=1000&x1r=0.292&x2r=0.67&y1r=0.792&y2r=0.988&s=3d1a620808271c26f72bb48170b78bc6",
-     "url": "https://etilbudsavis.no/MENY?publication=E5pMYKQn&offer=zSEOdFiTgopJY4XhdPEa0"
     }
    ]
   },

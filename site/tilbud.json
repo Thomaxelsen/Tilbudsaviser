@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-16T09:01:53.794024+00:00",
+ "generert": "2026-10-17T08:33:30.792704+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -24,7 +24,7 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "BZ5KgVUEW-0cmnVsFg2O4",
+     "id": "Bc1aDtbnz56EbXiXw9DeS",
      "navn": "Freia sjokonøtt",
      "beskrivelse": "350 g. Pr glass. Pr kg 114,29 Førpris 55,90. Spar 28%",
      "butikk": "Coop Mega",
@@ -34,11 +34,11 @@
      "rabatt_prosent": 28,
      "enhetspris": 114.29,
      "enhet": "kg",
-     "fra": "2026-10-11T22:00:00+00:00",
+     "fra": "2026-10-14T22:00:00+00:00",
      "til": "2026-10-17T21:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F9iE8LBPt%2Fp-8.webp&w=300&x1r=0.069&x2r=0.285&y1r=0.551&y2r=0.718&s=c7420eff39097c691facc10184b8a28f",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F9iE8LBPt%2Fp-8.webp&w=1000&x1r=0.069&x2r=0.285&y1r=0.551&y2r=0.718&s=7d006609dfc51bf0f5f502a6b9c5c604",
-     "url": "https://etilbudsavis.no/Coop-Mega?publication=9iE8LBPt&offer=BZ5KgVUEW-0cmnVsFg2O4"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvjCvpVuy%2Fp-8.webp&w=300&x1r=0.06&x2r=0.29&y1r=0.55&y2r=0.72&s=5b7805bc1ee046740a0ddaf95a28b0a0",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FvjCvpVuy%2Fp-8.webp&w=1000&x1r=0.06&x2r=0.29&y1r=0.55&y2r=0.72&s=3812f22b34e33582c6b1f032388bcbcb",
+     "url": "https://etilbudsavis.no/Coop-Mega?publication=vjCvpVuy&offer=Bc1aDtbnz56EbXiXw9DeS"
     }
    ]
   },

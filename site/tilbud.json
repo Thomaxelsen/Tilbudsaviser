@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-18T08:51:02.037927+00:00",
+ "generert": "2026-10-19T09:53:41.653992+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -68,21 +68,6 @@
    "navn": "Cheerios Multigrain",
    "feil": false,
    "tilbud": [
-    {
-     "id": "79_yz20G3UupVISZb0Vti",
-     "navn": "Cheerios multi og havre",
-     "beskrivelse": "375 g pr. stk\n106,67/KG",
-     "butikk": "Bunnpris",
-     "farge": "#fff200",
-     "pris": 40,
-     "enhetspris": 106.67,
-     "enhet": "kg",
-     "fra": "2026-10-11T22:00:00+00:00",
-     "til": "2026-10-18T21:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fb_rq1LCP%2Fp-6.webp&w=300&x1r=0.271&x2r=0.49&y1r=0.575&y2r=0.706&s=dbbaca8b2ea14d25498fbd4d3fff6f3a",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fb_rq1LCP%2Fp-6.webp&w=1000&x1r=0.271&x2r=0.49&y1r=0.575&y2r=0.706&s=b0484de9ffc144113dc4156751e33c1a",
-     "url": "https://etilbudsavis.no/Bunnpris?publication=b_rq1LCP&offer=79_yz20G3UupVISZb0Vti"
-    },
     {
      "id": "cTpx7satYQ_UpkhBf34cP",
      "navn": "Cheerios multi og havre",

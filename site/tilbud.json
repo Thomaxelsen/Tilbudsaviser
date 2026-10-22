@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-22T09:24:47.390383+00:00",
+ "generert": "2026-10-22T17:58:39.662081+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -121,7 +121,7 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "LO18W7-gMFHXLXmMKSRmH",
+     "id": "vQoomtSDVBris1KGuT58O",
      "navn": "Olivero",
      "beskrivelse": "smør- & olivenolje, 250 g\n80,00/kg Førpris: 36,90",
      "butikk": "SPAR",
@@ -131,11 +131,11 @@
      "rabatt_prosent": 46,
      "enhetspris": 80,
      "enhet": "kg",
-     "fra": "2026-10-21T22:00:00+00:00",
+     "fra": "2026-10-18T22:00:00+00:00",
      "til": "2026-10-25T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtGkOtlJj%2Fp-13.webp&w=300&x1r=0.059&x2r=0.45&y1r=0.592&y2r=0.912&s=8ce37f25ebae93867ce2259fcf0fb47e",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtGkOtlJj%2Fp-13.webp&w=1000&x1r=0.059&x2r=0.45&y1r=0.592&y2r=0.912&s=89c61242bae943564801d1e584707768",
-     "url": "https://etilbudsavis.no/SPAR?publication=tGkOtlJj&offer=LO18W7-gMFHXLXmMKSRmH"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FCPGkGEpW%2Fp-12.webp&w=300&x1r=0.059&x2r=0.436&y1r=0.596&y2r=0.908&s=74e964816c282dac489d94e9ea6ef59f",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FCPGkGEpW%2Fp-12.webp&w=1000&x1r=0.059&x2r=0.436&y1r=0.596&y2r=0.908&s=18ec488353f973e3f1f025e04820f21d",
+     "url": "https://etilbudsavis.no/SPAR?publication=CPGkGEpW&offer=vQoomtSDVBris1KGuT58O"
     },
     {
      "id": "rcCAfT1PoeS5bsYj6L6OX",

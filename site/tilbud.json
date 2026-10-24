@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-23T17:53:02.350586+00:00",
+ "generert": "2026-10-24T08:52:42.449796+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -61,6 +61,23 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F0PUiAvEl%2Fp-5.webp&w=300&x1r=0.665&x2r=0.985&y1r=0.525&y2r=0.62&s=6cf0bf85ac51d97144565f23862b0907",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F0PUiAvEl%2Fp-5.webp&w=1000&x1r=0.665&x2r=0.985&y1r=0.525&y2r=0.62&s=978fd3829a2f8273f192caf1088afc25",
      "url": "https://etilbudsavis.no/MENY?publication=0PUiAvEl&offer=-RJgxQ3jQZLyHwPt0JzKF"
+    },
+    {
+     "id": "gHYp07_vf9WkrxZz69AAg",
+     "navn": "Peppes Snackpizza",
+     "beskrivelse": "pepperoni, 140 g 142,86/kg Førpris: 33,90",
+     "butikk": "SPAR",
+     "farge": "#dc1e21",
+     "pris": 20,
+     "forpris": 33.9,
+     "rabatt_prosent": 41,
+     "enhetspris": 142.86,
+     "enhet": "kg",
+     "fra": "2026-10-18T22:00:00+00:00",
+     "til": "2026-10-25T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FCPGkGEpW%2Fp-4.webp&w=300&x1r=0.5&x2r=0.93&y1r=0.62&y2r=0.91&s=4cce11e915bbfdf7a3057471eb834025",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FCPGkGEpW%2Fp-4.webp&w=1000&x1r=0.5&x2r=0.93&y1r=0.62&y2r=0.91&s=9a8f12397a286ff55c51e0e1dfe29fc9",
+     "url": "https://etilbudsavis.no/SPAR?publication=CPGkGEpW&offer=gHYp07_vf9WkrxZz69AAg"
     }
    ]
   },
@@ -121,7 +138,7 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "vQoomtSDVBris1KGuT58O",
+     "id": "LO18W7-gMFHXLXmMKSRmH",
      "navn": "Olivero",
      "beskrivelse": "smør- & olivenolje, 250 g\n80,00/kg Førpris: 36,90",
      "butikk": "SPAR",
@@ -131,11 +148,11 @@
      "rabatt_prosent": 46,
      "enhetspris": 80,
      "enhet": "kg",
-     "fra": "2026-10-18T22:00:00+00:00",
+     "fra": "2026-10-21T22:00:00+00:00",
      "til": "2026-10-25T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FCPGkGEpW%2Fp-12.webp&w=300&x1r=0.059&x2r=0.436&y1r=0.596&y2r=0.908&s=74e964816c282dac489d94e9ea6ef59f",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FCPGkGEpW%2Fp-12.webp&w=1000&x1r=0.059&x2r=0.436&y1r=0.596&y2r=0.908&s=18ec488353f973e3f1f025e04820f21d",
-     "url": "https://etilbudsavis.no/SPAR?publication=CPGkGEpW&offer=vQoomtSDVBris1KGuT58O"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtGkOtlJj%2Fp-13.webp&w=300&x1r=0.059&x2r=0.45&y1r=0.592&y2r=0.912&s=8ce37f25ebae93867ce2259fcf0fb47e",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtGkOtlJj%2Fp-13.webp&w=1000&x1r=0.059&x2r=0.45&y1r=0.592&y2r=0.912&s=89c61242bae943564801d1e584707768",
+     "url": "https://etilbudsavis.no/SPAR?publication=tGkOtlJj&offer=LO18W7-gMFHXLXmMKSRmH"
     },
     {
      "id": "rcCAfT1PoeS5bsYj6L6OX",

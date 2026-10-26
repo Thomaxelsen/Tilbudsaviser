@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-26T10:07:16.991918+00:00",
+ "generert": "2026-10-26T19:19:01.195617+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -19,8 +19,8 @@
      "enhet": "kg",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-2ZFvQt18-10.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.59&y2r=0.93&s=6bc204bd62c198cf1e96aff5d07c16cf",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-2ZFvQt18-10.webp&w=1000&x1r=0.03&x2r=0.49&y1r=0.59&y2r=0.93&s=cf266ab77ea095d9c7aa2f70a57dcecd",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-LIO-a15t-10.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.59&y2r=0.93&s=9f089c5c53617f59519ce8547602bdea",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-LIO-a15t-10.webp&w=1000&x1r=0.03&x2r=0.49&y1r=0.59&y2r=0.93&s=349939c77b565726221949bb109b5c77",
      "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=cxV75HIlfQJffhly7pyMQ"
     }
    ]
@@ -40,8 +40,8 @@
      "enhet": "kg",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fc_hayVRS%2Fp-replacement-CvZlOJQA-12.webp&w=300&x1r=0.53&x2r=0.95&y1r=0.13&y2r=0.53&s=f9c8fb40a0ba7c25e9a4cd37b7641a0d",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fc_hayVRS%2Fp-replacement-CvZlOJQA-12.webp&w=1000&x1r=0.53&x2r=0.95&y1r=0.13&y2r=0.53&s=34126242a1e49b95e2e0355bc66db037",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fc_hayVRS%2Fp-replacement--FmfDaNr-12.webp&w=300&x1r=0.53&x2r=0.95&y1r=0.13&y2r=0.53&s=ef87ae88e2460c277823d2e8017525e8",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fc_hayVRS%2Fp-replacement--FmfDaNr-12.webp&w=1000&x1r=0.53&x2r=0.95&y1r=0.13&y2r=0.53&s=9b1baff7432256672eac90b4f7f25548",
      "url": "https://etilbudsavis.no/Extra?publication=c_hayVRS&offer=1chr1d6Brg7hOBExzYtN2"
     }
    ]
@@ -88,8 +88,8 @@
      "enhet": "kg",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-2ZFvQt18-9.webp&w=300&x1r=0.03&x2r=0.48&y1r=0.59&y2r=0.93&s=c76ab3add56b3280f2aca9221b59064e",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-2ZFvQt18-9.webp&w=1000&x1r=0.03&x2r=0.48&y1r=0.59&y2r=0.93&s=5a45338b0248b0432c5e3d3f5a83a260",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-LIO-a15t-9.webp&w=300&x1r=0.03&x2r=0.48&y1r=0.59&y2r=0.93&s=ee44efe54574bc8e9ad19b854edd2201",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-LIO-a15t-9.webp&w=1000&x1r=0.03&x2r=0.48&y1r=0.59&y2r=0.93&s=d8dbad6a803262f88e13d05deec77d7c",
      "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=BMiCWWW-8Ek_9pCCrap64"
     },
     {
@@ -116,8 +116,8 @@
      "enhet": "kg",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-2ZFvQt18-9.webp&w=300&x1r=0.47&x2r=0.96&y1r=0.24&y2r=0.59&s=ba8772ee25db0ba8cc367647e92c46d1",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-2ZFvQt18-9.webp&w=1000&x1r=0.47&x2r=0.96&y1r=0.24&y2r=0.59&s=61c38cb8ba7170aaf580fe12de30e747",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-LIO-a15t-9.webp&w=300&x1r=0.47&x2r=0.96&y1r=0.24&y2r=0.59&s=7a6d2f9c9e5ae4182e87fb4514997776",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-LIO-a15t-9.webp&w=1000&x1r=0.47&x2r=0.96&y1r=0.24&y2r=0.59&s=9228faa3d8cc14e785dd41569e982350",
      "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=SSeRK23fOmDhUyku1dRn-"
     },
     {
@@ -131,8 +131,8 @@
      "enhet": "kg",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-2ZFvQt18-9.webp&w=300&x1r=0.47&x2r=0.96&y1r=0.59&y2r=0.93&s=7dd68054f6db73de1087ee8b0d68157a",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-2ZFvQt18-9.webp&w=1000&x1r=0.47&x2r=0.96&y1r=0.59&y2r=0.93&s=2b629e3743ab157be64d15e2a5a3be85",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-LIO-a15t-9.webp&w=300&x1r=0.47&x2r=0.96&y1r=0.59&y2r=0.93&s=f25226b1affec2e8cbe93e1b96015ae6",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-LIO-a15t-9.webp&w=1000&x1r=0.47&x2r=0.96&y1r=0.59&y2r=0.93&s=d7ecee6de02b21d78f38d0f8f1d5926a",
      "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=hgYckst0MTrBFuF1khiR_"
     }
    ]
@@ -213,8 +213,8 @@
      "enhet": "l",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-2ZFvQt18-25.webp&w=300&x1r=0.04&x2r=0.35&y1r=0.24&y2r=0.93&s=97e06bafe2f7dec492c2527d709eab9a",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-2ZFvQt18-25.webp&w=1000&x1r=0.04&x2r=0.35&y1r=0.24&y2r=0.93&s=3c33f38d80611babfcd25c58b13b116f",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-LIO-a15t-26.webp&w=300&x1r=0.04&x2r=0.35&y1r=0.24&y2r=0.93&s=942647c03894bffd3d963a7bde4d8b4a",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-LIO-a15t-26.webp&w=1000&x1r=0.04&x2r=0.35&y1r=0.24&y2r=0.93&s=43b4b99fa2b8aa824361be85aab88f10",
      "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=wp13FOSpkm81wqSkrACbd"
     },
     {
@@ -283,8 +283,8 @@
      "enhet": "kg",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-22T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-2ZFvQt18-12.webp&w=300&x1r=0.015&x2r=0.34&y1r=0.255&y2r=0.585&s=1eaab588ec61218bd9d46b99d3171470",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-2ZFvQt18-12.webp&w=1000&x1r=0.015&x2r=0.34&y1r=0.255&y2r=0.585&s=803488cd047462deb5de7b671f9a1f4e",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-LIO-a15t-12.webp&w=300&x1r=0.015&x2r=0.34&y1r=0.255&y2r=0.585&s=97fd35e05692dc09db0cf9280e975e56",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-LIO-a15t-12.webp&w=1000&x1r=0.015&x2r=0.34&y1r=0.255&y2r=0.585&s=ba8546e800cbb269a3661bf4c4a846f0",
      "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=jUxVtfPNlFoiRToVWxgdu"
     },
     {

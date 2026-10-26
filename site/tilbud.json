@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-25T17:03:35.280637+00:00",
+ "generert": "2026-10-26T10:07:16.991918+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -40,8 +40,8 @@
      "enhet": "kg",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fc_hayVRS%2Fp-12.webp&w=300&x1r=0.53&x2r=0.95&y1r=0.13&y2r=0.53&s=eb3cc37b6e17df7dcfe5f4b23a2f177a",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fc_hayVRS%2Fp-12.webp&w=1000&x1r=0.53&x2r=0.95&y1r=0.13&y2r=0.53&s=517400d846070d26323208a0e267fcd1",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fc_hayVRS%2Fp-replacement-CvZlOJQA-12.webp&w=300&x1r=0.53&x2r=0.95&y1r=0.13&y2r=0.53&s=f9c8fb40a0ba7c25e9a4cd37b7641a0d",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fc_hayVRS%2Fp-replacement-CvZlOJQA-12.webp&w=1000&x1r=0.53&x2r=0.95&y1r=0.13&y2r=0.53&s=34126242a1e49b95e2e0355bc66db037",
      "url": "https://etilbudsavis.no/Extra?publication=c_hayVRS&offer=1chr1d6Brg7hOBExzYtN2"
     }
    ]
@@ -60,23 +60,6 @@
    "navn": "Peppes Pepperoni",
    "feil": false,
    "tilbud": [
-    {
-     "id": "cF7aPtCg3N5Dn3CRXYFk6",
-     "navn": "Peppes Snackpizza",
-     "beskrivelse": "pepperoni, 140 g 142,86/kg Førpris: 33,90",
-     "butikk": "SPAR",
-     "farge": "#dc1e21",
-     "pris": 20,
-     "forpris": 33.9,
-     "rabatt_prosent": 41,
-     "enhetspris": 142.86,
-     "enhet": "kg",
-     "fra": "2026-10-21T22:00:00+00:00",
-     "til": "2026-10-25T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtGkOtlJj%2Fp-5.webp&w=300&x1r=0.503&x2r=0.925&y1r=0.615&y2r=0.91&s=119200f0eb2224ed409db549eae57ed0",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtGkOtlJj%2Fp-5.webp&w=1000&x1r=0.503&x2r=0.925&y1r=0.615&y2r=0.91&s=99e3e7f5cb1556cb408160ce3b2d820a",
-     "url": "https://etilbudsavis.no/SPAR?publication=tGkOtlJj&offer=cF7aPtCg3N5Dn3CRXYFk6"
-    },
     {
      "id": "qtXEwuqvE59U4yPatDTgP",
      "navn": "Peppes snackspizza",
@@ -123,23 +106,6 @@
      "url": "https://etilbudsavis.no/Bunnpris?publication=IxGs2Fn9&offer=3cdLGlFGrQ4GoDf4xmxBW"
     },
     {
-     "id": "gHYp07_vf9WkrxZz69AAg",
-     "navn": "Peppes Snackpizza",
-     "beskrivelse": "pepperoni, 140 g 142,86/kg Førpris: 33,90",
-     "butikk": "SPAR",
-     "farge": "#dc1e21",
-     "pris": 20,
-     "forpris": 33.9,
-     "rabatt_prosent": 41,
-     "enhetspris": 142.86,
-     "enhet": "kg",
-     "fra": "2026-10-18T22:00:00+00:00",
-     "til": "2026-10-25T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FCPGkGEpW%2Fp-4.webp&w=300&x1r=0.5&x2r=0.93&y1r=0.62&y2r=0.91&s=4cce11e915bbfdf7a3057471eb834025",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FCPGkGEpW%2Fp-4.webp&w=1000&x1r=0.5&x2r=0.93&y1r=0.62&y2r=0.91&s=9a8f12397a286ff55c51e0e1dfe29fc9",
-     "url": "https://etilbudsavis.no/SPAR?publication=CPGkGEpW&offer=gHYp07_vf9WkrxZz69AAg"
-    },
-    {
      "id": "SSeRK23fOmDhUyku1dRn-",
      "navn": "Pizzasaus",
      "beskrivelse": "180 g, original, Peppes, pr. kg 10,56",
@@ -174,23 +140,7 @@
   {
    "navn": "Cheerios Multigrain",
    "feil": false,
-   "tilbud": [
-    {
-     "id": "cTpx7satYQ_UpkhBf34cP",
-     "navn": "Cheerios multi og havre",
-     "beskrivelse": "375 g pr. stk\n106,67/KG",
-     "butikk": "Bunnpris",
-     "farge": "#fff200",
-     "pris": 40,
-     "enhetspris": 106.67,
-     "enhet": "kg",
-     "fra": "2026-10-18T22:00:00+00:00",
-     "til": "2026-10-25T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsiGmYTjP%2Fp-6.webp&w=300&x1r=0.27&x2r=0.49&y1r=0.57&y2r=0.71&s=908894ab35c06871e739b65dffb3e397",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsiGmYTjP%2Fp-6.webp&w=1000&x1r=0.27&x2r=0.49&y1r=0.57&y2r=0.71&s=c64eada45065762e19f485533ea52712",
-     "url": "https://etilbudsavis.no/Bunnpris?publication=siGmYTjP&offer=cTpx7satYQ_UpkhBf34cP"
-    }
-   ]
+   "tilbud": []
   },
   {
    "navn": "Husman Knekkebrød",
@@ -223,21 +173,6 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "HpSyPHaObrtazSQTMvUFl",
-     "navn": "Eplejuice",
-     "beskrivelse": "REMA 1000, 1,5 l, 18,60 pr. l",
-     "butikk": "REMA 1000",
-     "farge": "#ffffff",
-     "pris": 27.9,
-     "enhetspris": 18.6,
-     "enhet": "l",
-     "fra": "2026-10-25T23:00:00+00:00",
-     "til": "2026-10-31T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FQR99BHr3%2Fp-replacement-6wF28wVp-11.webp&w=300&x1r=0.71&x2r=0.99&y1r=0.13&y2r=0.31&s=c2e6e81c8e372432da2b805ea407fa54",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FQR99BHr3%2Fp-replacement-6wF28wVp-11.webp&w=1000&x1r=0.71&x2r=0.99&y1r=0.13&y2r=0.31&s=690bcc6738dfcde190d8d9ca0d3afdb5",
-     "url": "https://etilbudsavis.no/REMA-1000?publication=QR99BHr3&offer=HpSyPHaObrtazSQTMvUFl"
-    },
-    {
      "id": "jR6L2FPjVToZ_q26fp0Pl",
      "navn": "Eplejuice og appelsinjuice m/ fruktkjøtt",
      "beskrivelse": "1.75 l God Morgon pr. stk\n25,71/L",
@@ -253,19 +188,19 @@
      "url": "https://etilbudsavis.no/Bunnpris?publication=IxGs2Fn9&offer=jR6L2FPjVToZ_q26fp0Pl"
     },
     {
-     "id": "F_58_IyR2hkOecu8hZ-p_",
-     "navn": "Tine rislunsj/sjokomelk/sunniva eplejuice",
-     "beskrivelse": "Utvalgte. Fra 150 g. Pr stk. Pr kg/l 40,00\nFørpris fra 11,50 - 19,50",
-     "butikk": "Coop Prix",
-     "farge": "#f5be45",
-     "pris": 10,
-     "enhetspris": 66.67,
-     "enhet": "kg",
+     "id": "HpSyPHaObrtazSQTMvUFl",
+     "navn": "Eplejuice",
+     "beskrivelse": "REMA 1000, 1,5 l, 18,60 pr. l",
+     "butikk": "REMA 1000",
+     "farge": "#ffffff",
+     "pris": 27.9,
+     "enhetspris": 18.6,
+     "enhet": "l",
      "fra": "2026-10-25T23:00:00+00:00",
-     "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-7.webp&w=300&x1r=0.51&x2r=0.99&y1r=0.02&y2r=0.42&s=fbda63ee71ee1cf87323d7349f4a6b81",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-7.webp&w=1000&x1r=0.51&x2r=0.99&y1r=0.02&y2r=0.42&s=965d1a027ba6838c381ccb0e66156063",
-     "url": "https://etilbudsavis.no/Coop-Prix?publication=X40R6rou&offer=F_58_IyR2hkOecu8hZ-p_"
+     "til": "2026-10-31T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FQR99BHr3%2Fp-replacement-6wF28wVp-11.webp&w=300&x1r=0.71&x2r=0.99&y1r=0.13&y2r=0.31&s=c2e6e81c8e372432da2b805ea407fa54",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FQR99BHr3%2Fp-replacement-6wF28wVp-11.webp&w=1000&x1r=0.71&x2r=0.99&y1r=0.13&y2r=0.31&s=690bcc6738dfcde190d8d9ca0d3afdb5",
+     "url": "https://etilbudsavis.no/REMA-1000?publication=QR99BHr3&offer=HpSyPHaObrtazSQTMvUFl"
     },
     {
      "id": "wp13FOSpkm81wqSkrACbd",
@@ -281,6 +216,21 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-2ZFvQt18-25.webp&w=300&x1r=0.04&x2r=0.35&y1r=0.24&y2r=0.93&s=97e06bafe2f7dec492c2527d709eab9a",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-2ZFvQt18-25.webp&w=1000&x1r=0.04&x2r=0.35&y1r=0.24&y2r=0.93&s=3c33f38d80611babfcd25c58b13b116f",
      "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=wp13FOSpkm81wqSkrACbd"
+    },
+    {
+     "id": "F_58_IyR2hkOecu8hZ-p_",
+     "navn": "Tine rislunsj/sjokomelk/sunniva eplejuice",
+     "beskrivelse": "Utvalgte. Fra 150 g. Pr stk. Pr kg/l 40,00\nFørpris fra 11,50 - 19,50",
+     "butikk": "Coop Prix",
+     "farge": "#f5be45",
+     "pris": 10,
+     "enhetspris": 66.67,
+     "enhet": "kg",
+     "fra": "2026-10-25T23:00:00+00:00",
+     "til": "2026-11-01T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-7.webp&w=300&x1r=0.51&x2r=0.99&y1r=0.02&y2r=0.42&s=fbda63ee71ee1cf87323d7349f4a6b81",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-7.webp&w=1000&x1r=0.51&x2r=0.99&y1r=0.02&y2r=0.42&s=965d1a027ba6838c381ccb0e66156063",
+     "url": "https://etilbudsavis.no/Coop-Prix?publication=X40R6rou&offer=F_58_IyR2hkOecu8hZ-p_"
     },
     {
      "id": "8cNJ6I8t0dLltuFGaOwxG",
@@ -319,23 +269,6 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-7.webp&w=300&x1r=0.52&x2r=0.98&y1r=0.75&y2r=0.99&s=e451bf3fa5d06f2a1ece8278b45bd12f",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-7.webp&w=1000&x1r=0.52&x2r=0.98&y1r=0.75&y2r=0.99&s=b76bbcd6a8de708025cadfcb1ad42055",
      "url": "https://etilbudsavis.no/Coop-Prix?publication=X40R6rou&offer=k_Bb6eVcbqNLuabwbXELT"
-    },
-    {
-     "id": "LO18W7-gMFHXLXmMKSRmH",
-     "navn": "Olivero",
-     "beskrivelse": "smør- & olivenolje, 250 g\n80,00/kg Førpris: 36,90",
-     "butikk": "SPAR",
-     "farge": "#dc1e21",
-     "pris": 20,
-     "forpris": 36.9,
-     "rabatt_prosent": 46,
-     "enhetspris": 80,
-     "enhet": "kg",
-     "fra": "2026-10-21T22:00:00+00:00",
-     "til": "2026-10-25T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtGkOtlJj%2Fp-13.webp&w=300&x1r=0.059&x2r=0.45&y1r=0.592&y2r=0.912&s=8ce37f25ebae93867ce2259fcf0fb47e",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FtGkOtlJj%2Fp-13.webp&w=1000&x1r=0.059&x2r=0.45&y1r=0.592&y2r=0.912&s=89c61242bae943564801d1e584707768",
-     "url": "https://etilbudsavis.no/SPAR?publication=tGkOtlJj&offer=LO18W7-gMFHXLXmMKSRmH"
     },
     {
      "id": "jUxVtfPNlFoiRToVWxgdu",

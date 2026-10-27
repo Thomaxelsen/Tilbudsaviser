@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-26T19:19:01.195617+00:00",
+ "generert": "2026-10-27T09:48:52.877089+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -188,21 +188,6 @@
      "url": "https://etilbudsavis.no/Bunnpris?publication=IxGs2Fn9&offer=jR6L2FPjVToZ_q26fp0Pl"
     },
     {
-     "id": "HpSyPHaObrtazSQTMvUFl",
-     "navn": "Eplejuice",
-     "beskrivelse": "REMA 1000, 1,5 l, 18,60 pr. l",
-     "butikk": "REMA 1000",
-     "farge": "#ffffff",
-     "pris": 27.9,
-     "enhetspris": 18.6,
-     "enhet": "l",
-     "fra": "2026-10-25T23:00:00+00:00",
-     "til": "2026-10-31T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FQR99BHr3%2Fp-replacement-6wF28wVp-11.webp&w=300&x1r=0.71&x2r=0.99&y1r=0.13&y2r=0.31&s=c2e6e81c8e372432da2b805ea407fa54",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FQR99BHr3%2Fp-replacement-6wF28wVp-11.webp&w=1000&x1r=0.71&x2r=0.99&y1r=0.13&y2r=0.31&s=690bcc6738dfcde190d8d9ca0d3afdb5",
-     "url": "https://etilbudsavis.no/REMA-1000?publication=QR99BHr3&offer=HpSyPHaObrtazSQTMvUFl"
-    },
-    {
      "id": "wp13FOSpkm81wqSkrACbd",
      "navn": "Eplejuice",
      "beskrivelse": "1,5 liter\n1,75 liter, God Morgen, pr. l 22,80",
@@ -218,6 +203,21 @@
      "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=wp13FOSpkm81wqSkrACbd"
     },
     {
+     "id": "HpSyPHaObrtazSQTMvUFl",
+     "navn": "Eplejuice",
+     "beskrivelse": "REMA 1000, 1,5 l, 18,60 pr. l",
+     "butikk": "REMA 1000",
+     "farge": "#ffffff",
+     "pris": 27.9,
+     "enhetspris": 18.6,
+     "enhet": "l",
+     "fra": "2026-10-25T23:00:00+00:00",
+     "til": "2026-10-31T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FQR99BHr3%2Fp-replacement-6wF28wVp-11.webp&w=300&x1r=0.71&x2r=0.99&y1r=0.13&y2r=0.31&s=c2e6e81c8e372432da2b805ea407fa54",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FQR99BHr3%2Fp-replacement-6wF28wVp-11.webp&w=1000&x1r=0.71&x2r=0.99&y1r=0.13&y2r=0.31&s=690bcc6738dfcde190d8d9ca0d3afdb5",
+     "url": "https://etilbudsavis.no/REMA-1000?publication=QR99BHr3&offer=HpSyPHaObrtazSQTMvUFl"
+    },
+    {
      "id": "F_58_IyR2hkOecu8hZ-p_",
      "navn": "Tine rislunsj/sjokomelk/sunniva eplejuice",
      "beskrivelse": "Utvalgte. Fra 150 g. Pr stk. Pr kg/l 40,00\nFørpris fra 11,50 - 19,50",
@@ -228,8 +228,8 @@
      "enhet": "kg",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-7.webp&w=300&x1r=0.51&x2r=0.99&y1r=0.02&y2r=0.42&s=fbda63ee71ee1cf87323d7349f4a6b81",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-7.webp&w=1000&x1r=0.51&x2r=0.99&y1r=0.02&y2r=0.42&s=965d1a027ba6838c381ccb0e66156063",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-replacement-6s4iE0Mj-7.webp&w=300&x1r=0.51&x2r=0.99&y1r=0.02&y2r=0.42&s=140173dfea2cf0897aff2037037fc016",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-replacement-6s4iE0Mj-7.webp&w=1000&x1r=0.51&x2r=0.99&y1r=0.02&y2r=0.42&s=7895cee798579bf1f1a6c9a1e31ac8bc",
      "url": "https://etilbudsavis.no/Coop-Prix?publication=X40R6rou&offer=F_58_IyR2hkOecu8hZ-p_"
     },
     {
@@ -266,8 +266,8 @@
      "enhet": "kg",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-7.webp&w=300&x1r=0.52&x2r=0.98&y1r=0.75&y2r=0.99&s=e451bf3fa5d06f2a1ece8278b45bd12f",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-7.webp&w=1000&x1r=0.52&x2r=0.98&y1r=0.75&y2r=0.99&s=b76bbcd6a8de708025cadfcb1ad42055",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-replacement-6s4iE0Mj-7.webp&w=300&x1r=0.52&x2r=0.98&y1r=0.75&y2r=0.99&s=c4999a8e780c263003ad5c4c12ecb9a9",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-replacement-6s4iE0Mj-7.webp&w=1000&x1r=0.52&x2r=0.98&y1r=0.75&y2r=0.99&s=784cf52e5c17f3ef1819fdf5392f1e82",
      "url": "https://etilbudsavis.no/Coop-Prix?publication=X40R6rou&offer=k_Bb6eVcbqNLuabwbXELT"
     },
     {
@@ -300,8 +300,8 @@
      "enhet": "kg",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-8.webp&w=300&x1r=0.46&x2r=0.96&y1r=0.47&y2r=0.75&s=ef31526baafbd80bd8e91b28f5e91f5c",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-8.webp&w=1000&x1r=0.46&x2r=0.96&y1r=0.47&y2r=0.75&s=c3981bfa1d93bd74dbad15dee6117750",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-replacement-6s4iE0Mj-8.webp&w=300&x1r=0.46&x2r=0.96&y1r=0.47&y2r=0.75&s=32a3d3ba0e42e2ffa429035752b2d7ff",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-replacement-6s4iE0Mj-8.webp&w=1000&x1r=0.46&x2r=0.96&y1r=0.47&y2r=0.75&s=4c8b22bacdf740c63090faba719a9bdf",
      "url": "https://etilbudsavis.no/Coop-Prix?publication=X40R6rou&offer=JlEitYcxJHcmT2yvd7hWw"
     },
     {

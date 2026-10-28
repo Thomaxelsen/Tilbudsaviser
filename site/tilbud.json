@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-27T18:41:38.888505+00:00",
+ "generert": "2026-10-28T10:35:01.060942+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -93,17 +93,17 @@
      "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=BMiCWWW-8Ek_9pCCrap64"
     },
     {
-     "id": "3cdLGlFGrQ4GoDf4xmxBW",
+     "id": "KNu1o92VMltkMfSNAwwfr",
      "navn": "Peppes pizza philly cheesesteak og triple meat",
-     "beskrivelse": "Fra 565 g\nUtvalget kan variere fra butikk til butikk.",
+     "beskrivelse": "Fra 565 g pr. stk\nUtvalget kan variere fra butikk til butikk.",
      "butikk": "Bunnpris",
      "farge": "#fff200",
      "rabatt_prosent": 30,
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FIxGs2Fn9%2Fp-4.webp&w=300&x1r=0.08&x2r=0.86&y1r=0.11&y2r=0.56&s=a4455436e1cd408a120b808fb2a5d337",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FIxGs2Fn9%2Fp-4.webp&w=1000&x1r=0.08&x2r=0.86&y1r=0.11&y2r=0.56&s=e4f8182697cbecc026c6901384294976",
-     "url": "https://etilbudsavis.no/Bunnpris?publication=IxGs2Fn9&offer=3cdLGlFGrQ4GoDf4xmxBW"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FIxGs2Fn9%2Fp-17.webp&w=300&x1r=0.012&x2r=0.354&y1r=0.125&y2r=0.39&s=e9325d40fc8d8c5545758b72b77b8248",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FIxGs2Fn9%2Fp-17.webp&w=1000&x1r=0.012&x2r=0.354&y1r=0.125&y2r=0.39&s=9e2feb52b978cae0dcce63d3f8dd1278",
+     "url": "https://etilbudsavis.no/Bunnpris?publication=IxGs2Fn9&offer=KNu1o92VMltkMfSNAwwfr"
     },
     {
      "id": "SSeRK23fOmDhUyku1dRn-",
@@ -188,6 +188,21 @@
      "url": "https://etilbudsavis.no/Bunnpris?publication=IxGs2Fn9&offer=jR6L2FPjVToZ_q26fp0Pl"
     },
     {
+     "id": "wp13FOSpkm81wqSkrACbd",
+     "navn": "Eplejuice",
+     "beskrivelse": "1,5 liter\n1,75 liter, God Morgen, pr. l 22,80",
+     "butikk": "KIWI",
+     "farge": "#50b848",
+     "pris": 39.9,
+     "enhetspris": 22.8,
+     "enhet": "l",
+     "fra": "2026-10-25T23:00:00+00:00",
+     "til": "2026-11-01T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-xtllngkX-26.webp&w=300&x1r=0.04&x2r=0.35&y1r=0.24&y2r=0.93&s=d445ac4726d8caa6837bb15ecdf07342",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-xtllngkX-26.webp&w=1000&x1r=0.04&x2r=0.35&y1r=0.24&y2r=0.93&s=85570192bfcaea0b300bf72bfb27594e",
+     "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=wp13FOSpkm81wqSkrACbd"
+    },
+    {
      "id": "HpSyPHaObrtazSQTMvUFl",
      "navn": "Eplejuice",
      "beskrivelse": "REMA 1000, 1,5 l, 18,60 pr. l",
@@ -216,21 +231,6 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-replacement-6s4iE0Mj-7.webp&w=300&x1r=0.51&x2r=0.99&y1r=0.02&y2r=0.42&s=140173dfea2cf0897aff2037037fc016",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-replacement-6s4iE0Mj-7.webp&w=1000&x1r=0.51&x2r=0.99&y1r=0.02&y2r=0.42&s=7895cee798579bf1f1a6c9a1e31ac8bc",
      "url": "https://etilbudsavis.no/Coop-Prix?publication=X40R6rou&offer=F_58_IyR2hkOecu8hZ-p_"
-    },
-    {
-     "id": "wp13FOSpkm81wqSkrACbd",
-     "navn": "Eplejuice",
-     "beskrivelse": "1,5 liter\n1,75 liter, God Morgen, pr. l 22,80",
-     "butikk": "KIWI",
-     "farge": "#50b848",
-     "pris": 39.9,
-     "enhetspris": 22.8,
-     "enhet": "l",
-     "fra": "2026-10-25T23:00:00+00:00",
-     "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-xtllngkX-26.webp&w=300&x1r=0.04&x2r=0.35&y1r=0.24&y2r=0.93&s=d445ac4726d8caa6837bb15ecdf07342",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-xtllngkX-26.webp&w=1000&x1r=0.04&x2r=0.35&y1r=0.24&y2r=0.93&s=85570192bfcaea0b300bf72bfb27594e",
-     "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=wp13FOSpkm81wqSkrACbd"
     },
     {
      "id": "8cNJ6I8t0dLltuFGaOwxG",

@@ -1,5 +1,5 @@
 {
- "generert": "2026-10-28T10:35:01.060942+00:00",
+ "generert": "2026-10-28T18:51:22.759581+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -19,8 +19,8 @@
      "enhet": "kg",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-xtllngkX-10.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.59&y2r=0.93&s=5ad233c7f45f94f0538504755d93ccdf",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-xtllngkX-10.webp&w=1000&x1r=0.03&x2r=0.49&y1r=0.59&y2r=0.93&s=cdc25c5bf4d77dcb3d065562d5078a65",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-OWIoI6OC-10.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.59&y2r=0.93&s=bea351fbee65faf134b879f908cdf61e",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-OWIoI6OC-10.webp&w=1000&x1r=0.03&x2r=0.49&y1r=0.59&y2r=0.93&s=a71a5aaaf7d2fd5ac299f8bafd759c5e",
      "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=cxV75HIlfQJffhly7pyMQ"
     }
    ]
@@ -88,22 +88,22 @@
      "enhet": "kg",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-xtllngkX-9.webp&w=300&x1r=0.03&x2r=0.48&y1r=0.59&y2r=0.93&s=187d6aac2b322c2e86475d0832766150",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-xtllngkX-9.webp&w=1000&x1r=0.03&x2r=0.48&y1r=0.59&y2r=0.93&s=ae1ec299af60765a0329d8d428f246cb",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-OWIoI6OC-9.webp&w=300&x1r=0.03&x2r=0.48&y1r=0.59&y2r=0.93&s=00020849eab71a3eb3a36210286e8905",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-OWIoI6OC-9.webp&w=1000&x1r=0.03&x2r=0.48&y1r=0.59&y2r=0.93&s=e3ed311b5ce04d119938a805d60e5bb3",
      "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=BMiCWWW-8Ek_9pCCrap64"
     },
     {
-     "id": "KNu1o92VMltkMfSNAwwfr",
+     "id": "3cdLGlFGrQ4GoDf4xmxBW",
      "navn": "Peppes pizza philly cheesesteak og triple meat",
-     "beskrivelse": "Fra 565 g pr. stk\nUtvalget kan variere fra butikk til butikk.",
+     "beskrivelse": "Fra 565 g\nUtvalget kan variere fra butikk til butikk.",
      "butikk": "Bunnpris",
      "farge": "#fff200",
      "rabatt_prosent": 30,
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FIxGs2Fn9%2Fp-17.webp&w=300&x1r=0.012&x2r=0.354&y1r=0.125&y2r=0.39&s=e9325d40fc8d8c5545758b72b77b8248",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FIxGs2Fn9%2Fp-17.webp&w=1000&x1r=0.012&x2r=0.354&y1r=0.125&y2r=0.39&s=9e2feb52b978cae0dcce63d3f8dd1278",
-     "url": "https://etilbudsavis.no/Bunnpris?publication=IxGs2Fn9&offer=KNu1o92VMltkMfSNAwwfr"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FIxGs2Fn9%2Fp-replacement-a7C53x1K-4.webp&w=300&x1r=0.08&x2r=0.86&y1r=0.11&y2r=0.56&s=5d9ee4325e16fc410a9be8e83a11a757",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FIxGs2Fn9%2Fp-replacement-a7C53x1K-4.webp&w=1000&x1r=0.08&x2r=0.86&y1r=0.11&y2r=0.56&s=1f10d68a3a5bd7bc35f5da643d356d9b",
+     "url": "https://etilbudsavis.no/Bunnpris?publication=IxGs2Fn9&offer=3cdLGlFGrQ4GoDf4xmxBW"
     },
     {
      "id": "SSeRK23fOmDhUyku1dRn-",
@@ -116,8 +116,8 @@
      "enhet": "kg",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-xtllngkX-9.webp&w=300&x1r=0.47&x2r=0.96&y1r=0.24&y2r=0.59&s=1c4b8be250c2f61d01460c7efa818bbb",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-xtllngkX-9.webp&w=1000&x1r=0.47&x2r=0.96&y1r=0.24&y2r=0.59&s=fafd7e4a4b4caf8109553f1ab2b0483c",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-OWIoI6OC-9.webp&w=300&x1r=0.47&x2r=0.96&y1r=0.24&y2r=0.59&s=7cc64a9d15cf9eb80c4e7a3ae668df36",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-OWIoI6OC-9.webp&w=1000&x1r=0.47&x2r=0.96&y1r=0.24&y2r=0.59&s=9a363850d07dda0e62ad3ad8122be76a",
      "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=SSeRK23fOmDhUyku1dRn-"
     },
     {
@@ -131,8 +131,8 @@
      "enhet": "kg",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-xtllngkX-9.webp&w=300&x1r=0.47&x2r=0.96&y1r=0.59&y2r=0.93&s=cf31b3a024d3d62ba2c33414716d6d24",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-xtllngkX-9.webp&w=1000&x1r=0.47&x2r=0.96&y1r=0.59&y2r=0.93&s=772dec3748f7d8ec640591e41f509a33",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-OWIoI6OC-9.webp&w=300&x1r=0.47&x2r=0.96&y1r=0.59&y2r=0.93&s=4365c9aa7262f31a066b8ba7a86db33c",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-OWIoI6OC-9.webp&w=1000&x1r=0.47&x2r=0.96&y1r=0.59&y2r=0.93&s=72aeec87e4d461a705afc91f5a894db4",
      "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=hgYckst0MTrBFuF1khiR_"
     }
    ]
@@ -183,8 +183,8 @@
      "enhet": "l",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FIxGs2Fn9%2Fp-14.webp&w=300&x1r=0.318&x2r=0.53&y1r=0.73&y2r=0.978&s=8c6d949b9047a8c2405daada7c4392c8",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FIxGs2Fn9%2Fp-14.webp&w=1000&x1r=0.318&x2r=0.53&y1r=0.73&y2r=0.978&s=f0c27a3d97a2b7a28754868f7123a134",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FIxGs2Fn9%2Fp-replacement-a7C53x1K-14.webp&w=300&x1r=0.318&x2r=0.53&y1r=0.73&y2r=0.978&s=0c669dfd74abfaf1f45ed2c603f37e13",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FIxGs2Fn9%2Fp-replacement-a7C53x1K-14.webp&w=1000&x1r=0.318&x2r=0.53&y1r=0.73&y2r=0.978&s=db3b9228003ffdd8114530f900f49e4d",
      "url": "https://etilbudsavis.no/Bunnpris?publication=IxGs2Fn9&offer=jR6L2FPjVToZ_q26fp0Pl"
     },
     {
@@ -198,24 +198,9 @@
      "enhet": "l",
      "fra": "2026-10-25T23:00:00+00:00",
      "til": "2026-11-01T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-xtllngkX-26.webp&w=300&x1r=0.04&x2r=0.35&y1r=0.24&y2r=0.93&s=d445ac4726d8caa6837bb15ecdf07342",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-xtllngkX-26.webp&w=1000&x1r=0.04&x2r=0.35&y1r=0.24&y2r=0.93&s=85570192bfcaea0b300bf72bfb27594e",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-OWIoI6OC-26.webp&w=300&x1r=0.04&x2r=0.35&y1r=0.24&y2r=0.93&s=509175515ad2886de5cb0c9bf19e7ea5",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-OWIoI6OC-26.webp&w=1000&x1r=0.04&x2r=0.35&y1r=0.24&y2r=0.93&s=0d80ab0ecd1af0a965ef1db757c6a6c5",
      "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=wp13FOSpkm81wqSkrACbd"
-    },
-    {
-     "id": "HpSyPHaObrtazSQTMvUFl",
-     "navn": "Eplejuice",
-     "beskrivelse": "REMA 1000, 1,5 l, 18,60 pr. l",
-     "butikk": "REMA 1000",
-     "farge": "#ffffff",
-     "pris": 27.9,
-     "enhetspris": 18.6,
-     "enhet": "l",
-     "fra": "2026-10-25T23:00:00+00:00",
-     "til": "2026-10-31T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FQR99BHr3%2Fp-replacement-6wF28wVp-11.webp&w=300&x1r=0.71&x2r=0.99&y1r=0.13&y2r=0.31&s=c2e6e81c8e372432da2b805ea407fa54",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FQR99BHr3%2Fp-replacement-6wF28wVp-11.webp&w=1000&x1r=0.71&x2r=0.99&y1r=0.13&y2r=0.31&s=690bcc6738dfcde190d8d9ca0d3afdb5",
-     "url": "https://etilbudsavis.no/REMA-1000?publication=QR99BHr3&offer=HpSyPHaObrtazSQTMvUFl"
     },
     {
      "id": "F_58_IyR2hkOecu8hZ-p_",
@@ -231,6 +216,21 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-replacement-6s4iE0Mj-7.webp&w=300&x1r=0.51&x2r=0.99&y1r=0.02&y2r=0.42&s=140173dfea2cf0897aff2037037fc016",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-replacement-6s4iE0Mj-7.webp&w=1000&x1r=0.51&x2r=0.99&y1r=0.02&y2r=0.42&s=7895cee798579bf1f1a6c9a1e31ac8bc",
      "url": "https://etilbudsavis.no/Coop-Prix?publication=X40R6rou&offer=F_58_IyR2hkOecu8hZ-p_"
+    },
+    {
+     "id": "HpSyPHaObrtazSQTMvUFl",
+     "navn": "Eplejuice",
+     "beskrivelse": "REMA 1000, 1,5 l, 18,60 pr. l",
+     "butikk": "REMA 1000",
+     "farge": "#ffffff",
+     "pris": 27.9,
+     "enhetspris": 18.6,
+     "enhet": "l",
+     "fra": "2026-10-25T23:00:00+00:00",
+     "til": "2026-10-31T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FQR99BHr3%2Fp-replacement-6wF28wVp-11.webp&w=300&x1r=0.71&x2r=0.99&y1r=0.13&y2r=0.31&s=c2e6e81c8e372432da2b805ea407fa54",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FQR99BHr3%2Fp-replacement-6wF28wVp-11.webp&w=1000&x1r=0.71&x2r=0.99&y1r=0.13&y2r=0.31&s=690bcc6738dfcde190d8d9ca0d3afdb5",
+     "url": "https://etilbudsavis.no/REMA-1000?publication=QR99BHr3&offer=HpSyPHaObrtazSQTMvUFl"
     },
     {
      "id": "8cNJ6I8t0dLltuFGaOwxG",
@@ -273,7 +273,7 @@
     {
      "id": "jUxVtfPNlFoiRToVWxgdu",
      "navn": "Olivero",
-     "beskrivelse": "400 g, smør&olivenolje, pr. kg 87,25\nEKSTRA PRESSET helt fram til 22. november",
+     "beskrivelse": "400 g, smør&olivenolje, pr. kg 87,25 EKSTRA PRESSET helt fram til 22. november",
      "butikk": "KIWI",
      "farge": "#50b848",
      "pris": 34.9,
@@ -282,9 +282,9 @@
      "enhetspris": 87.25,
      "enhet": "kg",
      "fra": "2026-10-25T23:00:00+00:00",
-     "til": "2026-11-22T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-xtllngkX-12.webp&w=300&x1r=0.015&x2r=0.34&y1r=0.255&y2r=0.585&s=58e6892ff5a9858ca47a3cc95408289e",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-xtllngkX-12.webp&w=1000&x1r=0.015&x2r=0.34&y1r=0.255&y2r=0.585&s=0394f1803b90da0262ce0cb7dc2abc4d",
+     "til": "2026-11-01T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-OWIoI6OC-12.webp&w=300&x1r=0.02&x2r=0.49&y1r=0.31&y2r=0.58&s=62457941e8e694e7eda89693fe3d55b6",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-OWIoI6OC-12.webp&w=1000&x1r=0.02&x2r=0.49&y1r=0.31&y2r=0.58&s=61d2d570d78a1eb428139bbabef4bf33",
      "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=jUxVtfPNlFoiRToVWxgdu"
     },
     {

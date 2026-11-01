@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-01T11:16:12.236911+00:00",
+ "generert": "2026-11-01T18:25:27.186409+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -374,9 +374,9 @@
      "url": "https://etilbudsavis.no/Coop-Prix?publication=X40R6rou&offer=k_Bb6eVcbqNLuabwbXELT"
     },
     {
-     "id": "jUxVtfPNlFoiRToVWxgdu",
+     "id": "siwAJnNpEK9_eOuCKwGwk",
      "navn": "Olivero",
-     "beskrivelse": "400 g, smør&olivenolje, pr. kg 87,25",
+     "beskrivelse": "400 g, smør&olivenolje, pr. kg 87,25\nEKSTRA PRESSET helt fram til 22. november",
      "butikk": "KIWI",
      "farge": "#50b848",
      "pris": 34.9,
@@ -384,11 +384,11 @@
      "rabatt_prosent": 20,
      "enhetspris": 87.25,
      "enhet": "kg",
-     "fra": "2026-10-25T23:00:00+00:00",
+     "fra": "2026-11-01T23:00:00+00:00",
      "til": "2026-11-22T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-IUF39yvz-12.webp&w=300&x1r=0.02&x2r=0.48&y1r=0.31&y2r=0.585&s=769a7f0b3ee5953e00233121f6e1792b",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FwcTXAIz5%2Fp-replacement-IUF39yvz-12.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.31&y2r=0.585&s=0e4a564f5b40b569c12777d142820217",
-     "url": "https://etilbudsavis.no/KIWI?publication=wcTXAIz5&offer=jUxVtfPNlFoiRToVWxgdu"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-17.webp&w=300&x1r=0.02&x2r=0.48&y1r=0.3&y2r=0.58&s=119297a44f4d52e9477bb323f7ebd3be",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-17.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.3&y2r=0.58&s=9f11cd3c3676d807bcc1eb0243446d3c",
+     "url": "https://etilbudsavis.no/KIWI?publication=7gvVLidz&offer=siwAJnNpEK9_eOuCKwGwk"
     },
     {
      "id": "JlEitYcxJHcmT2yvd7hWw",

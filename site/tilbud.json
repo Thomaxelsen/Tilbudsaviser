@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-04T20:25:42.826836+00:00",
+ "generert": "2026-11-05T12:19:47.517703+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -19,8 +19,8 @@
      "enhet": "kg",
      "fra": "2026-11-01T23:00:00+00:00",
      "til": "2026-11-08T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aNUeiGSP-14.webp&w=300&x1r=0.04&x2r=0.48&y1r=0.59&y2r=0.93&s=ef88b93371d01619c1302cb2faced003",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aNUeiGSP-14.webp&w=1000&x1r=0.04&x2r=0.48&y1r=0.59&y2r=0.93&s=747a6cce53cf1fb3877dec2e5099b813",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aalo5OJk-14.webp&w=300&x1r=0.04&x2r=0.48&y1r=0.59&y2r=0.93&s=3109cb99e6c06017a7c059366be901ed",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aalo5OJk-14.webp&w=1000&x1r=0.04&x2r=0.48&y1r=0.59&y2r=0.93&s=790f6aae89121c00fae351e9373bd5af",
      "url": "https://etilbudsavis.no/KIWI?publication=7gvVLidz&offer=mAP-XdVv6rpq9qDFqKwOR"
     }
    ]
@@ -55,22 +55,22 @@
      "enhet": "kg",
      "fra": "2026-11-01T23:00:00+00:00",
      "til": "2026-11-08T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aNUeiGSP-13.webp&w=300&x1r=0.038&x2r=0.477&y1r=0.588&y2r=0.93&s=844c046d06c9a5b90b100234c1d31786",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aNUeiGSP-13.webp&w=1000&x1r=0.038&x2r=0.477&y1r=0.588&y2r=0.93&s=22e74635bd7836b349e1e5eaa4960096",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aalo5OJk-13.webp&w=300&x1r=0.038&x2r=0.477&y1r=0.588&y2r=0.93&s=af4779462a58b07e70d25aeb4dc6fa7c",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aalo5OJk-13.webp&w=1000&x1r=0.038&x2r=0.477&y1r=0.588&y2r=0.93&s=da23127f78ffc3199915d3f7ae505a7a",
      "url": "https://etilbudsavis.no/KIWI?publication=7gvVLidz&offer=hdgXmZAnst7p6K2akEkll"
     },
     {
-     "id": "f6A7A66UVnsIqayeWjkaN",
+     "id": "yKQclbT9PcVsV1oPEuBRt",
      "navn": "Peppes pizza philly cheesesteak og triple meat",
-     "beskrivelse": "Fra 565 g\nUtvalget kan variere fra butikk til butikk.",
+     "beskrivelse": "Fra 565 g pr. stk\nUtvalget kan variere fra butikk til butikk.",
      "butikk": "Bunnpris",
      "farge": "#fff200",
      "rabatt_prosent": 30,
      "fra": "2026-11-01T23:00:00+00:00",
      "til": "2026-11-08T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsXjWKto3%2Fp-7.webp&w=300&x1r=0.08&x2r=0.86&y1r=0.11&y2r=0.55&s=a8c4df71b2c32c2a50bedcf5d0e65734",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsXjWKto3%2Fp-7.webp&w=1000&x1r=0.08&x2r=0.86&y1r=0.11&y2r=0.55&s=3f3abf00ffd23912a83c1be56432a0be",
-     "url": "https://etilbudsavis.no/Bunnpris?publication=sXjWKto3&offer=f6A7A66UVnsIqayeWjkaN"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsXjWKto3%2Fp-17.webp&w=300&x1r=0&x2r=0.35&y1r=0.112&y2r=0.388&s=b496dc6856976e4a531242fcb10e6194",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsXjWKto3%2Fp-17.webp&w=1000&x1r=0&x2r=0.35&y1r=0.112&y2r=0.388&s=44e2fbfca9f555f210f0a2ddb58858e2",
+     "url": "https://etilbudsavis.no/Bunnpris?publication=sXjWKto3&offer=yKQclbT9PcVsV1oPEuBRt"
     },
     {
      "id": "47a6p97fApcoy3eSD7eOO",
@@ -83,8 +83,8 @@
      "enhet": "kg",
      "fra": "2026-11-01T23:00:00+00:00",
      "til": "2026-11-08T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aNUeiGSP-13.webp&w=300&x1r=0.468&x2r=0.951&y1r=0.244&y2r=0.582&s=f9226d01b9b8afec795fe0158aace620",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aNUeiGSP-13.webp&w=1000&x1r=0.468&x2r=0.951&y1r=0.244&y2r=0.582&s=732fdde4e96c947827d40f10445a2bb5",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aalo5OJk-13.webp&w=300&x1r=0.468&x2r=0.951&y1r=0.244&y2r=0.582&s=3cb884bfad13ff64e99ec5fcd74fe181",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aalo5OJk-13.webp&w=1000&x1r=0.468&x2r=0.951&y1r=0.244&y2r=0.582&s=1d180d9cf330fd9e5b42eacb216f430d",
      "url": "https://etilbudsavis.no/KIWI?publication=7gvVLidz&offer=47a6p97fApcoy3eSD7eOO"
     }
    ]
@@ -99,7 +99,7 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "pa8I7F98H_ZR75zfLeAHz",
+     "id": "dzXBe9PPK2h1eH1Dqr5j1",
      "navn": "Knekkebrød husman",
      "beskrivelse": "Wasa, 520 g, 57,50 pr. kg",
      "butikk": "REMA 1000",
@@ -107,11 +107,11 @@
      "pris": 29.9,
      "enhetspris": 57.5,
      "enhet": "kg",
-     "fra": "2026-11-01T23:00:00+00:00",
+     "fra": "2026-11-04T23:00:00+00:00",
      "til": "2026-11-07T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FM0o76Stc%2Fp-13.webp&w=300&x1r=0.05&x2r=0.98&y1r=0.16&y2r=0.48&s=3ab5c14d7d12a44938b50d73b49b58d5",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FM0o76Stc%2Fp-13.webp&w=1000&x1r=0.05&x2r=0.98&y1r=0.16&y2r=0.48&s=be6cf293c9fbce8868d78776a63ca81c",
-     "url": "https://etilbudsavis.no/REMA-1000?publication=M0o76Stc&offer=pa8I7F98H_ZR75zfLeAHz"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnYSzFXW9%2Fp-19.webp&w=300&x1r=0.05&x2r=0.98&y1r=0.16&y2r=0.48&s=31c8ed26ea2ea416b037169a12cb051f",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnYSzFXW9%2Fp-19.webp&w=1000&x1r=0.05&x2r=0.98&y1r=0.16&y2r=0.48&s=d3462ec4588ed83899aa6bd6a58f5357",
+     "url": "https://etilbudsavis.no/REMA-1000?publication=nYSzFXW9&offer=dzXBe9PPK2h1eH1Dqr5j1"
     }
    ]
   },
@@ -140,21 +140,6 @@
      "url": "https://etilbudsavis.no/Bunnpris?publication=sXjWKto3&offer=elkC2IiCKa1N7UK_F-qPF"
     },
     {
-     "id": "-E1kDVTMfFFC_x1PjVzSB",
-     "navn": "Eplejuice",
-     "beskrivelse": "1,75 liter, God Morgen, pr. l 22,80\n1,5 liter",
-     "butikk": "KIWI",
-     "farge": "#50b848",
-     "pris": 39.9,
-     "enhetspris": 22.8,
-     "enhet": "l",
-     "fra": "2026-11-01T23:00:00+00:00",
-     "til": "2026-11-08T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aNUeiGSP-23.webp&w=300&x1r=0.025&x2r=0.35&y1r=0.365&y2r=0.935&s=a73b02c807b22013e71b5492c94991c9",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aNUeiGSP-23.webp&w=1000&x1r=0.025&x2r=0.35&y1r=0.365&y2r=0.935&s=f5f75226cf3e6303e35b2b8ee3f645e6",
-     "url": "https://etilbudsavis.no/KIWI?publication=7gvVLidz&offer=-E1kDVTMfFFC_x1PjVzSB"
-    },
-    {
      "id": "F_58_IyR2hkOecu8hZ-p_",
      "navn": "Tine rislunsj/sjokomelk/sunniva eplejuice",
      "beskrivelse": "Utvalgte. Fra 150 g. Pr stk. Pr kg/l 40,00\nFørpris fra 11,50 - 19,50",
@@ -170,7 +155,22 @@
      "url": "https://etilbudsavis.no/Coop-Prix?publication=X40R6rou&offer=F_58_IyR2hkOecu8hZ-p_"
     },
     {
-     "id": "80lX4UO5faQyQ3b5k4aYB",
+     "id": "-E1kDVTMfFFC_x1PjVzSB",
+     "navn": "Eplejuice",
+     "beskrivelse": "1,75 liter, God Morgen, pr. l 22,80\n1,5 liter",
+     "butikk": "KIWI",
+     "farge": "#50b848",
+     "pris": 39.9,
+     "enhetspris": 22.8,
+     "enhet": "l",
+     "fra": "2026-11-01T23:00:00+00:00",
+     "til": "2026-11-08T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aalo5OJk-23.webp&w=300&x1r=0.025&x2r=0.35&y1r=0.365&y2r=0.935&s=03a157e5c3b960ba735df04c97492cac",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aalo5OJk-23.webp&w=1000&x1r=0.025&x2r=0.35&y1r=0.365&y2r=0.935&s=1b8ea23c36544fdf691f5c78fb9178d6",
+     "url": "https://etilbudsavis.no/KIWI?publication=7gvVLidz&offer=-E1kDVTMfFFC_x1PjVzSB"
+    },
+    {
+     "id": "C8NxzjQpcEak5HdUW4n_b",
      "navn": "Eplejuice",
      "beskrivelse": "REMA 1000, 1,5 l, 18,60 pr. l",
      "butikk": "REMA 1000",
@@ -178,11 +178,11 @@
      "pris": 27.9,
      "enhetspris": 18.6,
      "enhet": "l",
-     "fra": "2026-11-01T23:00:00+00:00",
+     "fra": "2026-11-04T23:00:00+00:00",
      "til": "2026-11-07T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FM0o76Stc%2Fp-8.webp&w=300&x1r=0.72&x2r=0.99&y1r=0.13&y2r=0.3&s=adea55b141f5c584bbf43091ed47bd18",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FM0o76Stc%2Fp-8.webp&w=1000&x1r=0.72&x2r=0.99&y1r=0.13&y2r=0.3&s=bdff452be903ed086fe81cb1eee16dbf",
-     "url": "https://etilbudsavis.no/REMA-1000?publication=M0o76Stc&offer=80lX4UO5faQyQ3b5k4aYB"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnYSzFXW9%2Fp-14.webp&w=300&x1r=0.71&x2r=0.98&y1r=0.12&y2r=0.3&s=2cd44976b4f40e4847eb31a4dd1d89b7",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnYSzFXW9%2Fp-14.webp&w=1000&x1r=0.71&x2r=0.98&y1r=0.12&y2r=0.3&s=1393520efbac05732ae57b1323d305f2",
+     "url": "https://etilbudsavis.no/REMA-1000?publication=nYSzFXW9&offer=C8NxzjQpcEak5HdUW4n_b"
     },
     {
      "id": "PiITDS-9ptaoprWzXQLfi",
@@ -200,7 +200,7 @@
      "url": "https://etilbudsavis.no/Extra?publication=Et8ls02m&offer=PiITDS-9ptaoprWzXQLfi"
     },
     {
-     "id": "0Qy6tfGzZ5_sxh4poXmng",
+     "id": "I5xVKb-uuftyogqGjDDgk",
      "navn": "Sunniva juice",
      "beskrivelse": "1l, eple/appelsin/eple&bringebær",
      "butikk": "MENY",
@@ -208,11 +208,11 @@
      "pris": 36.9,
      "enhetspris": 36.9,
      "enhet": "l",
-     "fra": "2026-11-01T23:00:00+00:00",
-     "til": "2026-11-04T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FSCGra4sl%2Fp-4.webp&w=300&x1r=0.505&x2r=0.735&y1r=0.567&y2r=0.755&s=265dbe7597cf9cc8ed6d4047fdda60e0",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FSCGra4sl%2Fp-4.webp&w=1000&x1r=0.505&x2r=0.735&y1r=0.567&y2r=0.755&s=c872646029f0e3b7d74312432a2842b5",
-     "url": "https://etilbudsavis.no/MENY?publication=SCGra4sl&offer=0Qy6tfGzZ5_sxh4poXmng"
+     "fra": "2026-11-04T23:00:00+00:00",
+     "til": "2026-11-07T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoYFOZwu%2Fp-6.webp&w=300&x1r=0.5&x2r=0.73&y1r=0.57&y2r=0.76&s=576046d58591aa6827557605b996e390",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FLoYFOZwu%2Fp-6.webp&w=1000&x1r=0.5&x2r=0.73&y1r=0.57&y2r=0.76&s=df8fa94db37521c00ce1198f8445b2e3",
+     "url": "https://etilbudsavis.no/MENY?publication=LoYFOZwu&offer=I5xVKb-uuftyogqGjDDgk"
     }
    ]
   },
@@ -221,9 +221,9 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "rXdOto96wN2bjM2f_-Dzl",
+     "id": "nyfJxs_1Qx7Psc0pZVSgb",
      "navn": "Meierismør",
-     "beskrivelse": "TINE, 500 g 99,80/kg\nFørpris: 69,90",
+     "beskrivelse": "TINE, 500 g 99,80/kg Førpris: 69,90",
      "butikk": "SPAR",
      "farge": "#dc1e21",
      "pris": 49.9,
@@ -233,9 +233,9 @@
      "enhet": "kg",
      "fra": "2026-11-01T23:00:00+00:00",
      "til": "2026-11-08T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FXejhYWXD%2Fp-1.webp&w=300&x1r=0.05&x2r=0.51&y1r=0.38&y2r=0.65&s=7b5df75b71f5b94ff3a843cd198f49bb",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FXejhYWXD%2Fp-1.webp&w=1000&x1r=0.05&x2r=0.51&y1r=0.38&y2r=0.65&s=3e1d19bc45a8b2de6186d09b6a8bf0cf",
-     "url": "https://etilbudsavis.no/SPAR?publication=XejhYWXD&offer=rXdOto96wN2bjM2f_-Dzl"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FXejhYWXD%2Fp-12.webp&w=300&x1r=0.035&x2r=0.965&y1r=0.511&y2r=0.923&s=86d0fc47e128f54e1694b023efbe1bba",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FXejhYWXD%2Fp-12.webp&w=1000&x1r=0.035&x2r=0.965&y1r=0.511&y2r=0.923&s=68e3d474038cc11bae45c8db29ea9465",
+     "url": "https://etilbudsavis.no/SPAR?publication=XejhYWXD&offer=nyfJxs_1Qx7Psc0pZVSgb"
     },
     {
      "id": "k_Bb6eVcbqNLuabwbXELT",
@@ -267,8 +267,8 @@
      "enhet": "kg",
      "fra": "2026-11-01T23:00:00+00:00",
      "til": "2026-11-22T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aNUeiGSP-16.webp&w=300&x1r=0.02&x2r=0.49&y1r=0.28&y2r=0.6&s=c23e4bf742d63ced7ed6d59cda5bb694",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aNUeiGSP-16.webp&w=1000&x1r=0.02&x2r=0.49&y1r=0.28&y2r=0.6&s=75a2205c08c5a7e86c83eb0b13ac269f",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aalo5OJk-16.webp&w=300&x1r=0.02&x2r=0.49&y1r=0.28&y2r=0.6&s=33f99261adeb51d872ead3c9b97a94bb",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aalo5OJk-16.webp&w=1000&x1r=0.02&x2r=0.49&y1r=0.28&y2r=0.6&s=d0814cb2c98962215eefe952f10ed0e2",
      "url": "https://etilbudsavis.no/KIWI?publication=7gvVLidz&offer=YhtR9L7xVKnqGBkq7JC1O"
     },
     {
@@ -289,7 +289,7 @@
      "url": "https://etilbudsavis.no/Coop-Prix?publication=X40R6rou&offer=JlEitYcxJHcmT2yvd7hWw"
     },
     {
-     "id": "vKJ-RJlSCWw5TiQCX1z0k",
+     "id": "4MmnMwrNUKTPa_xFI6kX8",
      "navn": "Kyllinglår m/smør og rub",
      "beskrivelse": "Stange, 260 g, 172,69 pr. kg",
      "butikk": "REMA 1000",
@@ -299,11 +299,11 @@
      "rabatt_prosent": 8,
      "enhetspris": 172.69,
      "enhet": "kg",
-     "fra": "2026-11-01T23:00:00+00:00",
+     "fra": "2026-11-04T23:00:00+00:00",
      "til": "2026-11-07T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FM0o76Stc%2Fp-16.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.22&y2r=0.48&s=5335fd4b8a22dfe086224bd3918ba1a8",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FM0o76Stc%2Fp-16.webp&w=1000&x1r=0.03&x2r=0.49&y1r=0.22&y2r=0.48&s=5e6d154c53659e71ec4906139c22fb3b",
-     "url": "https://etilbudsavis.no/REMA-1000?publication=M0o76Stc&offer=vKJ-RJlSCWw5TiQCX1z0k"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnYSzFXW9%2Fp-22.webp&w=300&x1r=0.03&x2r=0.49&y1r=0.22&y2r=0.48&s=d7f7bcf1c6c4e4816c0ae5fc9e616f3f",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FnYSzFXW9%2Fp-22.webp&w=1000&x1r=0.03&x2r=0.49&y1r=0.22&y2r=0.48&s=07791fe4d7b1fa57bb63f957d30eac1b",
+     "url": "https://etilbudsavis.no/REMA-1000?publication=nYSzFXW9&offer=4MmnMwrNUKTPa_xFI6kX8"
     }
    ]
   }

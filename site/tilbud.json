@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-05T12:19:47.517703+00:00",
+ "generert": "2026-11-05T20:39:36.245126+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -140,21 +140,6 @@
      "url": "https://etilbudsavis.no/Bunnpris?publication=sXjWKto3&offer=elkC2IiCKa1N7UK_F-qPF"
     },
     {
-     "id": "F_58_IyR2hkOecu8hZ-p_",
-     "navn": "Tine rislunsj/sjokomelk/sunniva eplejuice",
-     "beskrivelse": "Utvalgte. Fra 150 g. Pr stk. Pr kg/l 40,00\nFørpris fra 11,50 - 19,50",
-     "butikk": "Coop Prix",
-     "farge": "#f5be45",
-     "pris": 10,
-     "enhetspris": 66.67,
-     "enhet": "kg",
-     "fra": "2026-10-25T23:00:00+00:00",
-     "til": "2026-11-08T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-replacement-6s4iE0Mj-7.webp&w=300&x1r=0.51&x2r=0.99&y1r=0.02&y2r=0.42&s=140173dfea2cf0897aff2037037fc016",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-replacement-6s4iE0Mj-7.webp&w=1000&x1r=0.51&x2r=0.99&y1r=0.02&y2r=0.42&s=7895cee798579bf1f1a6c9a1e31ac8bc",
-     "url": "https://etilbudsavis.no/Coop-Prix?publication=X40R6rou&offer=F_58_IyR2hkOecu8hZ-p_"
-    },
-    {
      "id": "-E1kDVTMfFFC_x1PjVzSB",
      "navn": "Eplejuice",
      "beskrivelse": "1,75 liter, God Morgen, pr. l 22,80\n1,5 liter",
@@ -168,6 +153,21 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aalo5OJk-23.webp&w=300&x1r=0.025&x2r=0.35&y1r=0.365&y2r=0.935&s=03a157e5c3b960ba735df04c97492cac",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7gvVLidz%2Fp-replacement-aalo5OJk-23.webp&w=1000&x1r=0.025&x2r=0.35&y1r=0.365&y2r=0.935&s=1b8ea23c36544fdf691f5c78fb9178d6",
      "url": "https://etilbudsavis.no/KIWI?publication=7gvVLidz&offer=-E1kDVTMfFFC_x1PjVzSB"
+    },
+    {
+     "id": "F_58_IyR2hkOecu8hZ-p_",
+     "navn": "Tine rislunsj/sjokomelk/sunniva eplejuice",
+     "beskrivelse": "Utvalgte. Fra 150 g. Pr stk. Pr kg/l 40,00\nFørpris fra 11,50 - 19,50",
+     "butikk": "Coop Prix",
+     "farge": "#f5be45",
+     "pris": 10,
+     "enhetspris": 66.67,
+     "enhet": "kg",
+     "fra": "2026-10-25T23:00:00+00:00",
+     "til": "2026-11-08T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-replacement-6s4iE0Mj-7.webp&w=300&x1r=0.51&x2r=0.99&y1r=0.02&y2r=0.42&s=140173dfea2cf0897aff2037037fc016",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FX40R6rou%2Fp-replacement-6s4iE0Mj-7.webp&w=1000&x1r=0.51&x2r=0.99&y1r=0.02&y2r=0.42&s=7895cee798579bf1f1a6c9a1e31ac8bc",
+     "url": "https://etilbudsavis.no/Coop-Prix?publication=X40R6rou&offer=F_58_IyR2hkOecu8hZ-p_"
     },
     {
      "id": "C8NxzjQpcEak5HdUW4n_b",
@@ -221,9 +221,9 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "nyfJxs_1Qx7Psc0pZVSgb",
+     "id": "OVpnwxidMpS3ObW09ZETb",
      "navn": "Meierismør",
-     "beskrivelse": "TINE, 500 g 99,80/kg Førpris: 69,90",
+     "beskrivelse": "TINE, 500 g 99,80/kg\nFørpris: 69,90",
      "butikk": "SPAR",
      "farge": "#dc1e21",
      "pris": 49.9,
@@ -231,11 +231,11 @@
      "rabatt_prosent": 29,
      "enhetspris": 99.8,
      "enhet": "kg",
-     "fra": "2026-11-01T23:00:00+00:00",
+     "fra": "2026-11-04T23:00:00+00:00",
      "til": "2026-11-08T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FXejhYWXD%2Fp-12.webp&w=300&x1r=0.035&x2r=0.965&y1r=0.511&y2r=0.923&s=86d0fc47e128f54e1694b023efbe1bba",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FXejhYWXD%2Fp-12.webp&w=1000&x1r=0.035&x2r=0.965&y1r=0.511&y2r=0.923&s=68e3d474038cc11bae45c8db29ea9465",
-     "url": "https://etilbudsavis.no/SPAR?publication=XejhYWXD&offer=nyfJxs_1Qx7Psc0pZVSgb"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FYkrjBKAg%2Fp-2.webp&w=300&x1r=0.05&x2r=0.51&y1r=0.38&y2r=0.65&s=754b4800b56797883707ed719f3fa484",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FYkrjBKAg%2Fp-2.webp&w=1000&x1r=0.05&x2r=0.51&y1r=0.38&y2r=0.65&s=f942084bb39c9aab9415d80b58054872",
+     "url": "https://etilbudsavis.no/SPAR?publication=YkrjBKAg&offer=OVpnwxidMpS3ObW09ZETb"
     },
     {
      "id": "k_Bb6eVcbqNLuabwbXELT",

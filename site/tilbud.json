@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-07T11:03:38.378491+00:00",
+ "generert": "2026-11-07T18:02:02.196369+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -60,17 +60,17 @@
      "url": "https://etilbudsavis.no/KIWI?publication=7gvVLidz&offer=hdgXmZAnst7p6K2akEkll"
     },
     {
-     "id": "f6A7A66UVnsIqayeWjkaN",
+     "id": "yKQclbT9PcVsV1oPEuBRt",
      "navn": "Peppes pizza philly cheesesteak og triple meat",
-     "beskrivelse": "Fra 565 g\nUtvalget kan variere fra butikk til butikk.",
+     "beskrivelse": "Fra 565 g pr. stk\nUtvalget kan variere fra butikk til butikk.",
      "butikk": "Bunnpris",
      "farge": "#fff200",
      "rabatt_prosent": 30,
      "fra": "2026-11-01T23:00:00+00:00",
      "til": "2026-11-08T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsXjWKto3%2Fp-7.webp&w=300&x1r=0.08&x2r=0.86&y1r=0.11&y2r=0.55&s=a8c4df71b2c32c2a50bedcf5d0e65734",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsXjWKto3%2Fp-7.webp&w=1000&x1r=0.08&x2r=0.86&y1r=0.11&y2r=0.55&s=3f3abf00ffd23912a83c1be56432a0be",
-     "url": "https://etilbudsavis.no/Bunnpris?publication=sXjWKto3&offer=f6A7A66UVnsIqayeWjkaN"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsXjWKto3%2Fp-17.webp&w=300&x1r=0&x2r=0.35&y1r=0.112&y2r=0.388&s=b496dc6856976e4a531242fcb10e6194",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FsXjWKto3%2Fp-17.webp&w=1000&x1r=0&x2r=0.35&y1r=0.112&y2r=0.388&s=44e2fbfca9f555f210f0a2ddb58858e2",
+     "url": "https://etilbudsavis.no/Bunnpris?publication=sXjWKto3&offer=yKQclbT9PcVsV1oPEuBRt"
     },
     {
      "id": "47a6p97fApcoy3eSD7eOO",

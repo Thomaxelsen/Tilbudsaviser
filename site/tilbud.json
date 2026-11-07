@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-06T19:57:14.112744+00:00",
+ "generert": "2026-11-07T11:03:38.378491+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -221,7 +221,7 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "mneLS1psl6ugUG2v6sPiy",
+     "id": "nyfJxs_1Qx7Psc0pZVSgb",
      "navn": "Meierismør",
      "beskrivelse": "TINE, 500 g 99,80/kg Førpris: 69,90",
      "butikk": "SPAR",
@@ -231,11 +231,11 @@
      "rabatt_prosent": 29,
      "enhetspris": 99.8,
      "enhet": "kg",
-     "fra": "2026-11-04T23:00:00+00:00",
+     "fra": "2026-11-01T23:00:00+00:00",
      "til": "2026-11-08T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FYkrjBKAg%2Fp-13.webp&w=300&x1r=0.035&x2r=0.965&y1r=0.51&y2r=0.925&s=a66a27601dd08952069a28c55d8e65e9",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FYkrjBKAg%2Fp-13.webp&w=1000&x1r=0.035&x2r=0.965&y1r=0.51&y2r=0.925&s=d0232a560511482e48ee879285a75820",
-     "url": "https://etilbudsavis.no/SPAR?publication=YkrjBKAg&offer=mneLS1psl6ugUG2v6sPiy"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FXejhYWXD%2Fp-12.webp&w=300&x1r=0.035&x2r=0.965&y1r=0.511&y2r=0.923&s=86d0fc47e128f54e1694b023efbe1bba",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FXejhYWXD%2Fp-12.webp&w=1000&x1r=0.035&x2r=0.965&y1r=0.511&y2r=0.923&s=68e3d474038cc11bae45c8db29ea9465",
+     "url": "https://etilbudsavis.no/SPAR?publication=XejhYWXD&offer=nyfJxs_1Qx7Psc0pZVSgb"
     },
     {
      "id": "k_Bb6eVcbqNLuabwbXELT",

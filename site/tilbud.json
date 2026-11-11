@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-10T20:27:51.746465+00:00",
+ "generert": "2026-11-11T20:12:09.188602+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -36,8 +36,8 @@
      "enhet": "kg",
      "fra": "2026-11-08T23:00:00+00:00",
      "til": "2026-11-15T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-N1mjS8yj-18.webp&w=300&x1r=0.03&x2r=0.48&y1r=0.59&y2r=0.93&s=94cc2872040840d279d4e4318101af63",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-N1mjS8yj-18.webp&w=1000&x1r=0.03&x2r=0.48&y1r=0.59&y2r=0.93&s=c3747c1b7c4430691479e3a8e9bcbd5f",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-qU1ZbnMX-18.webp&w=300&x1r=0.03&x2r=0.48&y1r=0.59&y2r=0.93&s=67e925b3a792d08f3ad68fddd66a2f67",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-qU1ZbnMX-18.webp&w=1000&x1r=0.03&x2r=0.48&y1r=0.59&y2r=0.93&s=76f003eaa6d858e225845b2e6fc37ace",
      "url": "https://etilbudsavis.no/KIWI?publication=cy9CCLJt&offer=COjOmIJHc8EH0cfx-sVts"
     }
    ]
@@ -72,8 +72,8 @@
      "enhet": "kg",
      "fra": "2026-11-08T23:00:00+00:00",
      "til": "2026-11-15T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-N1mjS8yj-17.webp&w=300&x1r=0.04&x2r=0.48&y1r=0.585&y2r=0.935&s=adba09dcb49e667d49416d6c31517150",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-N1mjS8yj-17.webp&w=1000&x1r=0.04&x2r=0.48&y1r=0.585&y2r=0.935&s=b0a5fa542e2d69e265b711b2892771e0",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-qU1ZbnMX-17.webp&w=300&x1r=0.04&x2r=0.48&y1r=0.585&y2r=0.935&s=b5acb1d382b2540e372062ca43790d9a",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-qU1ZbnMX-17.webp&w=1000&x1r=0.04&x2r=0.48&y1r=0.585&y2r=0.935&s=d928abe2f9d0f6abffd8725e6791ba05",
      "url": "https://etilbudsavis.no/KIWI?publication=cy9CCLJt&offer=UHmW4pcGbNx9cXtoMuYAT"
     },
     {
@@ -128,6 +128,21 @@
      "url": "https://etilbudsavis.no/Bunnpris?publication=7R3tceAU&offer=JVj7sGnNeOUvndpTiVfoV"
     },
     {
+     "id": "OBX7K8csWXyAoZCdYKVGL",
+     "navn": "Eplejuice",
+     "beskrivelse": "1,75 liter, God Morgen, pr. l 22,80",
+     "butikk": "KIWI",
+     "farge": "#50b848",
+     "pris": 39.9,
+     "enhetspris": 22.8,
+     "enhet": "l",
+     "fra": "2026-11-08T23:00:00+00:00",
+     "til": "2026-11-15T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-qU1ZbnMX-26.webp&w=300&x1r=0.02&x2r=0.35&y1r=0.54&y2r=0.93&s=76a78376957500b0144f480bd615761b",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-qU1ZbnMX-26.webp&w=1000&x1r=0.02&x2r=0.35&y1r=0.54&y2r=0.93&s=85a499e9739ae501ba749b865ce3d319",
+     "url": "https://etilbudsavis.no/KIWI?publication=cy9CCLJt&offer=OBX7K8csWXyAoZCdYKVGL"
+    },
+    {
      "id": "lVciIFDk6-eEdpQKQYfeC",
      "navn": "Coop eplejuice",
      "beskrivelse": "1,5 l. Pr kartong Pr l 19,27",
@@ -141,21 +156,6 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FJuJgOIGV%2Fp-8.webp&w=300&x1r=0.205&x2r=0.46&y1r=0.362&y2r=0.905&s=c8806ee0de9a7776bd13db1e1d089311",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FJuJgOIGV%2Fp-8.webp&w=1000&x1r=0.205&x2r=0.46&y1r=0.362&y2r=0.905&s=a4aeb5a79409f5bb4fd92ae8ff232ea8",
      "url": "https://etilbudsavis.no/Extra?publication=JuJgOIGV&offer=lVciIFDk6-eEdpQKQYfeC"
-    },
-    {
-     "id": "OBX7K8csWXyAoZCdYKVGL",
-     "navn": "Eplejuice",
-     "beskrivelse": "1,75 liter, God Morgen, pr. l 22,80",
-     "butikk": "KIWI",
-     "farge": "#50b848",
-     "pris": 39.9,
-     "enhetspris": 22.8,
-     "enhet": "l",
-     "fra": "2026-11-08T23:00:00+00:00",
-     "til": "2026-11-15T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-N1mjS8yj-26.webp&w=300&x1r=0.02&x2r=0.35&y1r=0.54&y2r=0.93&s=91dca76566cf7881bb1a82a28f387226",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-N1mjS8yj-26.webp&w=1000&x1r=0.02&x2r=0.35&y1r=0.54&y2r=0.93&s=96e97e803940c4c1043e22f516be145d",
-     "url": "https://etilbudsavis.no/KIWI?publication=cy9CCLJt&offer=OBX7K8csWXyAoZCdYKVGL"
     }
    ]
   },
@@ -193,8 +193,8 @@
      "enhet": "kg",
      "fra": "2026-11-08T23:00:00+00:00",
      "til": "2026-11-22T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-N1mjS8yj-20.webp&w=300&x1r=0.02&x2r=0.48&y1r=0.31&y2r=0.58&s=9ed6a4cf6ca427607be2c2686b5f8c6b",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-N1mjS8yj-20.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.31&y2r=0.58&s=5a83e1dbcfc0af8a049254e60121423d",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-qU1ZbnMX-20.webp&w=300&x1r=0.02&x2r=0.48&y1r=0.31&y2r=0.58&s=3ba5498aa2601cb9f898949dcd750ed0",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-qU1ZbnMX-20.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.31&y2r=0.58&s=a78c9bae5a96dd5c044b28d194ef9c84",
      "url": "https://etilbudsavis.no/KIWI?publication=cy9CCLJt&offer=HOSJPdQDWwKPAMFRnoygH"
     }
    ]

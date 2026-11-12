@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-11T20:12:09.188602+00:00",
+ "generert": "2026-11-12T12:42:12.135290+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -62,6 +62,19 @@
    "feil": false,
    "tilbud": [
     {
+     "id": "Ec5Obm9ouikpSMRMXMH1N",
+     "navn": "Lag din egen pizza",
+     "beskrivelse": "Peppes Pizza/Eldorado, et stort utvalg\nFørpris: 18,90–65,90\nGjelder torsdag–lørdag",
+     "butikk": "SPAR",
+     "farge": "#dc1e21",
+     "rabatt_prosent": 40,
+     "fra": "2026-11-11T23:00:00+00:00",
+     "til": "2026-11-14T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3BLR6-LF%2Fp-1.webp&w=300&x1r=0.05&x2r=0.95&y1r=0.27&y2r=0.96&s=fcfefed54ac558f78c7b3bf5bfe7c199",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3BLR6-LF%2Fp-1.webp&w=1000&x1r=0.05&x2r=0.95&y1r=0.27&y2r=0.96&s=3d7111088d43d99771cb7689b602b280",
+     "url": "https://etilbudsavis.no/SPAR?publication=3BLR6-LF&offer=Ec5Obm9ouikpSMRMXMH1N"
+    },
+    {
      "id": "UHmW4pcGbNx9cXtoMuYAT",
      "navn": "Pepperoni",
      "beskrivelse": "70 g, Peppes, pr. kg 470,00",
@@ -77,7 +90,7 @@
      "url": "https://etilbudsavis.no/KIWI?publication=cy9CCLJt&offer=UHmW4pcGbNx9cXtoMuYAT"
     },
     {
-     "id": "JlzSHXKqQXy-nJe49-jEi",
+     "id": "i-Gt0NnqHVcwvs7Ythz3L",
      "navn": "Peppes Pizza",
      "beskrivelse": "et utvalg, 500–570 g\n113,86–129,80/kg\nFørpris: 82,90–95,90",
      "butikk": "SPAR",
@@ -85,11 +98,11 @@
      "pris": 64.9,
      "enhetspris": 129.8,
      "enhet": "kg",
-     "fra": "2026-11-08T23:00:00+00:00",
+     "fra": "2026-11-11T23:00:00+00:00",
      "til": "2026-11-15T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fr_wpQw3M%2Fp-5.webp&w=300&x1r=0.59&x2r=0.95&y1r=0.08&y2r=0.91&s=2cdd88b5c207248c4c0d03c77be634b3",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fr_wpQw3M%2Fp-5.webp&w=1000&x1r=0.59&x2r=0.95&y1r=0.08&y2r=0.91&s=28387724b4694db8f99bb282fed37770",
-     "url": "https://etilbudsavis.no/SPAR?publication=r_wpQw3M&offer=JlzSHXKqQXy-nJe49-jEi"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3BLR6-LF%2Fp-6.webp&w=300&x1r=0.592&x2r=0.947&y1r=0.088&y2r=0.915&s=99edbd891ddbf4e81cc21f74c253044f",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3BLR6-LF%2Fp-6.webp&w=1000&x1r=0.592&x2r=0.947&y1r=0.088&y2r=0.915&s=db17a238d46503a8be379b4340a9d51c",
+     "url": "https://etilbudsavis.no/SPAR?publication=3BLR6-LF&offer=i-Gt0NnqHVcwvs7Ythz3L"
     }
    ]
   },

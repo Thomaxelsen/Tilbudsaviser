@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-12T20:49:31.356201+00:00",
+ "generert": "2026-11-13T12:12:21.750598+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -136,8 +136,8 @@
      "enhet": "l",
      "fra": "2026-11-08T23:00:00+00:00",
      "til": "2026-11-15T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7R3tceAU%2Fp-14.webp&w=300&x1r=0.315&x2r=0.54&y1r=0.728&y2r=0.975&s=a54a343b3127991c43a1a5fb3d0d38dd",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7R3tceAU%2Fp-14.webp&w=1000&x1r=0.315&x2r=0.54&y1r=0.728&y2r=0.975&s=368e5058a6b5a148dd56587574640c11",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7R3tceAU%2Fp-replacement-cJPooGce-14.webp&w=300&x1r=0.315&x2r=0.54&y1r=0.728&y2r=0.975&s=5645851d59e032bf04edf74b99397215",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7R3tceAU%2Fp-replacement-cJPooGce-14.webp&w=1000&x1r=0.315&x2r=0.54&y1r=0.728&y2r=0.975&s=1ed3e24e995965ad4c65f9cb7a23e61e",
      "url": "https://etilbudsavis.no/Bunnpris?publication=7R3tceAU&offer=JVj7sGnNeOUvndpTiVfoV"
     },
     {

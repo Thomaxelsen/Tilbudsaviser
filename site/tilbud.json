@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-13T12:12:21.750598+00:00",
+ "generert": "2026-11-14T11:27:51.625971+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -90,7 +90,7 @@
      "url": "https://etilbudsavis.no/KIWI?publication=cy9CCLJt&offer=UHmW4pcGbNx9cXtoMuYAT"
     },
     {
-     "id": "i-Gt0NnqHVcwvs7Ythz3L",
+     "id": "JlzSHXKqQXy-nJe49-jEi",
      "navn": "Peppes Pizza",
      "beskrivelse": "et utvalg, 500–570 g\n113,86–129,80/kg\nFørpris: 82,90–95,90",
      "butikk": "SPAR",
@@ -98,11 +98,11 @@
      "pris": 64.9,
      "enhetspris": 129.8,
      "enhet": "kg",
-     "fra": "2026-11-11T23:00:00+00:00",
+     "fra": "2026-11-08T23:00:00+00:00",
      "til": "2026-11-15T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3BLR6-LF%2Fp-6.webp&w=300&x1r=0.592&x2r=0.947&y1r=0.088&y2r=0.915&s=99edbd891ddbf4e81cc21f74c253044f",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3BLR6-LF%2Fp-6.webp&w=1000&x1r=0.592&x2r=0.947&y1r=0.088&y2r=0.915&s=db17a238d46503a8be379b4340a9d51c",
-     "url": "https://etilbudsavis.no/SPAR?publication=3BLR6-LF&offer=i-Gt0NnqHVcwvs7Ythz3L"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fr_wpQw3M%2Fp-5.webp&w=300&x1r=0.59&x2r=0.95&y1r=0.08&y2r=0.91&s=2cdd88b5c207248c4c0d03c77be634b3",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fr_wpQw3M%2Fp-5.webp&w=1000&x1r=0.59&x2r=0.95&y1r=0.08&y2r=0.91&s=28387724b4694db8f99bb282fed37770",
+     "url": "https://etilbudsavis.no/SPAR?publication=r_wpQw3M&offer=JlzSHXKqQXy-nJe49-jEi"
     }
    ]
   },
@@ -126,21 +126,6 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "JVj7sGnNeOUvndpTiVfoV",
-     "navn": "Eplejuice og appelsinjuice m/ fruktkjøtt",
-     "beskrivelse": "1.75 l God Morgon pr. stk\n25,71/L",
-     "butikk": "Bunnpris",
-     "farge": "#fff200",
-     "pris": 45,
-     "enhetspris": 25.71,
-     "enhet": "l",
-     "fra": "2026-11-08T23:00:00+00:00",
-     "til": "2026-11-15T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7R3tceAU%2Fp-replacement-cJPooGce-14.webp&w=300&x1r=0.315&x2r=0.54&y1r=0.728&y2r=0.975&s=5645851d59e032bf04edf74b99397215",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7R3tceAU%2Fp-replacement-cJPooGce-14.webp&w=1000&x1r=0.315&x2r=0.54&y1r=0.728&y2r=0.975&s=1ed3e24e995965ad4c65f9cb7a23e61e",
-     "url": "https://etilbudsavis.no/Bunnpris?publication=7R3tceAU&offer=JVj7sGnNeOUvndpTiVfoV"
-    },
-    {
      "id": "OBX7K8csWXyAoZCdYKVGL",
      "navn": "Eplejuice",
      "beskrivelse": "1,75 liter, God Morgen, pr. l 22,80",
@@ -154,6 +139,21 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-Xg9X6t-g-25.webp&w=300&x1r=0.02&x2r=0.35&y1r=0.54&y2r=0.93&s=1e0e5aa6b7c9c16aaf54f895318f0679",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-Xg9X6t-g-25.webp&w=1000&x1r=0.02&x2r=0.35&y1r=0.54&y2r=0.93&s=b9a91fd2c1b848c1aae8c5c1eb282fab",
      "url": "https://etilbudsavis.no/KIWI?publication=cy9CCLJt&offer=OBX7K8csWXyAoZCdYKVGL"
+    },
+    {
+     "id": "JVj7sGnNeOUvndpTiVfoV",
+     "navn": "Eplejuice og appelsinjuice m/ fruktkjøtt",
+     "beskrivelse": "1.75 l God Morgon pr. stk\n25,71/L",
+     "butikk": "Bunnpris",
+     "farge": "#fff200",
+     "pris": 45,
+     "enhetspris": 25.71,
+     "enhet": "l",
+     "fra": "2026-11-08T23:00:00+00:00",
+     "til": "2026-11-15T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7R3tceAU%2Fp-replacement-cJPooGce-14.webp&w=300&x1r=0.315&x2r=0.54&y1r=0.728&y2r=0.975&s=5645851d59e032bf04edf74b99397215",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7R3tceAU%2Fp-replacement-cJPooGce-14.webp&w=1000&x1r=0.315&x2r=0.54&y1r=0.728&y2r=0.975&s=1ed3e24e995965ad4c65f9cb7a23e61e",
+     "url": "https://etilbudsavis.no/Bunnpris?publication=7R3tceAU&offer=JVj7sGnNeOUvndpTiVfoV"
     },
     {
      "id": "lVciIFDk6-eEdpQKQYfeC",

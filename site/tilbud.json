@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-15T11:56:54.051556+00:00",
+ "generert": "2026-11-15T19:22:08.899489+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -90,7 +90,7 @@
      "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=ED0qcamviLfTXQ1_rQ1O5"
     },
     {
-     "id": "i-Gt0NnqHVcwvs7Ythz3L",
+     "id": "JlzSHXKqQXy-nJe49-jEi",
      "navn": "Peppes Pizza",
      "beskrivelse": "et utvalg, 500–570 g\n113,86–129,80/kg\nFørpris: 82,90–95,90",
      "butikk": "SPAR",
@@ -98,11 +98,11 @@
      "pris": 64.9,
      "enhetspris": 129.8,
      "enhet": "kg",
-     "fra": "2026-11-11T23:00:00+00:00",
+     "fra": "2026-11-08T23:00:00+00:00",
      "til": "2026-11-15T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3BLR6-LF%2Fp-6.webp&w=300&x1r=0.592&x2r=0.947&y1r=0.088&y2r=0.915&s=99edbd891ddbf4e81cc21f74c253044f",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3BLR6-LF%2Fp-6.webp&w=1000&x1r=0.592&x2r=0.947&y1r=0.088&y2r=0.915&s=db17a238d46503a8be379b4340a9d51c",
-     "url": "https://etilbudsavis.no/SPAR?publication=3BLR6-LF&offer=i-Gt0NnqHVcwvs7Ythz3L"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fr_wpQw3M%2Fp-5.webp&w=300&x1r=0.59&x2r=0.95&y1r=0.08&y2r=0.91&s=2cdd88b5c207248c4c0d03c77be634b3",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fr_wpQw3M%2Fp-5.webp&w=1000&x1r=0.59&x2r=0.95&y1r=0.08&y2r=0.91&s=28387724b4694db8f99bb282fed37770",
+     "url": "https://etilbudsavis.no/SPAR?publication=r_wpQw3M&offer=JlzSHXKqQXy-nJe49-jEi"
     },
     {
      "id": "LCw-i7YDliUmyT6Sr2dbT",
@@ -228,21 +228,6 @@
      "url": "https://etilbudsavis.no/Bunnpris?publication=7R3tceAU&offer=JVj7sGnNeOUvndpTiVfoV"
     },
     {
-     "id": "lVciIFDk6-eEdpQKQYfeC",
-     "navn": "Coop eplejuice",
-     "beskrivelse": "1,5 l. Pr kartong Pr l 19,27",
-     "butikk": "Extra",
-     "farge": "#d23732",
-     "pris": 28.9,
-     "enhetspris": 19.27,
-     "enhet": "l",
-     "fra": "2026-11-08T23:00:00+00:00",
-     "til": "2026-11-15T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FJuJgOIGV%2Fp-8.webp&w=300&x1r=0.205&x2r=0.46&y1r=0.362&y2r=0.905&s=c8806ee0de9a7776bd13db1e1d089311",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FJuJgOIGV%2Fp-8.webp&w=1000&x1r=0.205&x2r=0.46&y1r=0.362&y2r=0.905&s=a4aeb5a79409f5bb4fd92ae8ff232ea8",
-     "url": "https://etilbudsavis.no/Extra?publication=JuJgOIGV&offer=lVciIFDk6-eEdpQKQYfeC"
-    },
-    {
      "id": "vkcHp2lwPa6i-mloIAWya",
      "navn": "Eplejuice",
      "beskrivelse": "1,75 liter, God Morgen, pr. l 22,80",
@@ -256,6 +241,21 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-24.webp&w=300&x1r=0.02&x2r=0.34&y1r=0.54&y2r=0.93&s=a11886ff5a7de6008bccc89e622178e7",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-24.webp&w=1000&x1r=0.02&x2r=0.34&y1r=0.54&y2r=0.93&s=f79923edb11b5f54be848425e58b3aee",
      "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=vkcHp2lwPa6i-mloIAWya"
+    },
+    {
+     "id": "lVciIFDk6-eEdpQKQYfeC",
+     "navn": "Coop eplejuice",
+     "beskrivelse": "1,5 l. Pr kartong Pr l 19,27",
+     "butikk": "Extra",
+     "farge": "#d23732",
+     "pris": 28.9,
+     "enhetspris": 19.27,
+     "enhet": "l",
+     "fra": "2026-11-08T23:00:00+00:00",
+     "til": "2026-11-15T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FJuJgOIGV%2Fp-8.webp&w=300&x1r=0.205&x2r=0.46&y1r=0.362&y2r=0.905&s=c8806ee0de9a7776bd13db1e1d089311",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FJuJgOIGV%2Fp-8.webp&w=1000&x1r=0.205&x2r=0.46&y1r=0.362&y2r=0.905&s=a4aeb5a79409f5bb4fd92ae8ff232ea8",
+     "url": "https://etilbudsavis.no/Extra?publication=JuJgOIGV&offer=lVciIFDk6-eEdpQKQYfeC"
     }
    ]
   },

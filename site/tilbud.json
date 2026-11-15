@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-14T18:44:16.158824+00:00",
+ "generert": "2026-11-15T11:56:54.051556+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -8,23 +8,6 @@
    "navn": "Rustica Dobbel Pepperoni Pizza",
    "feil": false,
    "tilbud": [
-    {
-     "id": "3BvBxpvYHgBZyp3w7dWIc",
-     "navn": "Pizza Rustica",
-     "beskrivelse": "Double Pepperoni, Dr. Oetker, 565 g\nEnh.pris 106,02 pr. kg Førpris 99,00",
-     "butikk": "Joker",
-     "farge": "#008c58",
-     "pris": 59.9,
-     "forpris": 99.0,
-     "rabatt_prosent": 39,
-     "enhetspris": 106.02,
-     "enhet": "kg",
-     "fra": "2026-11-08T23:00:00+00:00",
-     "til": "2026-11-14T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FMz7ADkIz%2Fp-9.webp&w=300&x1r=0.06&x2r=0.63&y1r=0.59&y2r=0.95&s=cda8f08d62024b0d339e2ea751edff7b",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FMz7ADkIz%2Fp-9.webp&w=1000&x1r=0.06&x2r=0.63&y1r=0.59&y2r=0.95&s=59e93fa60f0d9946a84df7c693f45ea0",
-     "url": "https://etilbudsavis.no/Joker?publication=Mz7ADkIz&offer=3BvBxpvYHgBZyp3w7dWIc"
-    },
     {
      "id": "COjOmIJHc8EH0cfx-sVts",
      "navn": "Pizza double pepperoni",
@@ -39,6 +22,21 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-Xg9X6t-g-17.webp&w=300&x1r=0.03&x2r=0.48&y1r=0.59&y2r=0.93&s=3b142a4bb7f87d92977300ea32812175",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-Xg9X6t-g-17.webp&w=1000&x1r=0.03&x2r=0.48&y1r=0.59&y2r=0.93&s=d4282356cb646286b705c3242f4ddf97",
      "url": "https://etilbudsavis.no/KIWI?publication=cy9CCLJt&offer=COjOmIJHc8EH0cfx-sVts"
+    },
+    {
+     "id": "uh0b5MSxYAxZTtrCgcXtT",
+     "navn": "Pizza double pepperoni",
+     "beskrivelse": "565 g, fryst, Rustica, pr. kg 100,71",
+     "butikk": "KIWI",
+     "farge": "#50b848",
+     "pris": 56.9,
+     "enhetspris": 100.71,
+     "enhet": "kg",
+     "fra": "2026-11-15T23:00:00+00:00",
+     "til": "2026-11-22T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-17.webp&w=300&x1r=0.04&x2r=0.48&y1r=0.6&y2r=0.93&s=386f4d7ceae28f11cff22df99ddf4f57",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-17.webp&w=1000&x1r=0.04&x2r=0.48&y1r=0.6&y2r=0.93&s=cb8bd9317a4ccbfec6545d3e760f0bb2",
+     "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=uh0b5MSxYAxZTtrCgcXtT"
     }
    ]
   },
@@ -62,19 +60,6 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "Ec5Obm9ouikpSMRMXMH1N",
-     "navn": "Lag din egen pizza",
-     "beskrivelse": "Peppes Pizza/Eldorado, et stort utvalg\nFørpris: 18,90–65,90\nGjelder torsdag–lørdag",
-     "butikk": "SPAR",
-     "farge": "#dc1e21",
-     "rabatt_prosent": 40,
-     "fra": "2026-11-11T23:00:00+00:00",
-     "til": "2026-11-14T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3BLR6-LF%2Fp-1.webp&w=300&x1r=0.05&x2r=0.95&y1r=0.27&y2r=0.96&s=fcfefed54ac558f78c7b3bf5bfe7c199",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3BLR6-LF%2Fp-1.webp&w=1000&x1r=0.05&x2r=0.95&y1r=0.27&y2r=0.96&s=3d7111088d43d99771cb7689b602b280",
-     "url": "https://etilbudsavis.no/SPAR?publication=3BLR6-LF&offer=Ec5Obm9ouikpSMRMXMH1N"
-    },
-    {
      "id": "UHmW4pcGbNx9cXtoMuYAT",
      "navn": "Pepperoni",
      "beskrivelse": "70 g, Peppes, pr. kg 470,00",
@@ -90,6 +75,21 @@
      "url": "https://etilbudsavis.no/KIWI?publication=cy9CCLJt&offer=UHmW4pcGbNx9cXtoMuYAT"
     },
     {
+     "id": "ED0qcamviLfTXQ1_rQ1O5",
+     "navn": "Pepperoni",
+     "beskrivelse": "70 g, Peppes, pr. kg 470,00",
+     "butikk": "KIWI",
+     "farge": "#50b848",
+     "pris": 32.9,
+     "enhetspris": 470.0,
+     "enhet": "kg",
+     "fra": "2026-11-15T23:00:00+00:00",
+     "til": "2026-11-22T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-16.webp&w=300&x1r=0.03&x2r=0.46&y1r=0.585&y2r=0.935&s=65945f0fe53c6403d6f0906eeeadc995",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-16.webp&w=1000&x1r=0.03&x2r=0.46&y1r=0.585&y2r=0.935&s=a0ba00f40723ce55f4285861fa1a8cbf",
+     "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=ED0qcamviLfTXQ1_rQ1O5"
+    },
+    {
      "id": "i-Gt0NnqHVcwvs7Ythz3L",
      "navn": "Peppes Pizza",
      "beskrivelse": "et utvalg, 500–570 g\n113,86–129,80/kg\nFørpris: 82,90–95,90",
@@ -103,6 +103,49 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3BLR6-LF%2Fp-6.webp&w=300&x1r=0.592&x2r=0.947&y1r=0.088&y2r=0.915&s=99edbd891ddbf4e81cc21f74c253044f",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F3BLR6-LF%2Fp-6.webp&w=1000&x1r=0.592&x2r=0.947&y1r=0.088&y2r=0.915&s=db17a238d46503a8be379b4340a9d51c",
      "url": "https://etilbudsavis.no/SPAR?publication=3BLR6-LF&offer=i-Gt0NnqHVcwvs7Ythz3L"
+    },
+    {
+     "id": "LCw-i7YDliUmyT6Sr2dbT",
+     "navn": "Et stort utvalg peppes-produkter",
+     "beskrivelse": "Fra 50 g pr. stk",
+     "butikk": "Bunnpris",
+     "farge": "#fff200",
+     "rabatt_prosent": 30,
+     "fra": "2026-11-15T23:00:00+00:00",
+     "til": "2026-11-22T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FfUYdOHnO%2Fp-13.webp&w=300&x1r=0.05&x2r=0.49&y1r=0.63&y2r=0.96&s=9836502dd7ba1d3d983a935ef91a3918",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FfUYdOHnO%2Fp-13.webp&w=1000&x1r=0.05&x2r=0.49&y1r=0.63&y2r=0.96&s=357e499c85fbc6d1f265ff38d69c3a1b",
+     "url": "https://etilbudsavis.no/Bunnpris?publication=fUYdOHnO&offer=LCw-i7YDliUmyT6Sr2dbT"
+    },
+    {
+     "id": "1-PpI49m9YFwdM7O5gRZ6",
+     "navn": "Pizzasaus",
+     "beskrivelse": "180 g, original, Peppes, pr. kg 110,56",
+     "butikk": "KIWI",
+     "farge": "#50b848",
+     "pris": 19.9,
+     "enhetspris": 110.56,
+     "enhet": "kg",
+     "fra": "2026-11-15T23:00:00+00:00",
+     "til": "2026-11-22T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-16.webp&w=300&x1r=0.47&x2r=0.96&y1r=0.24&y2r=0.59&s=7a1e8c0b94306f93ccfb520d4d01a157",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-16.webp&w=1000&x1r=0.47&x2r=0.96&y1r=0.24&y2r=0.59&s=b74b9a954e52e757a6629b05885df3a9",
+     "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=1-PpI49m9YFwdM7O5gRZ6"
+    },
+    {
+     "id": "S0Af_Rk8ImvRZum69NSOL",
+     "navn": "Rømmedressing",
+     "beskrivelse": "125 g, original, Peppes, pr. kg 191,20",
+     "butikk": "KIWI",
+     "farge": "#50b848",
+     "pris": 23.9,
+     "enhetspris": 191.2,
+     "enhet": "kg",
+     "fra": "2026-11-15T23:00:00+00:00",
+     "til": "2026-11-22T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-16.webp&w=300&x1r=0.02&x2r=0.48&y1r=0.24&y2r=0.59&s=16f6ef98720c10c4a097ebae1c5eaa84",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-16.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.24&y2r=0.59&s=d2aa810bd7912dd0f9a06b74e03a25af",
+     "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=S0Af_Rk8ImvRZum69NSOL"
     }
    ]
   },
@@ -125,6 +168,35 @@
    "navn": "Eplejuice",
    "feil": false,
    "tilbud": [
+    {
+     "id": "KoN-zmdaTCpvrhpy5_qDY",
+     "navn": "Sunniva eplejuice og appelsinjuice",
+     "beskrivelse": "1.75 l pr. stk",
+     "butikk": "Bunnpris",
+     "farge": "#fff200",
+     "rabatt_prosent": 30,
+     "fra": "2026-11-15T23:00:00+00:00",
+     "til": "2026-11-22T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FfUYdOHnO%2Fp-6.webp&w=300&x1r=0.34&x2r=0.64&y1r=0.32&y2r=0.63&s=b53b5972d3cded5f221881f0de7a8c5f",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FfUYdOHnO%2Fp-6.webp&w=1000&x1r=0.34&x2r=0.64&y1r=0.32&y2r=0.63&s=c0457c010a8bf40c05519c3b313df39a",
+     "url": "https://etilbudsavis.no/Bunnpris?publication=fUYdOHnO&offer=KoN-zmdaTCpvrhpy5_qDY"
+    },
+    {
+     "id": "ZSnwTXzF6SN8R8_xeCpF5",
+     "navn": "Eplejuice",
+     "beskrivelse": "God Morgon, 1,75 l",
+     "butikk": "SPAR",
+     "farge": "#dc1e21",
+     "pris": 70,
+     "antall": 2,
+     "enhetspris": 20,
+     "enhet": "l",
+     "fra": "2026-11-15T23:00:00+00:00",
+     "til": "2026-11-22T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-kXXIz7F%2Fp-7.webp&w=300&x1r=0.639&x2r=0.941&y1r=0.055&y2r=0.62&s=bf6cabfb40c499c2c5f7ebc11a073a06",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-kXXIz7F%2Fp-7.webp&w=1000&x1r=0.639&x2r=0.941&y1r=0.055&y2r=0.62&s=163f0c31214f150d60090dd9cea8eb82",
+     "url": "https://etilbudsavis.no/SPAR?publication=-kXXIz7F&offer=ZSnwTXzF6SN8R8_xeCpF5"
+    },
     {
      "id": "OBX7K8csWXyAoZCdYKVGL",
      "navn": "Eplejuice",
@@ -169,6 +241,21 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FJuJgOIGV%2Fp-8.webp&w=300&x1r=0.205&x2r=0.46&y1r=0.362&y2r=0.905&s=c8806ee0de9a7776bd13db1e1d089311",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FJuJgOIGV%2Fp-8.webp&w=1000&x1r=0.205&x2r=0.46&y1r=0.362&y2r=0.905&s=a4aeb5a79409f5bb4fd92ae8ff232ea8",
      "url": "https://etilbudsavis.no/Extra?publication=JuJgOIGV&offer=lVciIFDk6-eEdpQKQYfeC"
+    },
+    {
+     "id": "vkcHp2lwPa6i-mloIAWya",
+     "navn": "Eplejuice",
+     "beskrivelse": "1,75 liter, God Morgen, pr. l 22,80",
+     "butikk": "KIWI",
+     "farge": "#50b848",
+     "pris": 39.9,
+     "enhetspris": 22.8,
+     "enhet": "l",
+     "fra": "2026-11-15T23:00:00+00:00",
+     "til": "2026-11-22T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-24.webp&w=300&x1r=0.02&x2r=0.34&y1r=0.54&y2r=0.93&s=a11886ff5a7de6008bccc89e622178e7",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-24.webp&w=1000&x1r=0.02&x2r=0.34&y1r=0.54&y2r=0.93&s=f79923edb11b5f54be848425e58b3aee",
+     "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=vkcHp2lwPa6i-mloIAWya"
     }
    ]
   },
@@ -177,24 +264,7 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "t1skBEBfWMIacaBHpXrSI",
-     "navn": "Meierismør",
-     "beskrivelse": "HELGEKUPP FREDAG & LØRDAG\nTINE, 500 g\nEnh.pris 79,80 pr. kg Førpris 72,90\nMaks 5 pk. pr. kunde",
-     "butikk": "Joker",
-     "farge": "#008c58",
-     "pris": 39.9,
-     "forpris": 72.9,
-     "rabatt_prosent": 45,
-     "enhetspris": 79.8,
-     "enhet": "kg",
-     "fra": "2026-11-12T23:00:00+00:00",
-     "til": "2026-11-14T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FMz7ADkIz%2Fp-1.webp&w=300&x1r=0.72&x2r=0.96&y1r=0.61&y2r=0.93&s=68cb68629e286a72c24bd7e444d1a3da",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FMz7ADkIz%2Fp-1.webp&w=1000&x1r=0.72&x2r=0.96&y1r=0.61&y2r=0.93&s=bf69a22602996486f160680ac92ee143",
-     "url": "https://etilbudsavis.no/Joker?publication=Mz7ADkIz&offer=t1skBEBfWMIacaBHpXrSI"
-    },
-    {
-     "id": "HOSJPdQDWwKPAMFRnoygH",
+     "id": "p_tozShIA_jJTwX8xtpbD",
      "navn": "Olivero",
      "beskrivelse": "400 g, smør&olivenolje, pr. kg 87,25",
      "butikk": "KIWI",
@@ -204,11 +274,26 @@
      "rabatt_prosent": 20,
      "enhetspris": 87.25,
      "enhet": "kg",
-     "fra": "2026-11-08T23:00:00+00:00",
+     "fra": "2026-11-15T23:00:00+00:00",
      "til": "2026-11-22T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-Xg9X6t-g-19.webp&w=300&x1r=0.02&x2r=0.48&y1r=0.31&y2r=0.58&s=a5f4da1494bc7165efa2d69b217cb895",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-Xg9X6t-g-19.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.31&y2r=0.58&s=11f3b2c5032d213886221f36ae339e2c",
-     "url": "https://etilbudsavis.no/KIWI?publication=cy9CCLJt&offer=HOSJPdQDWwKPAMFRnoygH"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-19.webp&w=300&x1r=0.02&x2r=0.48&y1r=0.3&y2r=0.59&s=731a8fadc7f4f0c5f9bfaca47412d9d7",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-19.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.3&y2r=0.59&s=52160e339b9fd2f7ec54a0d5f4b2efb9",
+     "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=p_tozShIA_jJTwX8xtpbD"
+    },
+    {
+     "id": "s_LGUV4d4IhWsOL5JFDcG",
+     "navn": "Fersk ertestuing",
+     "beskrivelse": "Består utelukkende av naturlige råvarer og inneholder kokte grønne erter, smør og en liten klype havsalt.\n400G, GRØNN&FRISK (62,25/KG)",
+     "butikk": "MENY",
+     "farge": "#dd233d",
+     "pris": 24.9,
+     "enhetspris": 62.25,
+     "enhet": "kg",
+     "fra": "2026-11-15T23:00:00+00:00",
+     "til": "2026-11-21T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FOg-MGv8x%2Fp-5.webp&w=300&x1r=0.735&x2r=0.972&y1r=0.708&y2r=0.972&s=0924fcfbfac8beb17d43daadbb044e74",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FOg-MGv8x%2Fp-5.webp&w=1000&x1r=0.735&x2r=0.972&y1r=0.708&y2r=0.972&s=c2ee2221c0cbbfa89fab7eee590de6d4",
+     "url": "https://etilbudsavis.no/MENY?publication=Og-MGv8x&offer=s_LGUV4d4IhWsOL5JFDcG"
     }
    ]
   }

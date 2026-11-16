@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-15T19:22:08.899489+00:00",
+ "generert": "2026-11-16T12:44:44.919552+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -8,21 +8,6 @@
    "navn": "Rustica Dobbel Pepperoni Pizza",
    "feil": false,
    "tilbud": [
-    {
-     "id": "COjOmIJHc8EH0cfx-sVts",
-     "navn": "Pizza double pepperoni",
-     "beskrivelse": "565 g, fryst, Rustica, pr. kg 100,71",
-     "butikk": "KIWI",
-     "farge": "#50b848",
-     "pris": 56.9,
-     "enhetspris": 100.71,
-     "enhet": "kg",
-     "fra": "2026-11-08T23:00:00+00:00",
-     "til": "2026-11-15T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-Xg9X6t-g-17.webp&w=300&x1r=0.03&x2r=0.48&y1r=0.59&y2r=0.93&s=3b142a4bb7f87d92977300ea32812175",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-Xg9X6t-g-17.webp&w=1000&x1r=0.03&x2r=0.48&y1r=0.59&y2r=0.93&s=d4282356cb646286b705c3242f4ddf97",
-     "url": "https://etilbudsavis.no/KIWI?publication=cy9CCLJt&offer=COjOmIJHc8EH0cfx-sVts"
-    },
     {
      "id": "uh0b5MSxYAxZTtrCgcXtT",
      "navn": "Pizza double pepperoni",
@@ -34,8 +19,8 @@
      "enhet": "kg",
      "fra": "2026-11-15T23:00:00+00:00",
      "til": "2026-11-22T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-17.webp&w=300&x1r=0.04&x2r=0.48&y1r=0.6&y2r=0.93&s=386f4d7ceae28f11cff22df99ddf4f57",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-17.webp&w=1000&x1r=0.04&x2r=0.48&y1r=0.6&y2r=0.93&s=cb8bd9317a4ccbfec6545d3e760f0bb2",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-1ugdLpbl-18.webp&w=300&x1r=0.04&x2r=0.48&y1r=0.6&y2r=0.93&s=1306512f00dc7d1a7401ac9006afbc75",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-1ugdLpbl-18.webp&w=1000&x1r=0.04&x2r=0.48&y1r=0.6&y2r=0.93&s=653358162721d030454ffde27e2102d5",
      "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=uh0b5MSxYAxZTtrCgcXtT"
     }
    ]
@@ -60,21 +45,6 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "UHmW4pcGbNx9cXtoMuYAT",
-     "navn": "Pepperoni",
-     "beskrivelse": "70 g, Peppes, pr. kg 470,00",
-     "butikk": "KIWI",
-     "farge": "#50b848",
-     "pris": 32.9,
-     "enhetspris": 470.0,
-     "enhet": "kg",
-     "fra": "2026-11-08T23:00:00+00:00",
-     "til": "2026-11-15T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-Xg9X6t-g-16.webp&w=300&x1r=0.04&x2r=0.48&y1r=0.585&y2r=0.935&s=d5b2b0ee0aa5326ecba422dbec2093cc",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-Xg9X6t-g-16.webp&w=1000&x1r=0.04&x2r=0.48&y1r=0.585&y2r=0.935&s=594366ddf7efdb9abfc4423f13718b26",
-     "url": "https://etilbudsavis.no/KIWI?publication=cy9CCLJt&offer=UHmW4pcGbNx9cXtoMuYAT"
-    },
-    {
      "id": "ED0qcamviLfTXQ1_rQ1O5",
      "navn": "Pepperoni",
      "beskrivelse": "70 g, Peppes, pr. kg 470,00",
@@ -85,24 +55,9 @@
      "enhet": "kg",
      "fra": "2026-11-15T23:00:00+00:00",
      "til": "2026-11-22T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-16.webp&w=300&x1r=0.03&x2r=0.46&y1r=0.585&y2r=0.935&s=65945f0fe53c6403d6f0906eeeadc995",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-16.webp&w=1000&x1r=0.03&x2r=0.46&y1r=0.585&y2r=0.935&s=a0ba00f40723ce55f4285861fa1a8cbf",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-1ugdLpbl-17.webp&w=300&x1r=0.03&x2r=0.46&y1r=0.585&y2r=0.935&s=dcecae3c75c21d462f4c10a0fd04caca",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-1ugdLpbl-17.webp&w=1000&x1r=0.03&x2r=0.46&y1r=0.585&y2r=0.935&s=e1e80041df4bc3a9031a68f7786316a5",
      "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=ED0qcamviLfTXQ1_rQ1O5"
-    },
-    {
-     "id": "JlzSHXKqQXy-nJe49-jEi",
-     "navn": "Peppes Pizza",
-     "beskrivelse": "et utvalg, 500–570 g\n113,86–129,80/kg\nFørpris: 82,90–95,90",
-     "butikk": "SPAR",
-     "farge": "#dc1e21",
-     "pris": 64.9,
-     "enhetspris": 129.8,
-     "enhet": "kg",
-     "fra": "2026-11-08T23:00:00+00:00",
-     "til": "2026-11-15T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fr_wpQw3M%2Fp-5.webp&w=300&x1r=0.59&x2r=0.95&y1r=0.08&y2r=0.91&s=2cdd88b5c207248c4c0d03c77be634b3",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fr_wpQw3M%2Fp-5.webp&w=1000&x1r=0.59&x2r=0.95&y1r=0.08&y2r=0.91&s=28387724b4694db8f99bb282fed37770",
-     "url": "https://etilbudsavis.no/SPAR?publication=r_wpQw3M&offer=JlzSHXKqQXy-nJe49-jEi"
     },
     {
      "id": "LCw-i7YDliUmyT6Sr2dbT",
@@ -128,8 +83,8 @@
      "enhet": "kg",
      "fra": "2026-11-15T23:00:00+00:00",
      "til": "2026-11-22T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-16.webp&w=300&x1r=0.47&x2r=0.96&y1r=0.24&y2r=0.59&s=7a1e8c0b94306f93ccfb520d4d01a157",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-16.webp&w=1000&x1r=0.47&x2r=0.96&y1r=0.24&y2r=0.59&s=b74b9a954e52e757a6629b05885df3a9",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-1ugdLpbl-17.webp&w=300&x1r=0.47&x2r=0.96&y1r=0.24&y2r=0.59&s=6f2963770a6d34b8a9708ff40e7b958f",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-1ugdLpbl-17.webp&w=1000&x1r=0.47&x2r=0.96&y1r=0.24&y2r=0.59&s=223a2b7a7f4f188ce2d2384a3006a318",
      "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=1-PpI49m9YFwdM7O5gRZ6"
     },
     {
@@ -143,8 +98,8 @@
      "enhet": "kg",
      "fra": "2026-11-15T23:00:00+00:00",
      "til": "2026-11-22T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-16.webp&w=300&x1r=0.02&x2r=0.48&y1r=0.24&y2r=0.59&s=16f6ef98720c10c4a097ebae1c5eaa84",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-16.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.24&y2r=0.59&s=d2aa810bd7912dd0f9a06b74e03a25af",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-1ugdLpbl-17.webp&w=300&x1r=0.02&x2r=0.48&y1r=0.24&y2r=0.59&s=8767f3f942d5f1b70b82c63446bb35dd",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-1ugdLpbl-17.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.24&y2r=0.59&s=b65bcb635e8e0ce64d79580c209d8771",
      "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=S0Af_Rk8ImvRZum69NSOL"
     }
    ]
@@ -198,36 +153,6 @@
      "url": "https://etilbudsavis.no/SPAR?publication=-kXXIz7F&offer=ZSnwTXzF6SN8R8_xeCpF5"
     },
     {
-     "id": "OBX7K8csWXyAoZCdYKVGL",
-     "navn": "Eplejuice",
-     "beskrivelse": "1,75 liter, God Morgen, pr. l 22,80",
-     "butikk": "KIWI",
-     "farge": "#50b848",
-     "pris": 39.9,
-     "enhetspris": 22.8,
-     "enhet": "l",
-     "fra": "2026-11-08T23:00:00+00:00",
-     "til": "2026-11-15T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-Xg9X6t-g-25.webp&w=300&x1r=0.02&x2r=0.35&y1r=0.54&y2r=0.93&s=1e0e5aa6b7c9c16aaf54f895318f0679",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2Fcy9CCLJt%2Fp-replacement-Xg9X6t-g-25.webp&w=1000&x1r=0.02&x2r=0.35&y1r=0.54&y2r=0.93&s=b9a91fd2c1b848c1aae8c5c1eb282fab",
-     "url": "https://etilbudsavis.no/KIWI?publication=cy9CCLJt&offer=OBX7K8csWXyAoZCdYKVGL"
-    },
-    {
-     "id": "JVj7sGnNeOUvndpTiVfoV",
-     "navn": "Eplejuice og appelsinjuice m/ fruktkjøtt",
-     "beskrivelse": "1.75 l God Morgon pr. stk\n25,71/L",
-     "butikk": "Bunnpris",
-     "farge": "#fff200",
-     "pris": 45,
-     "enhetspris": 25.71,
-     "enhet": "l",
-     "fra": "2026-11-08T23:00:00+00:00",
-     "til": "2026-11-15T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7R3tceAU%2Fp-replacement-cJPooGce-14.webp&w=300&x1r=0.315&x2r=0.54&y1r=0.728&y2r=0.975&s=5645851d59e032bf04edf74b99397215",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F7R3tceAU%2Fp-replacement-cJPooGce-14.webp&w=1000&x1r=0.315&x2r=0.54&y1r=0.728&y2r=0.975&s=1ed3e24e995965ad4c65f9cb7a23e61e",
-     "url": "https://etilbudsavis.no/Bunnpris?publication=7R3tceAU&offer=JVj7sGnNeOUvndpTiVfoV"
-    },
-    {
      "id": "vkcHp2lwPa6i-mloIAWya",
      "navn": "Eplejuice",
      "beskrivelse": "1,75 liter, God Morgen, pr. l 22,80",
@@ -238,24 +163,9 @@
      "enhet": "l",
      "fra": "2026-11-15T23:00:00+00:00",
      "til": "2026-11-22T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-24.webp&w=300&x1r=0.02&x2r=0.34&y1r=0.54&y2r=0.93&s=a11886ff5a7de6008bccc89e622178e7",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-24.webp&w=1000&x1r=0.02&x2r=0.34&y1r=0.54&y2r=0.93&s=f79923edb11b5f54be848425e58b3aee",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-1ugdLpbl-25.webp&w=300&x1r=0.02&x2r=0.34&y1r=0.54&y2r=0.93&s=f409dc41ed5cb3a5bc330e00fdf3e7b6",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-1ugdLpbl-25.webp&w=1000&x1r=0.02&x2r=0.34&y1r=0.54&y2r=0.93&s=1b6c35760cb5909a7f39881ae69b2f6d",
      "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=vkcHp2lwPa6i-mloIAWya"
-    },
-    {
-     "id": "lVciIFDk6-eEdpQKQYfeC",
-     "navn": "Coop eplejuice",
-     "beskrivelse": "1,5 l. Pr kartong Pr l 19,27",
-     "butikk": "Extra",
-     "farge": "#d23732",
-     "pris": 28.9,
-     "enhetspris": 19.27,
-     "enhet": "l",
-     "fra": "2026-11-08T23:00:00+00:00",
-     "til": "2026-11-15T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FJuJgOIGV%2Fp-8.webp&w=300&x1r=0.205&x2r=0.46&y1r=0.362&y2r=0.905&s=c8806ee0de9a7776bd13db1e1d089311",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FJuJgOIGV%2Fp-8.webp&w=1000&x1r=0.205&x2r=0.46&y1r=0.362&y2r=0.905&s=a4aeb5a79409f5bb4fd92ae8ff232ea8",
-     "url": "https://etilbudsavis.no/Extra?publication=JuJgOIGV&offer=lVciIFDk6-eEdpQKQYfeC"
     }
    ]
   },
@@ -276,8 +186,8 @@
      "enhet": "kg",
      "fra": "2026-11-15T23:00:00+00:00",
      "til": "2026-11-22T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-19.webp&w=300&x1r=0.02&x2r=0.48&y1r=0.3&y2r=0.59&s=731a8fadc7f4f0c5f9bfaca47412d9d7",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-19.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.3&y2r=0.59&s=52160e339b9fd2f7ec54a0d5f4b2efb9",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-1ugdLpbl-20.webp&w=300&x1r=0.02&x2r=0.48&y1r=0.3&y2r=0.59&s=ca3539e4857d3be26bfbc2b941e46214",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-1ugdLpbl-20.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.3&y2r=0.59&s=bae6d17a5205bbb7194029c3c59b22fa",
      "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=p_tozShIA_jJTwX8xtpbD"
     },
     {

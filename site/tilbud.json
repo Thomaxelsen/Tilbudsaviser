@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-16T12:44:44.919552+00:00",
+ "generert": "2026-11-16T22:53:08.323251+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -68,8 +68,8 @@
      "rabatt_prosent": 30,
      "fra": "2026-11-15T23:00:00+00:00",
      "til": "2026-11-22T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FfUYdOHnO%2Fp-13.webp&w=300&x1r=0.05&x2r=0.49&y1r=0.63&y2r=0.96&s=9836502dd7ba1d3d983a935ef91a3918",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FfUYdOHnO%2Fp-13.webp&w=1000&x1r=0.05&x2r=0.49&y1r=0.63&y2r=0.96&s=357e499c85fbc6d1f265ff38d69c3a1b",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FfUYdOHnO%2Fp-replacement-2BDzJ0vO-13.webp&w=300&x1r=0.05&x2r=0.49&y1r=0.63&y2r=0.96&s=271f2252ba3d5cd1a52200b197baa336",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FfUYdOHnO%2Fp-replacement-2BDzJ0vO-13.webp&w=1000&x1r=0.05&x2r=0.49&y1r=0.63&y2r=0.96&s=020ddd704f9d3c2bc51cff03dacbf0a7",
      "url": "https://etilbudsavis.no/Bunnpris?publication=fUYdOHnO&offer=LCw-i7YDliUmyT6Sr2dbT"
     },
     {
@@ -132,8 +132,8 @@
      "rabatt_prosent": 30,
      "fra": "2026-11-15T23:00:00+00:00",
      "til": "2026-11-22T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FfUYdOHnO%2Fp-6.webp&w=300&x1r=0.34&x2r=0.64&y1r=0.32&y2r=0.63&s=b53b5972d3cded5f221881f0de7a8c5f",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FfUYdOHnO%2Fp-6.webp&w=1000&x1r=0.34&x2r=0.64&y1r=0.32&y2r=0.63&s=c0457c010a8bf40c05519c3b313df39a",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FfUYdOHnO%2Fp-replacement-2BDzJ0vO-6.webp&w=300&x1r=0.34&x2r=0.64&y1r=0.32&y2r=0.63&s=ddde496e92fb98c63529e39c20c9d750",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FfUYdOHnO%2Fp-replacement-2BDzJ0vO-6.webp&w=1000&x1r=0.34&x2r=0.64&y1r=0.32&y2r=0.63&s=7bb235026940e988044e1561bec48a8b",
      "url": "https://etilbudsavis.no/Bunnpris?publication=fUYdOHnO&offer=KoN-zmdaTCpvrhpy5_qDY"
     },
     {

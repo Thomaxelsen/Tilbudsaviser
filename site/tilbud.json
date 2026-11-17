@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-16T22:53:08.323251+00:00",
+ "generert": "2026-11-17T13:25:02.462935+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -153,7 +153,7 @@
      "url": "https://etilbudsavis.no/SPAR?publication=-kXXIz7F&offer=ZSnwTXzF6SN8R8_xeCpF5"
     },
     {
-     "id": "vkcHp2lwPa6i-mloIAWya",
+     "id": "vBHqBdHpeFS2CUpNrRl80",
      "navn": "Eplejuice",
      "beskrivelse": "1,75 liter, God Morgen, pr. l 22,80",
      "butikk": "KIWI",
@@ -165,7 +165,7 @@
      "til": "2026-11-22T22:59:59+00:00",
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-1ugdLpbl-25.webp&w=300&x1r=0.02&x2r=0.34&y1r=0.54&y2r=0.93&s=f409dc41ed5cb3a5bc330e00fdf3e7b6",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-1ugdLpbl-25.webp&w=1000&x1r=0.02&x2r=0.34&y1r=0.54&y2r=0.93&s=1b6c35760cb5909a7f39881ae69b2f6d",
-     "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=vkcHp2lwPa6i-mloIAWya"
+     "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=vBHqBdHpeFS2CUpNrRl80"
     }
    ]
   },

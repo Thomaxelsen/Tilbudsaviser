@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-22T12:34:56.151597+00:00",
+ "generert": "2026-11-22T20:20:55.911582+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -152,19 +152,6 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "pvtfOG-18lpd6FUJ5WmA0",
-     "navn": "Sunniva eplejuice og appelsinjuice",
-     "beskrivelse": "1.75 l pr. stk",
-     "butikk": "Bunnpris",
-     "farge": "#fff200",
-     "rabatt_prosent": 30,
-     "fra": "2026-11-22T23:00:00+00:00",
-     "til": "2026-11-29T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F4jFPWx1l%2Fp-9.webp&w=300&x1r=0.34&x2r=0.64&y1r=0.33&y2r=0.63&s=06eb78b9c80779464941a36e2e189413",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F4jFPWx1l%2Fp-9.webp&w=1000&x1r=0.34&x2r=0.64&y1r=0.33&y2r=0.63&s=8b8a1e05e29b85eaff7bf60a34e08215",
-     "url": "https://etilbudsavis.no/Bunnpris?publication=4jFPWx1l&offer=pvtfOG-18lpd6FUJ5WmA0"
-    },
-    {
      "id": "KoN-zmdaTCpvrhpy5_qDY",
      "navn": "Sunniva eplejuice og appelsinjuice",
      "beskrivelse": "1.75 l pr. stk",
@@ -178,7 +165,20 @@
      "url": "https://etilbudsavis.no/Bunnpris?publication=fUYdOHnO&offer=KoN-zmdaTCpvrhpy5_qDY"
     },
     {
-     "id": "ZSnwTXzF6SN8R8_xeCpF5",
+     "id": "pvtfOG-18lpd6FUJ5WmA0",
+     "navn": "Sunniva eplejuice og appelsinjuice",
+     "beskrivelse": "1.75 l pr. stk",
+     "butikk": "Bunnpris",
+     "farge": "#fff200",
+     "rabatt_prosent": 30,
+     "fra": "2026-11-22T23:00:00+00:00",
+     "til": "2026-11-29T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F4jFPWx1l%2Fp-9.webp&w=300&x1r=0.34&x2r=0.64&y1r=0.33&y2r=0.63&s=06eb78b9c80779464941a36e2e189413",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F4jFPWx1l%2Fp-9.webp&w=1000&x1r=0.34&x2r=0.64&y1r=0.33&y2r=0.63&s=8b8a1e05e29b85eaff7bf60a34e08215",
+     "url": "https://etilbudsavis.no/Bunnpris?publication=4jFPWx1l&offer=pvtfOG-18lpd6FUJ5WmA0"
+    },
+    {
+     "id": "-IOl-G-PcjbgoLeEI1oUW",
      "navn": "Eplejuice",
      "beskrivelse": "God Morgon, 1,75 l",
      "butikk": "SPAR",
@@ -187,11 +187,11 @@
      "antall": 2,
      "enhetspris": 20,
      "enhet": "l",
-     "fra": "2026-11-15T23:00:00+00:00",
+     "fra": "2026-11-18T23:00:00+00:00",
      "til": "2026-11-22T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-kXXIz7F%2Fp-7.webp&w=300&x1r=0.639&x2r=0.941&y1r=0.055&y2r=0.62&s=bf6cabfb40c499c2c5f7ebc11a073a06",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-kXXIz7F%2Fp-7.webp&w=1000&x1r=0.639&x2r=0.941&y1r=0.055&y2r=0.62&s=163f0c31214f150d60090dd9cea8eb82",
-     "url": "https://etilbudsavis.no/SPAR?publication=-kXXIz7F&offer=ZSnwTXzF6SN8R8_xeCpF5"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FC7EuL-hA%2Fp-8.webp&w=300&x1r=0.643&x2r=0.941&y1r=0.055&y2r=0.622&s=7cda84c348ac8b3d8ba7b102766df599",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FC7EuL-hA%2Fp-8.webp&w=1000&x1r=0.643&x2r=0.941&y1r=0.055&y2r=0.622&s=7d53a0918e90751fe2bc942a2db696e9",
+     "url": "https://etilbudsavis.no/SPAR?publication=C7EuL-hA&offer=-IOl-G-PcjbgoLeEI1oUW"
     },
     {
      "id": "vBHqBdHpeFS2CUpNrRl80",

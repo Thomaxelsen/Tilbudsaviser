@@ -1,5 +1,5 @@
 {
- "generert": "2026-11-21T20:05:39.390918+00:00",
+ "generert": "2026-11-22T12:34:56.151597+00:00",
  "sted": "Oslo",
  "sok_totalt": 19,
  "sok_feilet": 0,
@@ -45,17 +45,17 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "MZBjdy5M80bAEFEiHIfeS",
-     "navn": "Peppes fersk",
-     "beskrivelse": "Utvalget kan variere. Fra 70 g",
-     "butikk": "Coop Mega",
-     "farge": "#004e48",
+     "id": "0HQyKuYpv6ZMvNr7iqmI3",
+     "navn": "Et stort utvalg peppes-produkter",
+     "beskrivelse": "Fra 50 g pr. stk",
+     "butikk": "Bunnpris",
+     "farge": "#fff200",
      "rabatt_prosent": 30,
-     "fra": "2026-11-18T23:00:00+00:00",
-     "til": "2026-11-21T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FbmtZYKYx%2Fp-1.webp&w=300&x1r=0.27&x2r=0.49&y1r=0.74&y2r=0.94&s=6ae1a9a192b8d72c359460f95fe87ff5",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FbmtZYKYx%2Fp-1.webp&w=1000&x1r=0.27&x2r=0.49&y1r=0.74&y2r=0.94&s=6cb17cc0bfcde2b29d92500940405851",
-     "url": "https://etilbudsavis.no/Coop-Mega?publication=bmtZYKYx&offer=MZBjdy5M80bAEFEiHIfeS"
+     "fra": "2026-11-22T23:00:00+00:00",
+     "til": "2026-11-29T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F4jFPWx1l%2Fp-15.webp&w=300&x1r=0.04&x2r=0.49&y1r=0.61&y2r=0.96&s=d46aedf2bbe9529a2ab3bb8eda5af586",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F4jFPWx1l%2Fp-15.webp&w=1000&x1r=0.04&x2r=0.49&y1r=0.61&y2r=0.96&s=353f9a94bc76b3bd73cf39953916e0b6",
+     "url": "https://etilbudsavis.no/Bunnpris?publication=4jFPWx1l&offer=0HQyKuYpv6ZMvNr7iqmI3"
     },
     {
      "id": "ED0qcamviLfTXQ1_rQ1O5",
@@ -71,6 +71,21 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-AtoqgmZm-18.webp&w=300&x1r=0.03&x2r=0.46&y1r=0.585&y2r=0.935&s=1b567de285eadf240429d8b250db2cd0",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-AtoqgmZm-18.webp&w=1000&x1r=0.03&x2r=0.46&y1r=0.585&y2r=0.935&s=24f70e2471d6d5e39c38f84b6bc8152c",
      "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=ED0qcamviLfTXQ1_rQ1O5"
+    },
+    {
+     "id": "O-9b_kUV9WkTHWMkTuqK8",
+     "navn": "Peppes pizza",
+     "beskrivelse": "550 - 570 g, Triple meat/Farmers meat/Philly cheesesteak, fryst, pr. kg 70,00-72,55",
+     "butikk": "KIWI",
+     "farge": "#50b848",
+     "pris": 39.9,
+     "enhetspris": 72.55,
+     "enhet": "kg",
+     "fra": "2026-11-22T23:00:00+00:00",
+     "til": "2026-11-29T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrdVmpnEM%2Fp-replacement-pMIbIxRM-13.webp&w=300&x1r=0.64&x2r=0.98&y1r=0.24&y2r=0.62&s=8691a63b951f161653a7a1ee8af8bd84",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FrdVmpnEM%2Fp-replacement-pMIbIxRM-13.webp&w=1000&x1r=0.64&x2r=0.98&y1r=0.24&y2r=0.62&s=4ffeb09872575c5c89c305b9879abdf2",
+     "url": "https://etilbudsavis.no/KIWI?publication=rdVmpnEM&offer=O-9b_kUV9WkTHWMkTuqK8"
     },
     {
      "id": "LCw-i7YDliUmyT6Sr2dbT",
@@ -137,6 +152,19 @@
    "feil": false,
    "tilbud": [
     {
+     "id": "pvtfOG-18lpd6FUJ5WmA0",
+     "navn": "Sunniva eplejuice og appelsinjuice",
+     "beskrivelse": "1.75 l pr. stk",
+     "butikk": "Bunnpris",
+     "farge": "#fff200",
+     "rabatt_prosent": 30,
+     "fra": "2026-11-22T23:00:00+00:00",
+     "til": "2026-11-29T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F4jFPWx1l%2Fp-9.webp&w=300&x1r=0.34&x2r=0.64&y1r=0.33&y2r=0.63&s=06eb78b9c80779464941a36e2e189413",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F4jFPWx1l%2Fp-9.webp&w=1000&x1r=0.34&x2r=0.64&y1r=0.33&y2r=0.63&s=8b8a1e05e29b85eaff7bf60a34e08215",
+     "url": "https://etilbudsavis.no/Bunnpris?publication=4jFPWx1l&offer=pvtfOG-18lpd6FUJ5WmA0"
+    },
+    {
      "id": "KoN-zmdaTCpvrhpy5_qDY",
      "navn": "Sunniva eplejuice og appelsinjuice",
      "beskrivelse": "1.75 l pr. stk",
@@ -150,7 +178,7 @@
      "url": "https://etilbudsavis.no/Bunnpris?publication=fUYdOHnO&offer=KoN-zmdaTCpvrhpy5_qDY"
     },
     {
-     "id": "-IOl-G-PcjbgoLeEI1oUW",
+     "id": "ZSnwTXzF6SN8R8_xeCpF5",
      "navn": "Eplejuice",
      "beskrivelse": "God Morgon, 1,75 l",
      "butikk": "SPAR",
@@ -159,11 +187,11 @@
      "antall": 2,
      "enhetspris": 20,
      "enhet": "l",
-     "fra": "2026-11-18T23:00:00+00:00",
+     "fra": "2026-11-15T23:00:00+00:00",
      "til": "2026-11-22T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FC7EuL-hA%2Fp-8.webp&w=300&x1r=0.643&x2r=0.941&y1r=0.055&y2r=0.622&s=7cda84c348ac8b3d8ba7b102766df599",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FC7EuL-hA%2Fp-8.webp&w=1000&x1r=0.643&x2r=0.941&y1r=0.055&y2r=0.622&s=7d53a0918e90751fe2bc942a2db696e9",
-     "url": "https://etilbudsavis.no/SPAR?publication=C7EuL-hA&offer=-IOl-G-PcjbgoLeEI1oUW"
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-kXXIz7F%2Fp-7.webp&w=300&x1r=0.639&x2r=0.941&y1r=0.055&y2r=0.62&s=bf6cabfb40c499c2c5f7ebc11a073a06",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F-kXXIz7F%2Fp-7.webp&w=1000&x1r=0.639&x2r=0.941&y1r=0.055&y2r=0.62&s=163f0c31214f150d60090dd9cea8eb82",
+     "url": "https://etilbudsavis.no/SPAR?publication=-kXXIz7F&offer=ZSnwTXzF6SN8R8_xeCpF5"
     },
     {
      "id": "vBHqBdHpeFS2CUpNrRl80",
@@ -187,7 +215,7 @@
    "feil": false,
    "tilbud": [
     {
-     "id": "ZhigoA7YT3TVa3D_I3s0l",
+     "id": "XkwgfNmA5Hi6bhOkS9d0S",
      "navn": "Meierismør",
      "beskrivelse": "Tine, 500 g, 89,80 pr. kg",
      "butikk": "REMA 1000",
@@ -197,11 +225,11 @@
      "rabatt_prosent": 27,
      "enhetspris": 89.8,
      "enhet": "kg",
-     "fra": "2026-11-18T23:00:00+00:00",
-     "til": "2026-11-21T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FpTErUdMN%2Fp-4.webp&w=300&x1r=0.54&x2r=0.96&y1r=0.21&y2r=0.395&s=ef0161ed9ac1651da4df74b6ac06c1c1",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FpTErUdMN%2Fp-4.webp&w=1000&x1r=0.54&x2r=0.96&y1r=0.21&y2r=0.395&s=590df1ff7ea18656a05e51e056c403a7",
-     "url": "https://etilbudsavis.no/REMA-1000?publication=pTErUdMN&offer=ZhigoA7YT3TVa3D_I3s0l"
+     "fra": "2026-11-22T23:00:00+00:00",
+     "til": "2026-11-28T22:59:59+00:00",
+     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FAAqIjnUl%2Fp-4.webp&w=300&x1r=0.52&x2r=0.95&y1r=0.21&y2r=0.39&s=e94e53f46aa7c85d407d9c184c983f1b",
+     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FAAqIjnUl%2Fp-4.webp&w=1000&x1r=0.52&x2r=0.95&y1r=0.21&y2r=0.39&s=bb6578f651de19f4f8d9655259fb67ed",
+     "url": "https://etilbudsavis.no/REMA-1000?publication=AAqIjnUl&offer=XkwgfNmA5Hi6bhOkS9d0S"
     },
     {
      "id": "p_tozShIA_jJTwX8xtpbD",
@@ -219,21 +247,6 @@
      "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-AtoqgmZm-21.webp&w=300&x1r=0.02&x2r=0.48&y1r=0.3&y2r=0.59&s=756034e639711957581886dfcc8bfe2e",
      "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2F2XOv2FlP%2Fp-replacement-AtoqgmZm-21.webp&w=1000&x1r=0.02&x2r=0.48&y1r=0.3&y2r=0.59&s=d950ecbf45492076e3a88efa985e959e",
      "url": "https://etilbudsavis.no/KIWI?publication=2XOv2FlP&offer=p_tozShIA_jJTwX8xtpbD"
-    },
-    {
-     "id": "s_LGUV4d4IhWsOL5JFDcG",
-     "navn": "Fersk ertestuing",
-     "beskrivelse": "Består utelukkende av naturlige råvarer og inneholder kokte grønne erter, smør og en liten klype havsalt.\n400G, GRØNN&FRISK (62,25/KG)",
-     "butikk": "MENY",
-     "farge": "#dd233d",
-     "pris": 24.9,
-     "enhetspris": 62.25,
-     "enhet": "kg",
-     "fra": "2026-11-15T23:00:00+00:00",
-     "til": "2026-11-21T22:59:59+00:00",
-     "bilde": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FOg-MGv8x%2Fp-5.webp&w=300&x1r=0.735&x2r=0.972&y1r=0.708&y2r=0.972&s=0924fcfbfac8beb17d43daadbb044e74",
-     "bilde_stor": "https://image-transformer-api.tjek.com/?u=s3%3A%2F%2Fsgn-prd-assets%2Fuploads%2FOg-MGv8x%2Fp-5.webp&w=1000&x1r=0.735&x2r=0.972&y1r=0.708&y2r=0.972&s=c2ee2221c0cbbfa89fab7eee590de6d4",
-     "url": "https://etilbudsavis.no/MENY?publication=Og-MGv8x&offer=s_LGUV4d4IhWsOL5JFDcG"
     }
    ]
   }
